@@ -47,6 +47,7 @@ class SearchRouter:
 
         # Determine source priority based on profile type
         ordered_sources = self._get_source_priority(sources, venue_filter_name)
+        print(f"[Router] Source priority: {ordered_sources}")
 
         remaining = max_results
 
@@ -54,12 +55,14 @@ class SearchRouter:
             if remaining <= 0:
                 break
 
+            print(f"[Router] Trying {source_name} (need {remaining} more)...")
             # Fetch more than needed to allow for dedup/filtering losses
             fetch_count = min(remaining * 2, 30)
 
             papers = self._search_source(
                 source_name, keywords, venue_list, fetch_count, year_from
             )
+            print(f"[Router] {source_name} returned {len(papers)} papers")
 
             # Deduplicate against already collected results
             for paper in papers:

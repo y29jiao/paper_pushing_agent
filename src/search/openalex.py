@@ -32,7 +32,10 @@ class OpenAlexSearcher(BaseSearcher):
     def search(self, keywords: list[str], venue_filter: list[str] = None,
                max_results: int = 20, year_from: int = None) -> list[PaperResult]:
         """Search OpenAlex for papers matching keywords."""
-        query = " ".join(keywords)
+        # OpenAlex works best with short queries — use top 3 keywords max
+        short_keywords = keywords[:3]
+        query = " ".join(short_keywords)
+        print(f"[OpenAlex] Searching: '{query}' (from {len(keywords)} keywords)")
         results = []
 
         # Build filter string
@@ -68,6 +71,7 @@ class OpenAlexSearcher(BaseSearcher):
             resp = self.session.get(f"{self.BASE_URL}/works", params=params, timeout=30)
             resp.raise_for_status()
             data = resp.json()
+            print(f"[OpenAlex] API returned {len(data.get('results', []))} works")
         except requests.RequestException as e:
             print(f"[OpenAlex] Search error: {e}")
             return results

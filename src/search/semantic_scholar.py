@@ -23,7 +23,10 @@ class SemanticScholarSearcher(BaseSearcher):
     def search(self, keywords: list[str], venue_filter: list[str] = None,
                max_results: int = 20, year_from: int = None) -> list[PaperResult]:
         """Search Semantic Scholar for papers matching keywords."""
-        query = " ".join(keywords)
+        # S2 works best with shorter queries — use top 4 keywords
+        short_keywords = keywords[:4]
+        query = " ".join(short_keywords)
+        print(f"[SemanticScholar] Searching: '{query}'")
         params = {
             "query": query,
             "limit": min(max_results * 3, 100),  # fetch extra for post-filtering
@@ -33,12 +36,26 @@ class SemanticScholarSearcher(BaseSearcher):
             params["year"] = f"{year_from}-"
 
         results = []
-        try:
-            resp = self.session.get(self.SEARCH_URL, params=params, timeout=30)
-            resp.raise_for_status()
-            data = resp.json()
-        except requests.RequestException as e:
-            print(f"[SemanticScholar] Search error: {e}")
+        data = None
+        for attempt in range(3):
+            try:
+                resp = self.session.get(self.SEARCH_URL, params=params, timeout=30)
+                if resp.status_code == 429:
+                    wait = (attempt + 1) * 10
+                    print(f"[SemanticScholar] Rate limited (429), waiting {wait}s... (attempt {attempt+1}/3)")
+                    time.sleep(wait)
+                    continue
+                resp.raise_for_status()
+                data = resp.json()
+                break
+            except requests.RequestException as e:
+                print(f"[SemanticScholar] Search error: {e}")
+                if attempt < 2:
+                    time.sleep(5)
+                    continue
+                return results
+        if data is None:
+            print("[SemanticScholar] All retries exhausted")
             return results
 
         papers = data.get("data", [])
@@ -84,5 +101,5 @@ class SemanticScholarSearcher(BaseSearcher):
                 break
 
         # Rate limiting: S2 allows 100 req/5min without key
-        time.sleep(1)
+        time.sleep(3)
         return results
