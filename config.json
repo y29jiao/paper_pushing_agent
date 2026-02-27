@@ -1,0 +1,46 @@
+{
+  "profiles": [
+    {
+      "id": "graphrag",
+      "name": "GraphRAG 工程实现",
+      "query": "帮我找好的journal或者conference的应用GraphRAG成功完成工程实现的论文",
+      "sources": ["semantic_scholar", "openreview", "openalex"],
+      "venue_filter": "top_ai",
+      "count": null,
+      "active": true
+    },
+    {
+      "id": "construction_ai",
+      "name": "Construction + AI/ML",
+      "query": "应用机器学习或NLP技术于建筑工程自动化合规检查的论文",
+      "sources": ["semantic_scholar", "openalex"],
+      "venue_filter": "construction",
+      "count": 5,
+      "active": true
+    }
+  ],
+  "venue_groups": {
+    "top_ai": [
+      "ICLR", "NeurIPS", "ICML", "ACL", "EMNLP",
+      "CVPR", "KDD", "AAAI"
+    ],
+    "construction": [
+      "Automation in Construction",
+      "Advanced Engineering Informatics",
+      "Journal of Computing in Civil Engineering",
+      "Building and Environment",
+      "Journal of Construction Engineering and Management",
+      "Engineering Structures"
+    ],
+    "any": []
+  },
+  "global": {
+    "timezone": "America/Edmonton",
+    "schedule": {
+      "days": ["monday", "thursday"],
+      "hour": 8,
+      "minute": 0
+    },
+    "email": "yusenjiao@gmail.com"
+  }
+}

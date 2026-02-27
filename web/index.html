@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Paper Agent — 学术论文推送控制台</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,600;0,700&family=JetBrains+Mono:wght@400;500&family=Noto+Sans+SC:wght@400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="grain-overlay"></div>
+
+  <header class="top-bar">
+    <div class="logo">
+      <span class="logo-icon">📚</span>
+      <span class="logo-text">Paper Agent</span>
+    </div>
+    <div class="status-indicator" id="statusDot">
+      <span class="dot"></span>
+      <span class="status-text">未连接</span>
+    </div>
+  </header>
+
+  <main class="container">
+    <!-- ── Quick Push Panel ── -->
+    <section class="card push-card">
+      <div class="card-header">
+        <h2>🚀 快速推送</h2>
+        <span class="badge">Manual Trigger</span>
+      </div>
+      <div class="card-body">
+        <div class="field-group">
+          <label for="pushProfile">选择 Profile</label>
+          <select id="pushProfile">
+            <option value="">全部 Active Profiles</option>
+          </select>
+        </div>
+        <div class="field-group">
+          <label for="pushQuery">或输入临时查询 <span class="hint">(覆盖 Profile)</span></label>
+          <textarea id="pushQuery" rows="2" placeholder="例: 帮我找用 transformer 做 building code compliance 的论文"></textarea>
+        </div>
+        <div class="field-group inline">
+          <div>
+            <label for="pushCount">推送数量</label>
+            <input type="number" id="pushCount" min="1" max="20" placeholder="自动">
+          </div>
+          <div class="push-btn-wrapper">
+            <button id="btnPush" class="btn btn-primary" onclick="triggerPush()">
+              <span class="btn-icon">▶</span> 立即推送
+            </button>
+          </div>
+        </div>
+        <div id="pushStatus" class="push-status hidden"></div>
+      </div>
+    </section>
+
+    <!-- ── Profiles Panel ── -->
+    <section class="card profiles-card">
+      <div class="card-header">
+        <h2>📂 搜索 Profiles</h2>
+        <button class="btn btn-outline btn-sm" onclick="openProfileModal()">+ 添加</button>
+      </div>
+      <div class="card-body" id="profilesList">
+        <!-- Populated by JS -->
+      </div>
+    </section>
+
+    <!-- ── Settings Panel ── -->
+    <section class="card settings-card">
+      <div class="card-header">
+        <h2>⚙️ 设置</h2>
+      </div>
+      <div class="card-body">
+        <div class="settings-grid">
+          <div class="field-group">
+            <label for="settEmail">📧 推送邮箱</label>
+            <input type="email" id="settEmail" value="yusenjiao@gmail.com">
+          </div>
+          <div class="field-group">
+            <label for="settTimezone">🕐 时区</label>
+            <select id="settTimezone">
+              <option value="America/Edmonton">America/Edmonton (MDT)</option>
+              <option value="America/Vancouver">America/Vancouver (PDT)</option>
+              <option value="America/Toronto">America/Toronto (EDT)</option>
+              <option value="America/New_York">America/New_York (EDT)</option>
+              <option value="America/Chicago">America/Chicago (CDT)</option>
+              <option value="America/Los_Angeles">America/Los_Angeles (PDT)</option>
+              <option value="Asia/Shanghai">Asia/Shanghai (CST)</option>
+              <option value="Asia/Tokyo">Asia/Tokyo (JST)</option>
+              <option value="Europe/London">Europe/London (BST)</option>
+              <option value="UTC">UTC</option>
+            </select>
+          </div>
+          <div class="field-group">
+            <label>📅 定时推送</label>
+            <div class="schedule-row">
+              <label class="checkbox-label">
+                <input type="checkbox" id="schedMon" checked> 周一
+              </label>
+              <label class="checkbox-label">
+                <input type="checkbox" id="schedTue"> 周二
+              </label>
+              <label class="checkbox-label">
+                <input type="checkbox" id="schedWed"> 周三
+              </label>
+              <label class="checkbox-label">
+                <input type="checkbox" id="schedThu" checked> 周四
+              </label>
+              <label class="checkbox-label">
+                <input type="checkbox" id="schedFri"> 周五
+              </label>
+              <label class="checkbox-label">
+                <input type="checkbox" id="schedSat"> 周六
+              </label>
+              <label class="checkbox-label">
+                <input type="checkbox" id="schedSun"> 周日
+              </label>
+            </div>
+          </div>
+          <div class="field-group">
+            <label for="schedHour">⏰ 推送时间</label>
+            <input type="time" id="schedTime" value="08:00">
+          </div>
+        </div>
+        <div class="settings-actions">
+          <button class="btn btn-primary" onclick="saveSettings()">💾 保存设置</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- ── GitHub Token Setup ── -->
+    <section class="card token-card">
+      <div class="card-header">
+        <h2>🔑 GitHub 连接</h2>
+      </div>
+      <div class="card-body">
+        <div class="field-group">
+          <label for="ghOwner">Repository Owner</label>
+          <input type="text" id="ghOwner" placeholder="your-github-username">
+        </div>
+        <div class="field-group">
+          <label for="ghRepo">Repository Name</label>
+          <input type="text" id="ghRepo" placeholder="paper-agent">
+        </div>
+        <div class="field-group">
+          <label for="ghToken">Personal Access Token <span class="hint">(存储在浏览器本地)</span></label>
+          <div class="token-input-row">
+            <input type="password" id="ghToken" placeholder="ghp_xxxxxxxxxxxx">
+            <button class="btn btn-outline btn-sm" onclick="toggleTokenVisibility()">👁</button>
+          </div>
+        </div>
+        <div class="settings-actions">
+          <button class="btn btn-primary" onclick="saveGitHubConfig()">🔗 保存并连接</button>
+          <button class="btn btn-outline" onclick="testConnection()">测试连接</button>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ── Profile Edit Modal ── -->
+  <div class="modal-overlay hidden" id="profileModal">
+    <div class="modal">
+      <div class="modal-header">
+        <h3 id="modalTitle">添加 Profile</h3>
+        <button class="modal-close" onclick="closeProfileModal()">✕</button>
+      </div>
+      <div class="modal-body">
+        <div class="field-group">
+          <label for="modalId">Profile ID <span class="hint">(英文，无空格)</span></label>
+          <input type="text" id="modalId" placeholder="my_profile">
+        </div>
+        <div class="field-group">
+          <label for="modalName">显示名称</label>
+          <input type="text" id="modalName" placeholder="例: Construction + AI/ML">
+        </div>
+        <div class="field-group">
+          <label for="modalQuery">搜索需求</label>
+          <textarea id="modalQuery" rows="3" placeholder="用自然语言描述你想找什么论文"></textarea>
+        </div>
+        <div class="field-group">
+          <label>数据源</label>
+          <div class="schedule-row">
+            <label class="checkbox-label">
+              <input type="checkbox" id="modalSrcSS" checked> Semantic Scholar
+            </label>
+            <label class="checkbox-label">
+              <input type="checkbox" id="modalSrcOR" checked> OpenReview
+            </label>
+            <label class="checkbox-label">
+              <input type="checkbox" id="modalSrcOA" checked> OpenAlex
+            </label>
+          </div>
+        </div>
+        <div class="field-group inline">
+          <div>
+            <label for="modalVenue">Venue 分组</label>
+            <select id="modalVenue">
+              <option value="top_ai">Top AI (会议)</option>
+              <option value="construction">Construction (期刊)</option>
+              <option value="any">不限</option>
+            </select>
+          </div>
+          <div>
+            <label for="modalCount">推送数量</label>
+            <input type="number" id="modalCount" min="1" max="20" placeholder="自动">
+          </div>
+        </div>
+        <div class="field-group">
+          <label class="checkbox-label">
+            <input type="checkbox" id="modalActive" checked> 启用 (Active)
+          </label>
+        </div>
+      </div>
+      <div class="modal-footer">
+        <button class="btn btn-outline" onclick="closeProfileModal()">取消</button>
+        <button class="btn btn-primary" onclick="saveProfile()">保存</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- ── Toast Notification ── -->
+  <div class="toast hidden" id="toast">
+    <span id="toastMsg"></span>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>

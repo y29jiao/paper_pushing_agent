@@ -1,0 +1,55 @@
+name: Paper Agent Push
+
+on:
+  schedule:
+    # UTC 14:00 = MDT 08:00 (Mountain Daylight Time, UTC-6)
+    - cron: '0 14 * * 1,4'   # Monday and Thursday
+  workflow_dispatch:
+    inputs:
+      query:
+        description: '搜索需求 (留空=使用 config 中所有 active profiles)'
+        required: false
+        type: string
+      profile:
+        description: 'Profile ID (留空=执行所有 active profiles)'
+        required: false
+        type: string
+      count:
+        description: '推送论文数量 (留空=模型自动决定)'
+        required: false
+        type: string
+
+jobs:
+  push-papers:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          cache: 'pip'
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Run Paper Agent
+        run: python src/main.py
+        env:
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+          GMAIL_ADDRESS: ${{ secrets.GMAIL_ADDRESS }}
+          GMAIL_APP_PASSWORD: ${{ secrets.GMAIL_APP_PASSWORD }}
+          GPT_MODEL: ${{ secrets.GPT_MODEL || 'gpt-5.2' }}
+          TRIGGER_QUERY: ${{ github.event.inputs.query || '' }}
+          TRIGGER_PROFILE: ${{ github.event.inputs.profile || '' }}
+          TRIGGER_COUNT: ${{ github.event.inputs.count || '' }}
+
+      - name: Commit updated history
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "📚 update history.json after paper push"
+          file_pattern: history.json
