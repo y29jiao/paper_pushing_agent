@@ -134,7 +134,9 @@ async function loadConfigFromRepo() {
       return;
     }
     const data = await resp.json();
-    const content = atob(data.content.replace(/\n/g, ""));
+    const raw = atob(data.content.replace(/\n/g, ""));
+    const bytes = new Uint8Array([...raw].map(c => c.charCodeAt(0)));
+    const content = new TextDecoder("utf-8").decode(bytes);
     config = JSON.parse(content);
     config._sha = data.sha; // needed for updates
 
@@ -155,7 +157,10 @@ async function saveConfigToRepo() {
   const configCopy = { ...config };
   delete configCopy._sha;
 
-  const content = btoa(unescape(encodeURIComponent(JSON.stringify(configCopy, null, 2))));
+  const jsonStr = JSON.stringify(configCopy, null, 2);
+  const bytes = new TextEncoder().encode(jsonStr);
+  const binary = String.fromCharCode(...bytes);
+  const content = btoa(binary);
 
   try {
     const resp = await githubAPI("/contents/config.json", "PUT", {

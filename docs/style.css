@@ -1,26 +1,26 @@
 /* ── Paper Agent — Control Panel Styles ── */
 
 :root {
-  --bg: #0e0f14;
-  --bg-card: #161821;
-  --bg-card-hover: #1c1e2a;
-  --bg-input: #1e2030;
-  --border: #2a2d3e;
-  --border-focus: #5b8def;
-  --text: #c8cad0;
-  --text-dim: #6e7187;
-  --text-bright: #e8eaef;
-  --accent: #5b8def;
-  --accent-glow: rgba(91, 141, 239, 0.15);
-  --accent-hover: #7aa5f5;
-  --red: #e94560;
-  --red-dim: rgba(233, 69, 96, 0.12);
-  --green: #3dd68c;
-  --green-dim: rgba(61, 214, 140, 0.12);
-  --yellow: #f0c27a;
+  --bg: #f0f4f0;
+  --bg-card: #ffffff;
+  --bg-card-hover: #f7faf7;
+  --bg-input: #f5f8f5;
+  --border: #d4ddd4;
+  --border-focus: #5a9e6f;
+  --text: #3d4f3d;
+  --text-dim: #7a8f7a;
+  --text-bright: #1a2e1a;
+  --accent: #5a9e6f;
+  --accent-glow: rgba(90, 158, 111, 0.12);
+  --accent-hover: #4a8e5f;
+  --red: #c0544e;
+  --red-dim: rgba(192, 84, 78, 0.08);
+  --green: #4a9e64;
+  --green-dim: rgba(74, 158, 100, 0.10);
+  --yellow: #b8963a;
   --radius: 10px;
   --radius-sm: 6px;
-  --shadow: 0 2px 20px rgba(0, 0, 0, 0.3);
+  --shadow: 0 2px 12px rgba(0, 0, 0, 0.06);
   --font: 'DM Sans', 'Noto Sans SC', sans-serif;
   --font-mono: 'JetBrains Mono', monospace;
   --transition: 0.2s cubic-bezier(0.4, 0, 0.2, 1);
@@ -49,7 +49,7 @@ body {
   inset: 0;
   pointer-events: none;
   z-index: 9999;
-  opacity: 0.03;
+  opacity: 0.015;
   background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noise'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noise)'/%3E%3C/svg%3E");
 }
 
