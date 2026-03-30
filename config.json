@@ -93,6 +93,11 @@
           "NLP"
         ]
       ],
+      "sources": [
+        "semantic_scholar",
+        "openalex"
+      ],
+      "venue_filter": "any",
       "max_per_group": 25,
       "year_from": 2024
     }
