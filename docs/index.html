@@ -16,58 +16,120 @@
       <span class="logo-icon">📚</span>
       <span class="logo-text">Paper Agent</span>
     </div>
-    <div class="status-indicator" id="statusDot">
-      <span class="dot"></span>
-      <span class="status-text">未连接</span>
+    <div class="top-bar-right">
+      <div class="mode-toggle">
+        <button class="mode-btn active" id="btnModeSearch" onclick="switchMode('search')">搜索模式</button>
+        <button class="mode-btn" id="btnModePush" onclick="switchMode('push')">推送模式</button>
+      </div>
+      <div class="status-indicator" id="statusDot">
+        <span class="dot"></span>
+        <span class="status-text">未连接</span>
+      </div>
     </div>
   </header>
 
   <main class="container">
-    <!-- ── Quick Push Panel ── -->
+    <!-- ══ SEARCH MODE: Direct browser search ══ -->
+    <div id="searchModePanel">
+      <section class="card search-card">
+        <div class="card-header">
+          <h2>🔍 论文搜索</h2>
+          <span class="badge">Direct Search</span>
+        </div>
+        <div class="card-body">
+          <div class="field-group">
+            <label for="searchApiKey">OpenAI API Key <span class="hint">(存储在浏览器本地，用于 GPT 解析查询)</span></label>
+            <div class="token-input-row">
+              <input type="password" id="searchApiKey" placeholder="sk-..." oninput="saveSearchApiKey()">
+              <button class="btn btn-outline btn-sm" onclick="toggleSearchKeyVisibility()">👁</button>
+            </div>
+          </div>
+          <div class="field-group">
+            <label for="searchQuery">搜索查询 <span class="hint">(自然语言描述，GPT 会自动生成关键词组)</span></label>
+            <textarea id="searchQuery" rows="2" placeholder="例: 在建筑领域法规对比的chatbot/agent"></textarea>
+          </div>
+          <div class="field-group">
+            <label for="searchKeywordGroups">关键词组 <span class="hint">(由 GPT 生成，也可手动编辑)</span></label>
+            <textarea id="searchKeywordGroups" rows="4" placeholder="点击「生成关键词」由 GPT 自动填充，也可直接手动填写。每行一组，逗号分隔"></textarea>
+            <div style="margin-top:8px;">
+              <button class="btn btn-outline btn-sm" onclick="generateKeywords()">🤖 生成关键词</button>
+            </div>
+          </div>
+          <div class="field-group inline">
+            <div>
+              <label for="searchMaxResults">每组最大数量</label>
+              <input type="number" id="searchMaxResults" min="5" max="100" value="25">
+            </div>
+            <div>
+              <label for="searchYearFrom">起始年份</label>
+              <input type="number" id="searchYearFrom" min="2000" max="2026" placeholder="不限">
+            </div>
+            <div class="push-btn-wrapper">
+              <button id="btnSearch" class="btn btn-primary" onclick="startSearch()">
+                <span class="btn-icon">🔍</span> 开始搜索
+              </button>
+            </div>
+          </div>
+          <div id="searchStatus" class="push-status hidden"></div>
+        </div>
+      </section>
+
+      <section class="card results-card hidden" id="resultsCard">
+        <div class="card-header">
+          <h2>📄 搜索结果</h2>
+          <div class="results-header-actions">
+            <span class="badge" id="resultCount">0 papers</span>
+            <button class="btn btn-outline btn-sm" onclick="exportMarkdown()">📥 导出 Markdown</button>
+            <button class="btn btn-outline btn-sm" onclick="copyResults()">📋 复制</button>
+          </div>
+        </div>
+        <div class="card-body" id="resultsBody"></div>
+      </section>
+    </div>
+
+    <!-- ══ PUSH MODE: Scheduled push settings ══ -->
+    <div id="pushModePanel" class="hidden">
     <section class="card push-card">
       <div class="card-header">
-        <h2>🚀 快速推送</h2>
-        <span class="badge">Manual Trigger</span>
+        <h2>📬 推送设置</h2>
+        <span class="badge">GitHub Actions</span>
       </div>
       <div class="card-body">
-        <div class="field-group">
-          <label for="pushProfile">选择 Profile</label>
-          <select id="pushProfile">
-            <option value="">全部 Active Profiles</option>
-          </select>
-        </div>
-        <div class="field-group">
-          <label for="pushQuery">或输入临时查询 <span class="hint">(覆盖 Profile)</span></label>
-          <textarea id="pushQuery" rows="2" placeholder="例: 帮我找用 transformer 做 building code compliance 的论文"></textarea>
-        </div>
-        <div class="field-group inline">
-          <div>
-            <label for="pushCount">推送数量</label>
-            <input type="number" id="pushCount" min="1" max="20" placeholder="自动">
-          </div>
-          <div class="push-btn-wrapper">
-            <button id="btnPush" class="btn btn-primary" onclick="triggerPush()">
-              <span class="btn-icon">▶</span> 立即推送
-            </button>
-          </div>
+        <p class="push-description">选择要推送的 Profile，每周定时通过 GPT 生成中文摘要后发送到邮箱。如需更改推送内容，请编辑下方 Profile。</p>
+        <div class="field-group" id="pushProfileChecklist">
+          <!-- Populated by JS -->
         </div>
         <div id="pushStatus" class="push-status hidden"></div>
       </div>
     </section>
 
-    <!-- ── Profiles Panel ── -->
+    <!-- Push Profiles -->
     <section class="card profiles-card">
       <div class="card-header">
-        <h2>📂 搜索 Profiles</h2>
-        <button class="btn btn-outline btn-sm" onclick="openProfileModal()">+ 添加</button>
+        <h2>📂 推送 Profiles</h2>
+        <button class="btn btn-outline btn-sm" onclick="openPushProfileModal()">+ 添加</button>
       </div>
-      <div class="card-body" id="profilesList">
+      <div class="card-body" id="pushProfilesList">
         <!-- Populated by JS -->
       </div>
     </section>
+    </div>
 
-    <!-- ── Settings Panel ── -->
-    <section class="card settings-card">
+    <!-- ══ SEARCH MODE: Search profiles ══ -->
+    <div id="searchProfilesPanel">
+    <section class="card profiles-card">
+      <div class="card-header">
+        <h2>📂 搜索 Profiles</h2>
+        <button class="btn btn-outline btn-sm" onclick="openSearchProfileModal()">+ 添加</button>
+      </div>
+      <div class="card-body" id="searchProfilesList">
+        <!-- Populated by JS -->
+      </div>
+    </section>
+    </div>
+
+    <!-- ── Settings Panel (push mode only) ── -->
+    <section class="card settings-card push-only-panel hidden">
       <div class="card-header">
         <h2>⚙️ 设置</h2>
       </div>
@@ -129,8 +191,8 @@
       </div>
     </section>
 
-    <!-- ── GitHub Token Setup ── -->
-    <section class="card token-card">
+    <!-- ── GitHub Token Setup (push mode only) ── -->
+    <section class="card token-card push-only-panel hidden">
       <div class="card-header">
         <h2>🔑 GitHub 连接</h2>
       </div>
@@ -158,63 +220,74 @@
     </section>
   </main>
 
-  <!-- ── Profile Edit Modal ── -->
-  <div class="modal-overlay hidden" id="profileModal">
+  <!-- ── Push Profile Modal ── -->
+  <div class="modal-overlay hidden" id="pushProfileModal">
     <div class="modal">
       <div class="modal-header">
-        <h3 id="modalTitle">添加 Profile</h3>
-        <button class="modal-close" onclick="closeProfileModal()">✕</button>
+        <h3 id="pushModalTitle">添加推送 Profile</h3>
+        <button class="modal-close" onclick="closePushProfileModal()">✕</button>
       </div>
       <div class="modal-body">
+        <input type="hidden" id="pushModalId">
         <div class="field-group">
-          <label for="modalId">Profile ID <span class="hint">(英文，无空格)</span></label>
-          <input type="text" id="modalId" placeholder="my_profile">
+          <label for="pushModalName">名称</label>
+          <input type="text" id="pushModalName" placeholder="例: Construction + AI/ML 或 建筑法规Chatbot">
         </div>
         <div class="field-group">
-          <label for="modalName">显示名称</label>
-          <input type="text" id="modalName" placeholder="例: Construction + AI/ML">
-        </div>
-        <div class="field-group">
-          <label for="modalQuery">搜索需求</label>
-          <textarea id="modalQuery" rows="3" placeholder="用自然语言描述你想找什么论文"></textarea>
-        </div>
-        <div class="field-group">
-          <label>数据源</label>
-          <div class="schedule-row">
-            <label class="checkbox-label">
-              <input type="checkbox" id="modalSrcSS" checked> Semantic Scholar
-            </label>
-            <label class="checkbox-label">
-              <input type="checkbox" id="modalSrcOR" checked> OpenReview
-            </label>
-            <label class="checkbox-label">
-              <input type="checkbox" id="modalSrcOA" checked> OpenAlex
-            </label>
-          </div>
+          <label for="pushModalQuery">搜索需求 <span class="hint">(自然语言描述，GPT 会自动解析成关键词)</span></label>
+          <textarea id="pushModalQuery" rows="3" placeholder="例: 帮我找在建筑领域应用 LLM 做法规对比的论文"></textarea>
         </div>
         <div class="field-group inline">
           <div>
-            <label for="modalVenue">Venue 分组</label>
-            <select id="modalVenue">
+            <label for="pushModalVenue">Venue 分组</label>
+            <select id="pushModalVenue">
+              <option value="any">不限</option>
               <option value="top_ai">Top AI (会议)</option>
               <option value="construction">Construction (期刊)</option>
-              <option value="any">不限</option>
             </select>
           </div>
           <div>
-            <label for="modalCount">推送数量</label>
-            <input type="number" id="modalCount" min="1" max="20" placeholder="自动">
+            <label for="pushModalCount">每次推送数量</label>
+            <input type="number" id="pushModalCount" min="1" max="20" value="5">
           </div>
-        </div>
-        <div class="field-group">
-          <label class="checkbox-label">
-            <input type="checkbox" id="modalActive" checked> 启用 (Active)
-          </label>
         </div>
       </div>
       <div class="modal-footer">
-        <button class="btn btn-outline" onclick="closeProfileModal()">取消</button>
-        <button class="btn btn-primary" onclick="saveProfile()">保存</button>
+        <button class="btn btn-outline" onclick="closePushProfileModal()">取消</button>
+        <button class="btn btn-primary" onclick="savePushProfile()">保存</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- ── Search Profile Modal ── -->
+  <div class="modal-overlay hidden" id="searchProfileModal">
+    <div class="modal">
+      <div class="modal-header">
+        <h3 id="searchModalTitle">添加搜索 Profile</h3>
+        <button class="modal-close" onclick="closeSearchProfileModal()">✕</button>
+      </div>
+      <div class="modal-body">
+        <input type="hidden" id="searchModalId">
+        <div class="field-group">
+          <label for="searchModalName">名称</label>
+          <input type="text" id="searchModalName" placeholder="例: Building Code + NLP 或 建筑法规检索">
+        </div>
+        <div class="field-group">
+          <label for="searchModalQuery">搜索查询 <span class="hint">(自然语言描述)</span></label>
+          <textarea id="searchModalQuery" rows="2" placeholder="例: 在建筑领域法规对比的chatbot/agent"></textarea>
+        </div>
+        <div class="field-group">
+          <label for="searchModalKeywords">关键词组 <span class="hint">(可选，留空则每次搜索时由 GPT 生成)</span></label>
+          <textarea id="searchModalKeywords" rows="4" placeholder="building code, compliance checking, NLP&#10;building regulation, chatbot, construction"></textarea>
+        </div>
+        <div class="field-group">
+          <label for="searchModalMaxPerGroup">每组最大数量</label>
+          <input type="number" id="searchModalMaxPerGroup" min="5" max="100" value="25">
+        </div>
+      </div>
+      <div class="modal-footer">
+        <button class="btn btn-outline" onclick="closeSearchProfileModal()">取消</button>
+        <button class="btn btn-primary" onclick="saveSearchProfile()">保存</button>
       </div>
     </div>
   </div>

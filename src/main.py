@@ -111,7 +111,8 @@ def run(config_path="config.json", history_path="history.json", search_only=Fals
     openai_api_key = os.environ.get("OPENAI_API_KEY")
     gmail_address = os.environ.get("GMAIL_ADDRESS")
     gmail_app_password = os.environ.get("GMAIL_APP_PASSWORD")
-    gpt_model = os.environ.get("GPT_MODEL", "gpt-5.2")
+    gpt_model_keyword = os.environ.get("GPT_MODEL_KEYWORD", "gpt-5.4")
+    gpt_model_summary = os.environ.get("GPT_MODEL_SUMMARY", "gpt-5.4-mini")
 
     # Auto-detect search-only mode if no OpenAI key
     if not openai_api_key:
@@ -132,7 +133,7 @@ def run(config_path="config.json", history_path="history.json", search_only=Fals
     router = SearchRouter()
 
     # ── Determine which profiles to run ──
-    profiles = config.get("profiles", [])
+    profiles = config.get("push_profiles", config.get("profiles", []))
     venue_groups = config.get("venue_groups", {})
 
     if trigger_query:
@@ -186,7 +187,7 @@ def run(config_path="config.json", history_path="history.json", search_only=Fals
             client = OpenAI(api_key=openai_api_key)
             print("[Step 1] Parsing query with GPT...")
             try:
-                parsed = parse_query(query, client, model=gpt_model)
+                parsed = parse_query(query, client, model=gpt_model_keyword)
             except Exception as e:
                 print(f"  [Error] Query parsing failed: {e}, falling back to simple parse")
                 parsed = _simple_parse_query(query)
@@ -263,7 +264,7 @@ def run(config_path="config.json", history_path="history.json", search_only=Fals
             try:
                 enriched = filter_and_summarize(
                     papers=papers, user_query=query, client=client,
-                    model=gpt_model, target_count=count,
+                    model=gpt_model_summary, target_count=count,
                 )
                 print(f"  Selected {len(enriched)} papers")
             except Exception as e:

@@ -71,7 +71,7 @@ Output venue_preference: "top_venues"
 """
 
 
-def parse_query(query: str, client: OpenAI, model: str = "gpt-5.2") -> dict:
+def parse_query(query: str, client: OpenAI, model: str = "gpt-5.4") -> dict:
     """
     Parse a natural language query into structured search parameters.
 

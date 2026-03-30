@@ -69,7 +69,7 @@ def filter_and_summarize(
     papers: list[PaperResult],
     user_query: str,
     client: OpenAI,
-    model: str = "gpt-5.2",
+    model: str = "gpt-5.4-mini",
     target_count: int | None = None,
 ) -> list[dict]:
     """

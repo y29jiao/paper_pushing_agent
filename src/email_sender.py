@@ -227,14 +227,14 @@ def _profile_section(profile_name: str, papers: list[dict]) -> str:
       </div>
       <div class="paper-meta" style="color:#888;">{author_text}</div>
 
-      <div class="section-label">💡 推荐理由</div>
-      <div class="relevance">{paper.get('relevance_reason', '')}</div>
+      <div class="section-label">📋 Abstract</div>
+      <div class="abstract">{paper.get('abstract', '')[:800]}{'...' if len(paper.get('abstract', '')) > 800 else ''}</div>
 
       <div class="section-label">📝 中文总结</div>
       <div class="summary">{paper.get('summary_zh', '')}</div>
 
-      <div class="section-label">📋 Abstract</div>
-      <div class="abstract">{paper.get('abstract', '')[:600]}{'...' if len(paper.get('abstract', '')) > 600 else ''}</div>
+      <div class="section-label">💡 推荐理由</div>
+      <div class="relevance">{paper.get('relevance_reason', '')}</div>
     </div>
 """
 

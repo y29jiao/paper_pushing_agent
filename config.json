@@ -1,26 +1,19 @@
 {
-  "profiles": [
+  "push_profiles": [
     {
       "id": "graphrag",
       "name": "GraphRAG 工程实现",
       "query": "帮我找好的journal或者conference的应用GraphRAG成功完成工程实现的论文",
-      "sources": [
-        "semantic_scholar",
-        "openreview",
-        "openalex"
-      ],
+      "sources": ["semantic_scholar", "openreview", "openalex"],
       "venue_filter": "top_ai",
-      "count": null,
+      "count": 5,
       "active": false
     },
     {
       "id": "construction_ai",
       "name": "Construction + AI/ML",
       "query": "应用agent技术于civil engineering的论文",
-      "sources": [
-        "semantic_scholar",
-        "openalex"
-      ],
+      "sources": ["semantic_scholar", "openalex"],
       "venue_filter": "construction",
       "count": 5,
       "active": false
@@ -29,14 +22,18 @@
       "id": "civil_regulation_chatbot",
       "name": "Civil Engineering Regulation Chatbot/Agent",
       "query": "chatbot or agent for building code and regulation comparison in civil engineering",
-      "sources": [
-        "semantic_scholar",
-        "openalex"
-      ],
+      "sources": ["semantic_scholar", "openalex"],
       "venue_filter": "any",
-      "count": null,
-      "active": true,
-      "search_keyword_groups": [
+      "count": 5,
+      "active": true
+    }
+  ],
+  "search_profiles": [
+    {
+      "id": "civil_regulation_chatbot_search",
+      "name": "Civil Engineering Regulation Chatbot/Agent",
+      "query": "在建筑领域法规对比的chatbot/agent",
+      "keyword_groups": [
         ["building code", "compliance checking", "NLP"],
         ["building regulation", "chatbot", "construction"],
         ["automated code compliance", "civil engineering"],
@@ -47,20 +44,12 @@
         ["building code", "question answering", "construction"],
         ["construction regulation", "intelligent agent"],
         ["BIM", "code compliance", "NLP"]
-      ]
+      ],
+      "max_per_group": 25
     }
   ],
   "venue_groups": {
-    "top_ai": [
-      "ICLR",
-      "NeurIPS",
-      "ICML",
-      "ACL",
-      "EMNLP",
-      "CVPR",
-      "KDD",
-      "AAAI"
-    ],
+    "top_ai": ["ICLR", "NeurIPS", "ICML", "ACL", "EMNLP", "CVPR", "KDD", "AAAI"],
     "construction": [
       "Automation in Construction",
       "Advanced Engineering Informatics",
@@ -74,10 +63,7 @@
   "global": {
     "timezone": "America/Edmonton",
     "schedule": {
-      "days": [
-        "monday",
-        "thursday"
-      ],
+      "days": ["monday", "thursday"],
       "hour": 8,
       "minute": 0
     },

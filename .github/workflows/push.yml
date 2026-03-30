@@ -43,7 +43,8 @@ jobs:
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
           GMAIL_ADDRESS: ${{ secrets.GMAIL_ADDRESS }}
           GMAIL_APP_PASSWORD: ${{ secrets.GMAIL_APP_PASSWORD }}
-          GPT_MODEL: ${{ secrets.GPT_MODEL || 'gpt-5.2' }}
+          GPT_MODEL_KEYWORD: ${{ secrets.GPT_MODEL_KEYWORD || 'gpt-5.4' }}
+          GPT_MODEL_SUMMARY: ${{ secrets.GPT_MODEL_SUMMARY || 'gpt-5.4-mini' }}
           TRIGGER_QUERY: ${{ github.event.inputs.query || '' }}
           TRIGGER_PROFILE: ${{ github.event.inputs.profile || '' }}
           TRIGGER_COUNT: ${{ github.event.inputs.count || '' }}
