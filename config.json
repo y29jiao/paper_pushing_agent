@@ -117,18 +117,6 @@
           "NLP"
         ]
       ]
-    },
-    {
-      "id": "asdd",
-      "name": "asdas",
-      "query": "adad",
-      "sources": [
-        "semantic_scholar",
-        "openalex"
-      ],
-      "venue_filter": "any",
-      "count": 5,
-      "active": false
     }
   ],
   "search_profiles": []
