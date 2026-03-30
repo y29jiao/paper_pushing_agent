@@ -31,16 +31,43 @@ class OpenAlexSearcher(BaseSearcher):
 
     def search(self, keywords: list[str], venue_filter: list[str] = None,
                max_results: int = 20, year_from: int = None) -> list[PaperResult]:
-        """Search OpenAlex for papers matching keywords."""
-        # OpenAlex works best with short queries — use top 3 keywords max
-        short_keywords = keywords[:3]
-        query = " ".join(short_keywords)
-        print(f"[OpenAlex] Searching: '{query}' (from {len(keywords)} keywords)")
+        """Search OpenAlex for papers matching keywords with pagination."""
+        results = []
+        seen_ids = set()
+
+        # Build multiple query variants for broader coverage
+        queries = self._build_query_variants(keywords)
+
+        for query in queries:
+            if len(results) >= max_results:
+                break
+            page_results = self._search_single_query(
+                query, venue_filter, max_results - len(results), year_from, seen_ids
+            )
+            results.extend(page_results)
+
+        return results[:max_results]
+
+    def _build_query_variants(self, keywords: list[str]) -> list[str]:
+        """Build multiple query strings for broader coverage."""
+        variants = []
+        if len(keywords) >= 2:
+            variants.append(" ".join(keywords[:5]))
+        if len(keywords) >= 3:
+            variants.append(" ".join(keywords[:3]))
+        if len(keywords) >= 4:
+            variants.append(" ".join([keywords[0], keywords[-1]]))
+        if not variants:
+            variants.append(" ".join(keywords))
+        return variants
+
+    def _search_single_query(self, query, venue_filter, max_results, year_from, seen_ids):
+        """Search with pagination for a single query."""
+        print(f"[OpenAlex] Searching: '{query}'")
         results = []
 
         # Build filter string
         filters = [f"default.search:{query}"]
-
         if year_from:
             filters.append(f"from_publication_date:{year_from}-01-01")
 
@@ -48,90 +75,101 @@ class OpenAlexSearcher(BaseSearcher):
         source_ids = []
         if venue_filter:
             for v in venue_filter:
-                # Check exact match in known sources
                 for journal_name, src_id in self.KNOWN_SOURCES.items():
                     if v.lower() in journal_name.lower() or journal_name.lower() in v.lower():
                         source_ids.append(src_id)
                         break
-
             if source_ids:
                 source_filter = "|".join(source_ids)
                 filters.append(f"primary_location.source.id:{source_filter}")
 
         filter_str = ",".join(filters)
+        page = 1
+        per_page = min(50, max(max_results, 25))
 
-        params = {
-            "filter": filter_str,
-            "per_page": min(max_results * 2, 50),
-            "sort": "cited_by_count:desc",
-            "mailto": self.email,
-        }
+        while len(results) < max_results:
+            params = {
+                "filter": filter_str,
+                "per_page": per_page,
+                "page": page,
+                "sort": "relevance_score:desc",
+                "mailto": self.email,
+            }
 
-        try:
-            resp = self.session.get(f"{self.BASE_URL}/works", params=params, timeout=30)
-            resp.raise_for_status()
-            data = resp.json()
-            print(f"[OpenAlex] API returned {len(data.get('results', []))} works")
-        except requests.RequestException as e:
-            print(f"[OpenAlex] Search error: {e}")
-            return results
+            try:
+                resp = self.session.get(f"{self.BASE_URL}/works", params=params, timeout=30)
+                resp.raise_for_status()
+                data = resp.json()
+            except requests.RequestException as e:
+                print(f"[OpenAlex] Search error: {e}")
+                break
 
-        works = data.get("results", [])
+            works = data.get("results", [])
+            if not works:
+                break
 
-        for work in works:
-            # Reconstruct abstract from inverted index
-            abstract = self._reconstruct_abstract(work.get("abstract_inverted_index"))
-            if not abstract:
-                continue
+            print(f"[OpenAlex] Page {page}: {len(works)} works")
 
-            title = work.get("title", "")
-            if not title:
-                continue
+            for work in works:
+                work_id = work.get("id", "")
+                if work_id in seen_ids:
+                    continue
+                seen_ids.add(work_id)
 
-            # Post-filter by venue name if no source IDs were found
-            if venue_filter and not source_ids:
-                source_name = ""
-                primary_loc = work.get("primary_location") or {}
-                source = primary_loc.get("source") or {}
-                source_name = (source.get("display_name") or "").lower()
-                if not any(v.lower() in source_name for v in venue_filter):
+                abstract = self._reconstruct_abstract(work.get("abstract_inverted_index"))
+                if not abstract:
                     continue
 
-            # Extract venue
-            venue = ""
-            primary_loc = work.get("primary_location") or {}
-            source_info = primary_loc.get("source") or {}
-            venue = source_info.get("display_name", "")
+                title = work.get("title", "")
+                if not title:
+                    continue
 
-            # Extract authors
-            authors = []
-            for authorship in (work.get("authorships") or [])[:10]:
-                author = authorship.get("author") or {}
-                name = author.get("display_name")
-                if name:
-                    authors.append(name)
+                # Post-filter by venue name if no source IDs were found
+                if venue_filter and not source_ids:
+                    primary_loc = work.get("primary_location") or {}
+                    source = primary_loc.get("source") or {}
+                    source_name = (source.get("display_name") or "").lower()
+                    if not any(v.lower() in source_name for v in venue_filter):
+                        continue
 
-            # Build URL: prefer DOI, fallback to OpenAlex
-            doi = work.get("doi") or ""
-            url = doi if doi else (work.get("id") or "")
+                # Extract venue
+                primary_loc = work.get("primary_location") or {}
+                source_info = primary_loc.get("source") or {}
+                venue = source_info.get("display_name", "")
 
-            # Extract year
-            year = work.get("publication_year")
+                # Extract authors
+                authors = []
+                for authorship in (work.get("authorships") or [])[:10]:
+                    author = authorship.get("author") or {}
+                    name = author.get("display_name")
+                    if name:
+                        authors.append(name)
 
-            results.append(PaperResult(
-                title=title,
-                abstract=abstract,
-                authors=authors,
-                venue=venue,
-                year=year,
-                citation_count=work.get("cited_by_count"),
-                url=url,
-                doi=doi.replace("https://doi.org/", "") if doi else None,
-                source="openalex",
-            ))
+                doi = work.get("doi") or ""
+                url = doi if doi else (work.get("id") or "")
+                year = work.get("publication_year")
 
-            if len(results) >= max_results:
+                results.append(PaperResult(
+                    title=title,
+                    abstract=abstract,
+                    authors=authors,
+                    venue=venue,
+                    year=year,
+                    citation_count=work.get("cited_by_count"),
+                    url=url,
+                    doi=doi.replace("https://doi.org/", "") if doi else None,
+                    source="openalex",
+                ))
+
+                if len(results) >= max_results:
+                    break
+
+            # Check if more pages exist
+            total = data.get("meta", {}).get("count", 0)
+            if page * per_page >= total or len(works) < per_page:
                 break
+            page += 1
+            time.sleep(0.5)
 
         time.sleep(0.5)
         return results

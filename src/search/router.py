@@ -49,15 +49,11 @@ class SearchRouter:
         ordered_sources = self._get_source_priority(sources, venue_filter_name)
         print(f"[Router] Source priority: {ordered_sources}")
 
-        remaining = max_results
-
+        # Search ALL sources to maximize coverage, don't stop early
         for source_name in ordered_sources:
-            if remaining <= 0:
-                break
-
-            print(f"[Router] Trying {source_name} (need {remaining} more)...")
-            # Fetch more than needed to allow for dedup/filtering losses
-            fetch_count = min(remaining * 2, 30)
+            print(f"[Router] Trying {source_name} (have {len(all_results)} so far)...")
+            # Each source gets the full max_results budget
+            fetch_count = max_results
 
             papers = self._search_source(
                 source_name, keywords, venue_list, fetch_count, year_from
@@ -70,10 +66,8 @@ class SearchRouter:
                 if norm_title not in seen_titles:
                     seen_titles.add(norm_title)
                     all_results.append(paper)
-                    remaining -= 1
-                    if remaining <= 0:
-                        break
 
+        print(f"[Router] Total unique papers: {len(all_results)}")
         return all_results[:max_results]
 
     def _get_source_priority(self, sources: list[str], venue_filter_name: str) -> list[str]:

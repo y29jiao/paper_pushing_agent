@@ -8,3 +8,4 @@ dist/
 build/
 .DS_Store
 paper-agent.zip
+output/

@@ -23,7 +23,31 @@
       ],
       "venue_filter": "construction",
       "count": 5,
-      "active": true
+      "active": false
+    },
+    {
+      "id": "civil_regulation_chatbot",
+      "name": "Civil Engineering Regulation Chatbot/Agent",
+      "query": "chatbot or agent for building code and regulation comparison in civil engineering",
+      "sources": [
+        "semantic_scholar",
+        "openalex"
+      ],
+      "venue_filter": "any",
+      "count": null,
+      "active": true,
+      "search_keyword_groups": [
+        ["building code", "compliance checking", "NLP"],
+        ["building regulation", "chatbot", "construction"],
+        ["automated code compliance", "civil engineering"],
+        ["building code", "LLM", "agent"],
+        ["regulatory compliance", "construction", "AI"],
+        ["building code comparison", "natural language processing"],
+        ["automated rule checking", "building regulation"],
+        ["building code", "question answering", "construction"],
+        ["construction regulation", "intelligent agent"],
+        ["BIM", "code compliance", "NLP"]
+      ]
     }
   ],
   "venue_groups": {
