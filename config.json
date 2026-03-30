@@ -90,7 +90,8 @@
           "NLP"
         ]
       ],
-      "max_per_group": 25
+      "max_per_group": 25,
+      "year_from": 2024
     }
   ],
   "venue_groups": {
