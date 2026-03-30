@@ -66,8 +66,8 @@
         "openalex"
       ],
       "venue_filter": "any",
-      "count": null,
-      "active": false,
+      "count": 10,
+      "active": true,
       "search_keyword_groups": [
         [
           "building code",
