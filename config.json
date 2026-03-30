@@ -36,13 +36,13 @@
     {
       "id": "graphrag",
       "name": "GraphRAG 工程实现",
-      "query": "帮我找好的journal或者conference的应用GraphRAG成功完成工程实现的论文",
+      "query": "chatbot or agent for building code and regulation comparison in civil engineering",
       "sources": [
         "semantic_scholar",
         "openalex"
       ],
       "venue_filter": "any",
-      "count": 5,
+      "count": 10,
       "active": true
     },
     {
