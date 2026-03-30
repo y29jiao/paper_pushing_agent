@@ -35,7 +35,7 @@
   "push_profiles": [
     {
       "id": "graphrag",
-      "name": "GraphRAG 工程实现",
+      "name": "Regulation Chatbot/Agent",
       "query": "chatbot or agent for building code and regulation comparison in civil engineering",
       "sources": [
         "semantic_scholar",
