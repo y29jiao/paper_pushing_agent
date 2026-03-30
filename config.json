@@ -118,5 +118,16 @@
       ]
     }
   ],
-  "search_profiles": []
+  "search_profiles": [
+    {
+      "id": "fsdf",
+      "name": "fsdf",
+      "keyword_groups": [
+        [
+          "fsdf"
+        ]
+      ],
+      "max_per_group": 25
+    }
+  ]
 }
