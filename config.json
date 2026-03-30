@@ -36,7 +36,7 @@
     {
       "id": "graphrag",
       "name": "Regulation Chatbot/Agent",
-      "query": "chatbot or agent for building code and regulation comparison in civil engineering",
+      "query": "chatbot or agent for code and regulation comparison",
       "sources": [
         "semantic_scholar",
         "openalex"
