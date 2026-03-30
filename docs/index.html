@@ -277,12 +277,21 @@
           <textarea id="searchModalQuery" rows="2" placeholder="例: 在建筑领域法规对比的chatbot/agent"></textarea>
         </div>
         <div class="field-group">
-          <label for="searchModalKeywords">关键词组 <span class="hint">(可选，留空则每次搜索时由 GPT 生成)</span></label>
+          <label for="searchModalKeywords">关键词组</label>
           <textarea id="searchModalKeywords" rows="4" placeholder="building code, compliance checking, NLP&#10;building regulation, chatbot, construction"></textarea>
+          <div style="margin-top:8px;">
+            <button class="btn btn-outline btn-sm" onclick="generateModalKeywords()">🤖 从查询生成关键词</button>
+          </div>
         </div>
-        <div class="field-group">
-          <label for="searchModalMaxPerGroup">每组最大数量</label>
-          <input type="number" id="searchModalMaxPerGroup" min="5" max="100" value="25">
+        <div class="field-group inline">
+          <div>
+            <label for="searchModalMaxPerGroup">每组最大数量</label>
+            <input type="number" id="searchModalMaxPerGroup" min="5" max="100" value="25">
+          </div>
+          <div>
+            <label for="searchModalYearFrom">起始年份</label>
+            <input type="number" id="searchModalYearFrom" min="2000" max="2026" placeholder="不限">
+          </div>
         </div>
       </div>
       <div class="modal-footer">

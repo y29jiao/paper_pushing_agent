@@ -744,6 +744,7 @@ function loadSearchProfile(index) {
   const kwArea = document.getElementById("searchKeywordGroups");
   kwArea.value = kwGroups.length > 0 ? kwGroups.map(g => g.join(", ")).join("\n") : "";
   document.getElementById("searchMaxResults").value = p.max_per_group || 25;
+  document.getElementById("searchYearFrom").value = p.year_from || "";
   showToast(`已加载搜索 Profile "${p.name}"`);
 }
 
@@ -758,12 +759,14 @@ function openSearchProfileModal(index = -1) {
     document.getElementById("searchModalQuery").value = p.query || "";
     document.getElementById("searchModalKeywords").value = (p.keyword_groups || []).map(g => g.join(", ")).join("\n");
     document.getElementById("searchModalMaxPerGroup").value = p.max_per_group || 25;
+    document.getElementById("searchModalYearFrom").value = p.year_from || "";
   } else {
     document.getElementById("searchModalId").value = "";
     document.getElementById("searchModalName").value = "";
     document.getElementById("searchModalQuery").value = "";
     document.getElementById("searchModalKeywords").value = "";
     document.getElementById("searchModalMaxPerGroup").value = 25;
+    document.getElementById("searchModalYearFrom").value = "";
   }
   modal.classList.remove("hidden");
 }
@@ -784,9 +787,11 @@ function saveSearchProfile() {
     .map(line => line.trim()).filter(line => line)
     .map(line => line.split(",").map(kw => kw.trim()).filter(kw => kw)) : [];
 
+  const yearVal = document.getElementById("searchModalYearFrom").value;
   const profile = {
     id, name, query, keyword_groups,
     max_per_group: parseInt(document.getElementById("searchModalMaxPerGroup").value) || 25,
+    year_from: yearVal ? parseInt(yearVal) : null,
   };
 
   if (!config) config = { push_profiles: [], search_profiles: [], venue_groups: {}, global: {} };
@@ -801,6 +806,35 @@ function saveSearchProfile() {
   closeSearchProfileModal();
   renderSearchProfiles();
   saveConfigToRepo();
+}
+
+async function generateModalKeywords() {
+  const query = document.getElementById("searchModalQuery").value.trim();
+  const apiKey = localStorage.getItem(LS_OPENAI_KEY) || "";
+  if (!query) { showToast("请先填写搜索查询"); return; }
+  if (!apiKey) { showToast("请先在搜索面板填写 OpenAI API Key"); return; }
+
+  showToast("⏳ 正在生成关键词...");
+  try {
+    const resp = await fetch("https://api.openai.com/v1/chat/completions", {
+      method: "POST",
+      headers: { "Content-Type": "application/json", "Authorization": `Bearer ${apiKey}` },
+      body: JSON.stringify({
+        model: "gpt-5.4",
+        messages: [
+          { role: "system", content: GPT_KEYWORD_PROMPT },
+          { role: "user", content: query },
+        ],
+        temperature: 0.3,
+      }),
+    });
+    if (!resp.ok) { const err = await resp.json(); throw new Error(err.error?.message || resp.status); }
+    const data = await resp.json();
+    document.getElementById("searchModalKeywords").value = data.choices[0].message.content.trim();
+    showToast("✅ 关键词已生成");
+  } catch (e) {
+    showToast(`❌ 生成失败: ${e.message}`);
+  }
 }
 
 function editSearchProfile(i) { openSearchProfileModal(i); }
