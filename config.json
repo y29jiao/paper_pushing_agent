@@ -41,7 +41,7 @@
     {
       "id": "civil_regulation_chatbot_search",
       "name": "Civil Engineering Regulation Chatbot/Agent",
-      "query": "在建筑领域法规对比的chatbot/agent",
+      "query": "土木工程领域法规对比的chatbot/agent",
       "keyword_groups": [
         [
           "building code",
