@@ -39,12 +39,11 @@
       "query": "帮我找好的journal或者conference的应用GraphRAG成功完成工程实现的论文",
       "sources": [
         "semantic_scholar",
-        "openreview",
         "openalex"
       ],
-      "venue_filter": "top_ai",
-      "count": null,
-      "active": false
+      "venue_filter": "any",
+      "count": 5,
+      "active": true
     },
     {
       "id": "construction_ai",
