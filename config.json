@@ -1,4 +1,5 @@
 {
+<<<<<<< HEAD
   "push_profiles": [
     {
       "id": "graphrag",
@@ -48,6 +49,8 @@
       "max_per_group": 25
     }
   ],
+=======
+>>>>>>> 87f1faab79df3fa8c05c71aa215d5fb999322fe3
   "venue_groups": {
     "top_ai": ["ICLR", "NeurIPS", "ICML", "ACL", "EMNLP", "CVPR", "KDD", "AAAI"],
     "construction": [
@@ -68,5 +71,97 @@
       "minute": 0
     },
     "email": "yusenjiao@gmail.com"
+<<<<<<< HEAD
   }
 }
+=======
+  },
+  "push_profiles": [
+    {
+      "id": "graphrag",
+      "name": "Regulation Chatbot/Agent",
+      "query": "chatbot or agent for code and regulation comparison",
+      "sources": [
+        "semantic_scholar",
+        "openalex"
+      ],
+      "venue_filter": "any",
+      "count": 10,
+      "active": true
+    },
+    {
+      "id": "construction_ai",
+      "name": "Construction + AI/ML",
+      "query": "应用agent技术于civil engineering的论文",
+      "sources": [
+        "semantic_scholar",
+        "openalex"
+      ],
+      "venue_filter": "construction",
+      "count": 5,
+      "active": false
+    },
+    {
+      "id": "civil_regulation_chatbot",
+      "name": "Civil Engineering Regulation Chatbot/Agent",
+      "query": "chatbot or agent for building code and regulation comparison in civil engineering",
+      "sources": [
+        "semantic_scholar",
+        "openalex"
+      ],
+      "venue_filter": "any",
+      "count": 10,
+      "active": true,
+      "search_keyword_groups": [
+        [
+          "building code",
+          "compliance checking",
+          "NLP"
+        ],
+        [
+          "building regulation",
+          "chatbot",
+          "construction"
+        ],
+        [
+          "automated code compliance",
+          "civil engineering"
+        ],
+        [
+          "building code",
+          "LLM",
+          "agent"
+        ],
+        [
+          "regulatory compliance",
+          "construction",
+          "AI"
+        ],
+        [
+          "building code comparison",
+          "natural language processing"
+        ],
+        [
+          "automated rule checking",
+          "building regulation"
+        ],
+        [
+          "building code",
+          "question answering",
+          "construction"
+        ],
+        [
+          "construction regulation",
+          "intelligent agent"
+        ],
+        [
+          "BIM",
+          "code compliance",
+          "NLP"
+        ]
+      ]
+    }
+  ],
+  "search_profiles": []
+}
+>>>>>>> 87f1faab79df3fa8c05c71aa215d5fb999322fe3
