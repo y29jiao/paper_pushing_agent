@@ -8,7 +8,7 @@
         "semantic_scholar",
         "openalex"
       ],
-      "venue_filter": "any",
+      "venue_filter": "top_ai",
       "count": 10,
       "year_from": 2023,
       "active": true
