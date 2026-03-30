@@ -409,7 +409,7 @@ function renderSearchResults(papers) {
   }
   body.innerHTML = papers.map((p, i) => {
     const authorStr = (p.authors || []).slice(0, 3).join(", ") + (p.authors && p.authors.length > 3 ? " et al." : "");
-    const shortAbstract = truncateSentences(p.abstract, 2);
+    const shortAbstract = truncateSentences(p.abstract, 3);
     return `
     <div class="result-item">
       <div class="result-number">${i + 1}</div>
