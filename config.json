@@ -10,6 +10,7 @@
       ],
       "venue_filter": "any",
       "count": 10,
+      "year_from": 2023,
       "active": true
     },
     {
@@ -22,6 +23,7 @@
       ],
       "venue_filter": "construction",
       "count": 5,
+      "year_from": 2023,
       "active": false
     },
     {
@@ -34,6 +36,7 @@
       ],
       "venue_filter": "any",
       "count": 10,
+      "year_from": 2023,
       "active": true
     }
   ],

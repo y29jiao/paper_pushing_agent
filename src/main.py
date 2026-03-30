@@ -175,6 +175,9 @@ def run(config_path="config.json", history_path="history.json", search_only=Fals
         print(f"[Query] {query}")
         print(f"[Sources] {sources}")
         print(f"[Venues] {venue_filter_name} -> {venue_list}")
+        profile_year_from = profile.get("year_from")
+        if profile_year_from:
+            print(f"[Year from] {profile_year_from}")
         print(f"[Count] {count}")
 
         # Step 1: Parse query
@@ -191,6 +194,10 @@ def run(config_path="config.json", history_path="history.json", search_only=Fals
             except Exception as e:
                 print(f"  [Error] Query parsing failed: {e}, falling back to simple parse")
                 parsed = _simple_parse_query(query)
+
+        # Profile year_from takes priority over GPT-parsed year_from
+        if profile_year_from:
+            parsed["year_from"] = profile_year_from
 
         print(f"  Keywords: {parsed['keywords_en']}")
         print(f"  Alt keywords: {parsed['keywords_alt']}")

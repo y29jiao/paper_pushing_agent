@@ -649,12 +649,14 @@ function openPushProfileModal(index = -1) {
     document.getElementById("pushModalQuery").value = p.query;
     document.getElementById("pushModalVenue").value = p.venue_filter || "any";
     document.getElementById("pushModalCount").value = p.count || 5;
+    document.getElementById("pushModalYearFrom").value = p.year_from || "";
   } else {
     document.getElementById("pushModalId").value = "";
     document.getElementById("pushModalName").value = "";
     document.getElementById("pushModalQuery").value = "";
     document.getElementById("pushModalVenue").value = "any";
     document.getElementById("pushModalCount").value = 5;
+    document.getElementById("pushModalYearFrom").value = "";
   }
   modal.classList.remove("hidden");
 }
@@ -671,11 +673,13 @@ function savePushProfile() {
   // Use existing ID when editing, auto-generate when creating
   const id = document.getElementById("pushModalId").value.trim() || nameToId(name);
 
+  const pushYearVal = document.getElementById("pushModalYearFrom").value.trim();
   const profile = {
     id, name, query,
     sources: ["semantic_scholar", "openalex"],
     venue_filter: document.getElementById("pushModalVenue").value,
     count: parseInt(document.getElementById("pushModalCount").value) || 5,
+    year_from: pushYearVal ? parseInt(pushYearVal) : null,
     active: true,
   };
 
