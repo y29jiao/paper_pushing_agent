@@ -605,6 +605,25 @@ input[type="number"] {
   gap: 16px;
 }
 
+.lang-toggle {
+  padding: 4px 10px;
+  font-size: 12px;
+  font-weight: 600;
+  font-family: var(--font-mono);
+  color: var(--accent);
+  background: var(--bg-input);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-sm);
+  cursor: pointer;
+  transition: var(--transition);
+  letter-spacing: 0.5px;
+}
+
+.lang-toggle:hover {
+  background: var(--accent-glow);
+  border-color: var(--accent);
+}
+
 .mode-toggle {
   display: flex;
   background: var(--bg-input);

@@ -18,12 +18,13 @@
     </div>
     <div class="top-bar-right">
       <div class="mode-toggle">
-        <button class="mode-btn active" id="btnModeSearch" onclick="switchMode('search')">搜索模式</button>
-        <button class="mode-btn" id="btnModePush" onclick="switchMode('push')">推送模式</button>
+        <button class="mode-btn active" id="btnModeSearch" onclick="switchMode('search')" data-i18n="mode_search">搜索模式</button>
+        <button class="mode-btn" id="btnModePush" onclick="switchMode('push')" data-i18n="mode_push">推送模式</button>
       </div>
+      <button class="lang-toggle" id="langToggle" onclick="toggleLang()">EN</button>
       <div class="status-indicator" id="statusDot">
         <span class="dot"></span>
-        <span class="status-text">未连接</span>
+        <span class="status-text" data-i18n="status_disconnected">未连接</span>
       </div>
     </div>
   </header>
@@ -33,48 +34,48 @@
     <div id="searchModePanel">
       <section class="card search-card">
         <div class="card-header">
-          <h2>🔍 论文搜索</h2>
+          <h2 data-i18n="search_title">🔍 论文搜索</h2>
           <span class="badge">Direct Search</span>
         </div>
         <div class="card-body">
           <div class="field-group">
-            <label for="searchApiKey">OpenAI API Key <span class="hint">(存储在浏览器本地，用于 GPT 解析查询)</span></label>
+            <label for="searchApiKey">OpenAI API Key <span class="hint" data-i18n="hint_apikey">(存储在浏览器本地，用于 GPT 解析查询)</span></label>
             <div class="token-input-row">
               <input type="password" id="searchApiKey" placeholder="sk-..." oninput="saveSearchApiKey()">
               <button class="btn btn-outline btn-sm" onclick="toggleSearchKeyVisibility()">👁</button>
             </div>
           </div>
           <div class="field-group">
-            <label for="searchQuery">搜索查询 <span class="hint">(自然语言描述，GPT 会自动生成关键词组)</span></label>
-            <textarea id="searchQuery" rows="2" placeholder="例: 在建筑领域法规对比的chatbot/agent"></textarea>
+            <label for="searchQuery" data-i18n="label_search_query">搜索查询 <span class="hint">(自然语言描述，GPT 会自动生成关键词组)</span></label>
+            <textarea id="searchQuery" rows="2" data-i18n-placeholder="ph_search_query" placeholder="例: 在建筑领域法规对比的chatbot/agent"></textarea>
           </div>
           <div class="field-group">
-            <label for="searchKeywordGroups">关键词组 <span class="hint">(由 GPT 生成，也可手动编辑)</span></label>
-            <textarea id="searchKeywordGroups" rows="4" placeholder="点击「生成关键词」由 GPT 自动填充，也可直接手动填写。每行一组，逗号分隔"></textarea>
+            <label for="searchKeywordGroups" data-i18n="label_keyword_groups">关键词组 <span class="hint">(由 GPT 生成，也可手动编辑)</span></label>
+            <textarea id="searchKeywordGroups" rows="4" data-i18n-placeholder="ph_keyword_groups" placeholder="点击「生成关键词」由 GPT 自动填充，也可直接手动填写。每行一组，逗号分隔"></textarea>
             <div style="margin-top:8px;">
-              <button class="btn btn-outline btn-sm" onclick="generateKeywords()">🤖 生成关键词</button>
+              <button class="btn btn-outline btn-sm" onclick="generateKeywords()" data-i18n="btn_generate_kw">🤖 生成关键词</button>
             </div>
           </div>
           <div class="field-group inline">
             <div>
-              <label for="searchVenueFilter">Venue 分组</label>
+              <label for="searchVenueFilter" data-i18n="label_venue">Venue 分组</label>
               <select id="searchVenueFilter">
-                <option value="any">不限（Top venue 优先）</option>
-                <option value="top_cs_conference">Top CS Conference (会议)</option>
-                <option value="top_construction_journal">Top Construction Journal (期刊)</option>
+                <option value="any" data-i18n="venue_any">不限（Top venue 优先）</option>
+                <option value="top_cs_conference">Top CS Conference</option>
+                <option value="top_construction_journal">Top Construction Journal</option>
               </select>
             </div>
             <div>
-              <label for="searchMaxResults">每组最大数量</label>
+              <label for="searchMaxResults" data-i18n="label_max_per_group">每组最大数量</label>
               <input type="number" id="searchMaxResults" min="5" max="100" value="25">
             </div>
             <div>
-              <label for="searchYearFrom">起始年份</label>
-              <input type="number" id="searchYearFrom" min="2000" max="2026" placeholder="不限">
+              <label for="searchYearFrom" data-i18n="label_year_from">起始年份</label>
+              <input type="number" id="searchYearFrom" min="2000" max="2026" data-i18n-placeholder="ph_no_limit" placeholder="不限">
             </div>
             <div class="push-btn-wrapper">
               <button id="btnSearch" class="btn btn-primary" onclick="startSearch()">
-                <span class="btn-icon">🔍</span> 开始搜索
+                <span class="btn-icon">🔍</span> <span data-i18n="btn_search">开始搜索</span>
               </button>
             </div>
           </div>
@@ -84,11 +85,11 @@
 
       <section class="card results-card hidden" id="resultsCard">
         <div class="card-header">
-          <h2>📄 搜索结果</h2>
+          <h2 data-i18n="results_title">📄 搜索结果</h2>
           <div class="results-header-actions">
             <span class="badge" id="resultCount">0 papers</span>
-            <button class="btn btn-outline btn-sm" onclick="exportMarkdown()">📥 导出 Markdown</button>
-            <button class="btn btn-outline btn-sm" onclick="copyResults()">📋 复制</button>
+            <button class="btn btn-outline btn-sm" onclick="exportMarkdown()" data-i18n="btn_export">📥 导出 Markdown</button>
+            <button class="btn btn-outline btn-sm" onclick="copyResults()" data-i18n="btn_copy">📋 复制</button>
           </div>
         </div>
         <div class="card-body" id="resultsBody"></div>
@@ -99,11 +100,11 @@
     <div id="pushModePanel" class="hidden">
     <section class="card push-card">
       <div class="card-header">
-        <h2>📬 推送设置</h2>
+        <h2 data-i18n="push_settings_title">📬 推送设置</h2>
         <span class="badge">GitHub Actions</span>
       </div>
       <div class="card-body">
-        <p class="push-description">选择要推送的 Profile，每周定时通过 GPT 生成中文摘要后发送到邮箱。如需更改推送内容，请编辑下方 Profile。</p>
+        <p class="push-description" data-i18n="push_description">选择要推送的 Profile，每周定时通过 GPT 生成中文摘要后发送到邮箱。如需更改推送内容，请编辑下方 Profile。</p>
         <div class="field-group" id="pushProfileChecklist">
           <!-- Populated by JS -->
         </div>
@@ -114,8 +115,8 @@
     <!-- Push Profiles -->
     <section class="card profiles-card">
       <div class="card-header">
-        <h2>📂 推送 Profiles</h2>
-        <button class="btn btn-outline btn-sm" onclick="openPushProfileModal()">+ 添加</button>
+        <h2 data-i18n="push_profiles_title">📂 推送 Profiles</h2>
+        <button class="btn btn-outline btn-sm" onclick="openPushProfileModal()" data-i18n="btn_add">+ 添加</button>
       </div>
       <div class="card-body" id="pushProfilesList">
         <!-- Populated by JS -->
@@ -127,8 +128,8 @@
     <div id="searchProfilesPanel">
     <section class="card profiles-card">
       <div class="card-header">
-        <h2>📂 搜索 Profiles</h2>
-        <button class="btn btn-outline btn-sm" onclick="openSearchProfileModal()">+ 添加</button>
+        <h2 data-i18n="search_profiles_title">📂 搜索 Profiles</h2>
+        <button class="btn btn-outline btn-sm" onclick="openSearchProfileModal()" data-i18n="btn_add">+ 添加</button>
       </div>
       <div class="card-body" id="searchProfilesList">
         <!-- Populated by JS -->
@@ -139,16 +140,16 @@
     <!-- ── Settings Panel (push mode only) ── -->
     <section class="card settings-card push-only-panel hidden">
       <div class="card-header">
-        <h2>⚙️ 设置</h2>
+        <h2 data-i18n="settings_title">⚙️ 设置</h2>
       </div>
       <div class="card-body">
         <div class="settings-grid">
           <div class="field-group">
-            <label for="settEmail">📧 推送邮箱</label>
+            <label for="settEmail" data-i18n="label_email">📧 推送邮箱</label>
             <input type="email" id="settEmail" value="yusenjiao@gmail.com">
           </div>
           <div class="field-group">
-            <label for="settTimezone">🕐 时区</label>
+            <label for="settTimezone" data-i18n="label_timezone">🕐 时区</label>
             <select id="settTimezone">
               <option value="America/Edmonton">America/Edmonton (MDT)</option>
               <option value="America/Vancouver">America/Vancouver (PDT)</option>
@@ -163,38 +164,38 @@
             </select>
           </div>
           <div class="field-group">
-            <label>📅 定时推送</label>
+            <label data-i18n="label_schedule">📅 定时推送</label>
             <div class="schedule-row">
               <label class="checkbox-label">
-                <input type="checkbox" id="schedMon" checked> 周一
+                <input type="checkbox" id="schedMon" checked> <span data-i18n="day_mon">周一</span>
               </label>
               <label class="checkbox-label">
-                <input type="checkbox" id="schedTue"> 周二
+                <input type="checkbox" id="schedTue"> <span data-i18n="day_tue">周二</span>
               </label>
               <label class="checkbox-label">
-                <input type="checkbox" id="schedWed"> 周三
+                <input type="checkbox" id="schedWed"> <span data-i18n="day_wed">周三</span>
               </label>
               <label class="checkbox-label">
-                <input type="checkbox" id="schedThu" checked> 周四
+                <input type="checkbox" id="schedThu" checked> <span data-i18n="day_thu">周四</span>
               </label>
               <label class="checkbox-label">
-                <input type="checkbox" id="schedFri"> 周五
+                <input type="checkbox" id="schedFri"> <span data-i18n="day_fri">周五</span>
               </label>
               <label class="checkbox-label">
-                <input type="checkbox" id="schedSat"> 周六
+                <input type="checkbox" id="schedSat"> <span data-i18n="day_sat">周六</span>
               </label>
               <label class="checkbox-label">
-                <input type="checkbox" id="schedSun"> 周日
+                <input type="checkbox" id="schedSun"> <span data-i18n="day_sun">周日</span>
               </label>
             </div>
           </div>
           <div class="field-group">
-            <label for="schedHour">⏰ 推送时间</label>
+            <label for="schedHour" data-i18n="label_push_time">⏰ 推送时间</label>
             <input type="time" id="schedTime" value="08:00">
           </div>
         </div>
         <div class="settings-actions">
-          <button class="btn btn-primary" onclick="saveSettings()">💾 保存设置</button>
+          <button class="btn btn-primary" onclick="saveSettings()" data-i18n="btn_save_settings">💾 保存设置</button>
         </div>
       </div>
     </section>
@@ -202,7 +203,7 @@
     <!-- ── GitHub Token Setup (push mode only) ── -->
     <section class="card token-card">
       <div class="card-header">
-        <h2>🔑 GitHub 连接</h2>
+        <h2 data-i18n="github_title">🔑 GitHub 连接</h2>
       </div>
       <div class="card-body">
         <div class="field-group">
@@ -214,15 +215,15 @@
           <input type="text" id="ghRepo" placeholder="paper-agent">
         </div>
         <div class="field-group">
-          <label for="ghToken">Personal Access Token <span class="hint">(存储在浏览器本地)</span></label>
+          <label for="ghToken">Personal Access Token <span class="hint" data-i18n="hint_token">(存储在浏览器本地)</span></label>
           <div class="token-input-row">
             <input type="password" id="ghToken" placeholder="ghp_xxxxxxxxxxxx">
             <button class="btn btn-outline btn-sm" onclick="toggleTokenVisibility()">👁</button>
           </div>
         </div>
         <div class="settings-actions">
-          <button class="btn btn-primary" onclick="saveGitHubConfig()">🔗 保存并连接</button>
-          <button class="btn btn-outline" onclick="testConnection()">测试连接</button>
+          <button class="btn btn-primary" onclick="saveGitHubConfig()" data-i18n="btn_save_connect">🔗 保存并连接</button>
+          <button class="btn btn-outline" onclick="testConnection()" data-i18n="btn_test_connection">测试连接</button>
         </div>
       </div>
     </section>
@@ -232,41 +233,41 @@
   <div class="modal-overlay hidden" id="pushProfileModal">
     <div class="modal">
       <div class="modal-header">
-        <h3 id="pushModalTitle">添加推送 Profile</h3>
+        <h3 id="pushModalTitle" data-i18n="modal_add_push">添加推送 Profile</h3>
         <button class="modal-close" onclick="closePushProfileModal()">✕</button>
       </div>
       <div class="modal-body">
         <input type="hidden" id="pushModalId">
         <div class="field-group">
-          <label for="pushModalName">名称</label>
-          <input type="text" id="pushModalName" placeholder="例: Construction + AI/ML 或 建筑法规Chatbot">
+          <label for="pushModalName" data-i18n="label_name">名称</label>
+          <input type="text" id="pushModalName" data-i18n-placeholder="ph_push_name" placeholder="例: Construction + AI/ML 或 建筑法规Chatbot">
         </div>
         <div class="field-group">
-          <label for="pushModalQuery">搜索需求 <span class="hint">(自然语言描述，GPT 会自动解析成关键词)</span></label>
-          <textarea id="pushModalQuery" rows="3" placeholder="例: 帮我找在建筑领域应用 LLM 做法规对比的论文"></textarea>
+          <label for="pushModalQuery" data-i18n="label_push_query">搜索需求 <span class="hint">(自然语言描述，GPT 会自动解析成关键词)</span></label>
+          <textarea id="pushModalQuery" rows="3" data-i18n-placeholder="ph_push_query" placeholder="例: 帮我找在建筑领域应用 LLM 做法规对比的论文"></textarea>
         </div>
         <div class="field-group inline">
           <div>
-            <label for="pushModalVenue">Venue 分组</label>
+            <label for="pushModalVenue" data-i18n="label_venue">Venue 分组</label>
             <select id="pushModalVenue">
-              <option value="any">不限</option>
+              <option value="any" data-i18n="venue_any_short">不限</option>
               <option value="top_cs_conference">Top CS Conference (会议)</option>
               <option value="top_construction_journal">Top Construction Journal (期刊)</option>
             </select>
           </div>
           <div>
-            <label for="pushModalCount">每次推送数量</label>
+            <label for="pushModalCount" data-i18n="label_push_count">每次推送数量</label>
             <input type="number" id="pushModalCount" min="1" max="20" value="5">
           </div>
           <div>
-            <label for="pushModalYearFrom">起始年份 <span class="hint">(只搜索该年份之后的论文)</span></label>
+            <label for="pushModalYearFrom" data-i18n="label_year_from_hint">起始年份 <span class="hint">(只搜索该年份之后的论文)</span></label>
             <input type="number" id="pushModalYearFrom" min="2000" max="2030" placeholder="例: 2023">
           </div>
         </div>
       </div>
       <div class="modal-footer">
-        <button class="btn btn-outline" onclick="closePushProfileModal()">取消</button>
-        <button class="btn btn-primary" onclick="savePushProfile()">保存</button>
+        <button class="btn btn-outline" onclick="closePushProfileModal()" data-i18n="btn_cancel">取消</button>
+        <button class="btn btn-primary" onclick="savePushProfile()" data-i18n="btn_save">保存</button>
       </div>
     </div>
   </div>
@@ -275,48 +276,48 @@
   <div class="modal-overlay hidden" id="searchProfileModal">
     <div class="modal">
       <div class="modal-header">
-        <h3 id="searchModalTitle">添加搜索 Profile</h3>
+        <h3 id="searchModalTitle" data-i18n="modal_add_search">添加搜索 Profile</h3>
         <button class="modal-close" onclick="closeSearchProfileModal()">✕</button>
       </div>
       <div class="modal-body">
         <input type="hidden" id="searchModalId">
         <div class="field-group">
-          <label for="searchModalName">名称</label>
-          <input type="text" id="searchModalName" placeholder="例: Building Code + NLP 或 建筑法规检索">
+          <label for="searchModalName" data-i18n="label_name">名称</label>
+          <input type="text" id="searchModalName" data-i18n-placeholder="ph_search_name" placeholder="例: Building Code + NLP 或 建筑法规检索">
         </div>
         <div class="field-group">
-          <label for="searchModalQuery">搜索查询 <span class="hint">(自然语言描述)</span></label>
-          <textarea id="searchModalQuery" rows="2" placeholder="例: 在建筑领域法规对比的chatbot/agent"></textarea>
+          <label for="searchModalQuery" data-i18n="label_search_query_short">搜索查询 <span class="hint">(自然语言描述)</span></label>
+          <textarea id="searchModalQuery" rows="2" data-i18n-placeholder="ph_search_query" placeholder="例: 在建筑领域法规对比的chatbot/agent"></textarea>
         </div>
         <div class="field-group">
-          <label for="searchModalKeywords">关键词组</label>
+          <label for="searchModalKeywords" data-i18n="label_keyword_groups_short">关键词组</label>
           <textarea id="searchModalKeywords" rows="4" placeholder="building code, compliance checking, NLP&#10;building regulation, chatbot, construction"></textarea>
           <div style="margin-top:8px;">
-            <button class="btn btn-outline btn-sm" onclick="generateModalKeywords()">🤖 从查询生成关键词</button>
+            <button class="btn btn-outline btn-sm" onclick="generateModalKeywords()" data-i18n="btn_generate_kw_from_query">🤖 从查询生成关键词</button>
           </div>
         </div>
         <div class="field-group inline">
           <div>
-            <label for="searchModalVenue">Venue 分组</label>
+            <label for="searchModalVenue" data-i18n="label_venue">Venue 分组</label>
             <select id="searchModalVenue">
-              <option value="any">不限</option>
+              <option value="any" data-i18n="venue_any_short">不限</option>
               <option value="top_cs_conference">Top CS Conference (会议)</option>
               <option value="top_construction_journal">Top Construction Journal (期刊)</option>
             </select>
           </div>
           <div>
-            <label for="searchModalMaxPerGroup">每组最大数量</label>
+            <label for="searchModalMaxPerGroup" data-i18n="label_max_per_group">每组最大数量</label>
             <input type="number" id="searchModalMaxPerGroup" min="5" max="100" value="25">
           </div>
           <div>
-            <label for="searchModalYearFrom">起始年份</label>
-            <input type="number" id="searchModalYearFrom" min="2000" max="2026" placeholder="不限">
+            <label for="searchModalYearFrom" data-i18n="label_year_from">起始年份</label>
+            <input type="number" id="searchModalYearFrom" min="2000" max="2026" data-i18n-placeholder="ph_no_limit" placeholder="不限">
           </div>
         </div>
       </div>
       <div class="modal-footer">
-        <button class="btn btn-outline" onclick="closeSearchProfileModal()">取消</button>
-        <button class="btn btn-primary" onclick="saveSearchProfile()">保存</button>
+        <button class="btn btn-outline" onclick="closeSearchProfileModal()" data-i18n="btn_cancel">取消</button>
+        <button class="btn btn-primary" onclick="saveSearchProfile()" data-i18n="btn_save">保存</button>
       </div>
     </div>
   </div>
