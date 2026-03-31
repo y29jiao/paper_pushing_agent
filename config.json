@@ -96,14 +96,11 @@
           "NLP"
         ]
       ],
-<<<<<<< HEAD
-      "sources": ["semantic_scholar", "openalex", "openreview"],
-=======
       "sources": [
         "semantic_scholar",
-        "openalex"
+        "openalex",
+        "openreview"
       ],
->>>>>>> 15741727b6606c36d800a4e88c4e847892a2194a
       "venue_filter": "any",
       "max_per_group": 25,
       "year_from": 2024
