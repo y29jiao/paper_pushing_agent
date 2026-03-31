@@ -68,9 +68,10 @@ def save_results_markdown(profile_results: dict[str, list[dict]], output_dir: st
                     author_str += " et al."
                 lines.append(f"**Authors:** {author_str}")
 
-            # Abstract summary (first 2 sentences or relevance_reason + summary_zh if available)
-            if paper.get("summary_zh"):
-                lines.append(f"\n> **Summary:** {paper['summary_zh']}")
+            # Abstract summary (first 2 sentences or relevance_reason + summary_text if available)
+            summary_text = paper.get("summary_text") or paper.get("summary_zh")
+            if summary_text:
+                lines.append(f"\n> **Summary:** {summary_text}")
             if paper.get("relevance_reason"):
                 lines.append(f"> **Relevance:** {paper['relevance_reason']}")
 
@@ -135,6 +136,7 @@ def run(config_path="config.json", history_path="history.json", search_only=Fals
     # ── Determine which profiles to run ──
     profiles = config.get("push_profiles", config.get("profiles", []))
     venue_groups = config.get("venue_groups", {})
+    summary_language = config.get("global", {}).get("summary_language", "zh")
 
     if trigger_query:
         profiles_to_run = [{
@@ -290,6 +292,7 @@ def run(config_path="config.json", history_path="history.json", search_only=Fals
                 enriched = filter_and_summarize(
                     papers=papers, user_query=query, client=client,
                     model=gpt_model_summary, target_count=count,
+                    output_language=summary_language,
                 )
                 print(f"  Selected {len(enriched)} papers")
             except Exception as e:
@@ -322,9 +325,13 @@ def run(config_path="config.json", history_path="history.json", search_only=Fals
     if has_email and not search_only:
         from src.email_sender import build_email_html, send_email
         now = get_mdt_now()
-        push_time = now.strftime("%Y年%m月%d日 %A %H:%M (MDT)")
-        html = build_email_html(profile_results, push_time)
-        subject = f"Paper Agent — {now.strftime('%m/%d')} | {total_papers} papers"
+        if summary_language == "en":
+            push_time = now.strftime("%Y-%m-%d %A %H:%M (MDT)")
+            subject = f"Paper Agent — {now.strftime('%m/%d')} | {total_papers} papers"
+        else:
+            push_time = now.strftime("%Y年%m月%d日 %A %H:%M (MDT)")
+            subject = f"Paper Agent — {now.strftime('%m/%d')} | {total_papers} 篇论文"
+        html = build_email_html(profile_results, push_time, summary_language=summary_language)
 
         print("[Step 6] Sending email...")
         try:

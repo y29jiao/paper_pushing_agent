@@ -55,6 +55,9 @@ const I18N = {
     btn_add: "+ 添加",
     settings_title: "⚙️ 设置",
     label_email: "📧 推送邮箱", label_timezone: "🕐 时区",
+    label_summary_language: "📝 摘要语言",
+    summary_lang_zh: "中文",
+    summary_lang_en: "English",
     label_schedule: "📅 定时推送", label_push_time: "⏰ 推送时间",
     day_mon: "周一", day_tue: "周二", day_wed: "周三", day_thu: "周四",
     day_fri: "周五", day_sat: "周六", day_sun: "周日",
@@ -135,6 +138,9 @@ const I18N = {
     btn_add: "+ Add",
     settings_title: "⚙️ Settings",
     label_email: "📧 Email", label_timezone: "🕐 Timezone",
+    label_summary_language: "📝 Summary Language",
+    summary_lang_zh: "Chinese",
+    summary_lang_en: "English",
     label_schedule: "📅 Schedule", label_push_time: "⏰ Push Time",
     day_mon: "Mon", day_tue: "Tue", day_wed: "Wed", day_thu: "Thu",
     day_fri: "Fri", day_sat: "Sat", day_sun: "Sun",
@@ -1099,6 +1105,7 @@ function renderSettings() {
   const g = config.global;
   document.getElementById("settEmail").value = g.email || "";
   document.getElementById("settTimezone").value = g.timezone || "America/Edmonton";
+  document.getElementById("settSummaryLanguage").value = g.summary_language || "zh";
   if (g.schedule) {
     const days = g.schedule.days || [];
     ["Mon","Tue","Wed","Thu","Fri","Sat","Sun"].forEach(d => {
@@ -1124,6 +1131,7 @@ function saveSettings() {
   if (!config.global) config.global = {};
   config.global.email = document.getElementById("settEmail").value.trim();
   config.global.timezone = document.getElementById("settTimezone").value;
+  config.global.summary_language = document.getElementById("settSummaryLanguage").value || "zh";
   const days = [];
   if (document.getElementById("schedMon").checked) days.push("monday");
   if (document.getElementById("schedTue").checked) days.push("tuesday");

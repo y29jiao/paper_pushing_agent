@@ -129,6 +129,7 @@
   },
   "global": {
     "timezone": "America/Edmonton",
+    "summary_language": "zh",
     "schedule": {
       "days": [
         "monday",

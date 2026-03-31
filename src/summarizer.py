@@ -26,16 +26,16 @@ SUMMARIZE_SCHEMA = {
                                 "type": "string",
                                 "description": "1-2 sentences explaining why this paper matches the user's need"
                             },
-                            "summary_zh": {
+                            "summary_text": {
                                 "type": "string",
-                                "description": "Chinese summary (3-5 sentences) highlighting key contributions, methods, and results"
+                                "description": "Summary (3-5 sentences) highlighting key contributions, methods, and results"
                             },
                             "relevance_score": {
                                 "type": "number",
                                 "description": "Relevance score from 0 to 1"
                             }
                         },
-                        "required": ["index", "relevance_reason", "summary_zh", "relevance_score"],
+                        "required": ["index", "relevance_reason", "summary_text", "relevance_score"],
                         "additionalProperties": False
                     }
                 }
@@ -46,11 +46,11 @@ SUMMARIZE_SCHEMA = {
     }
 }
 
-SYSTEM_PROMPT = """You are an expert research paper reviewer. Your job is to:
+SYSTEM_PROMPT_TEMPLATE = """You are an expert research paper reviewer. Your job is to:
 
 1. Filter candidate papers based on the user's original request - only keep papers that are genuinely relevant.
-2. For each selected paper, explain WHY it's relevant (1-2 sentences, in Chinese).
-3. Write a Chinese summary (3-5 sentences) that highlights:
+2. For each selected paper, explain WHY it's relevant (1-2 sentences, in {language_name}).
+3. Write a {language_name} summary (3-5 sentences) that highlights:
    - The core contribution/novelty
    - The method/approach used
    - Key results or findings
@@ -61,7 +61,7 @@ Be strict in filtering. If a paper's abstract doesn't clearly match the user's n
 If the user wants implementation/engineering papers, prioritize those with concrete systems, frameworks, or experiments.
 If the user wants theoretical papers, prioritize those with novel models or algorithms.
 
-Always write summaries in Chinese (简体中文). The relevance_reason should also be in Chinese.
+Always write summaries in {language_instruction}. The relevance_reason should also be in {language_instruction}.
 """
 
 
@@ -71,6 +71,7 @@ def filter_and_summarize(
     client: OpenAI,
     model: str = "gpt-5.4-mini",
     target_count: int | None = None,
+    output_language: str = "zh",
 ) -> list[dict]:
     """
     Use GPT to filter and summarize candidate papers.
@@ -114,10 +115,16 @@ def filter_and_summarize(
 Candidate papers:
 {candidates_text}"""
 
+    language_name = "Simplified Chinese" if output_language == "zh" else "English"
+    system_prompt = SYSTEM_PROMPT_TEMPLATE.format(
+        language_name=language_name,
+        language_instruction=language_name,
+    )
+
     response = client.chat.completions.create(
         model=model,
         messages=[
-            {"role": "system", "content": SYSTEM_PROMPT},
+            {"role": "system", "content": system_prompt},
             {"role": "user", "content": user_message},
         ],
         response_format=SUMMARIZE_SCHEMA,
@@ -132,10 +139,12 @@ Candidate papers:
         idx = selection["index"]
         if 0 <= idx < len(papers):
             paper = papers[idx]
+            summary_text = selection["summary_text"]
             enriched.append({
                 **paper.to_dict(),
                 "relevance_reason": selection["relevance_reason"],
-                "summary_zh": selection["summary_zh"],
+                "summary_text": summary_text,
+                "summary_zh": summary_text if output_language == "zh" else paper.to_dict().get("summary_zh"),
                 "relevance_score": selection["relevance_score"],
             })
 
