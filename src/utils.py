@@ -5,6 +5,7 @@ import hashlib
 import os
 import re
 from datetime import datetime, timezone, timedelta
+from zoneinfo import ZoneInfo, ZoneInfoNotFoundError
 
 
 def load_config(path="config.json"):
@@ -46,10 +47,18 @@ def title_hash(title: str) -> str:
     return hashlib.md5(normalize_title(title).encode()).hexdigest()
 
 
+def get_local_now(timezone_name: str = "America/Edmonton"):
+    """Get current time in the configured IANA timezone."""
+    try:
+        return datetime.now(ZoneInfo(timezone_name))
+    except ZoneInfoNotFoundError:
+        fallback = timezone(timedelta(hours=-6))
+        return datetime.now(fallback)
+
+
 def get_mdt_now():
-    """Get current time in MDT (UTC-6)."""
-    mdt = timezone(timedelta(hours=-6))
-    return datetime.now(mdt)
+    """Backward-compatible helper for legacy callers."""
+    return get_local_now("America/Edmonton")
 
 
 def get_env_or_default(env_key: str, default=None):

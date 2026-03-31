@@ -207,7 +207,7 @@ def run(config_path="config.json", history_path="history.json", search_only=Fals
         search_max = count * 5 if not search_only else count * 3
 
         # Check if profile has explicit keyword groups
-        keyword_groups = profile.get("search_keyword_groups")
+        keyword_groups = profile.get("search_keyword_groups") or profile.get("keyword_groups")
         if keyword_groups:
             print(f"  Using {len(keyword_groups)} keyword groups from profile config")
             papers = []

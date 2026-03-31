@@ -17,7 +17,7 @@
     {
       "id": "construction_ai",
       "name": "Construction + AI/ML",
-      "query": "应用agent技术于civil engineering的论文",
+      "query": "papers on agent-based AI applications in civil engineering",
       "sources": [
         "semantic_scholar",
         "openalex",
@@ -47,7 +47,7 @@
     {
       "id": "civil_regulation_chatbot_search",
       "name": "Civil Engineering Regulation Chatbot/Agent",
-      "query": "土木工程领域法规对比的chatbot/agent",
+      "query": "chatbot or agent for regulation comparison in civil engineering",
       "keyword_groups": [
         [
           "building code",
