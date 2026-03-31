@@ -9,7 +9,7 @@ def rerank_papers(
     query: str,
     client,
     top_k: int,
-    model: str = "text-embedding-3-small",
+    model: str = "text-embedding-3-large",
     keyword_weight: float = 0.3,
     embedding_weight: float = 0.7,
 ) -> list[PaperResult]:
