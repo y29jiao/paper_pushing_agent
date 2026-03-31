@@ -1,3 +1,5 @@
+[简体中文](./README.md) | [English](./README.en.md)
+
 # 📚 Paper Agent
 
 自动化学术论文推送 + 搜索系统。支持定时推送和主动搜索两种模式，GPT 生成中文摘要，通过邮件推送或在 Web UI 中直接浏览结果。
