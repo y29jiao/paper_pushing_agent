@@ -11,7 +11,7 @@ from .openalex import OpenAlexSearcher
 OPENREVIEW_VENUES = {"ICLR", "NeurIPS", "ICML", "ACL", "EMNLP", "CVPR", "KDD", "AAAI"}
 
 # Venue groups that indicate journal-heavy (not conference) profiles
-JOURNAL_VENUE_GROUPS = {"construction"}
+JOURNAL_VENUE_GROUPS = {"top_construction_journal"}
 
 
 class SearchRouter:
@@ -30,6 +30,7 @@ class SearchRouter:
         venue_list: list[str],
         max_results: int = 20,
         year_from: Optional[int] = None,
+        all_venue_groups: Optional[dict[str, list[str]]] = None,
     ) -> list[PaperResult]:
         """
         Search across multiple sources with smart priority ordering.
@@ -37,10 +38,11 @@ class SearchRouter:
         Args:
             keywords: Search keywords from GPT parsing
             sources: List of source names enabled for this profile
-            venue_filter_name: Name of the venue group (e.g., "top_ai", "construction")
+            venue_filter_name: Name of the venue group (e.g., "top_cs_conference", "top_construction_journal")
             venue_list: Actual list of venue/journal names
             max_results: Maximum total results desired
             year_from: Only return papers from this year onward
+            all_venue_groups: All venue groups from config (used for priority boost in "any" mode)
         """
         all_results = []
         seen_titles = set()  # for dedup across sources
@@ -67,6 +69,10 @@ class SearchRouter:
                     seen_titles.add(norm_title)
                     all_results.append(paper)
 
+        # When venue_filter is "any", boost papers from known top venues
+        if venue_filter_name == "any" and all_venue_groups:
+            all_results = self._boost_top_venues(all_results, all_venue_groups)
+
         print(f"[Router] Total unique papers: {len(all_results)}")
         return all_results[:max_results]
 
@@ -80,13 +86,39 @@ class SearchRouter:
         """
         if venue_filter_name in JOURNAL_VENUE_GROUPS:
             priority = ["openalex", "semantic_scholar", "openreview"]
-        elif venue_filter_name == "top_ai":
+        elif venue_filter_name == "top_cs_conference":
             priority = ["semantic_scholar", "openreview", "openalex"]
         else:
             priority = ["semantic_scholar", "openalex", "openreview"]
 
         # Only include sources that are enabled for this profile
         return [s for s in priority if s in sources]
+
+    def _boost_top_venues(self, papers: list[PaperResult], venue_groups: dict[str, list[str]]) -> list[PaperResult]:
+        """
+        Sort papers so that those from known top venues appear first.
+        Papers from top venues are prioritized while preserving relative order within each group.
+        """
+        # Collect all known top venue names (lowercase for matching)
+        top_venues_lower = set()
+        for group_name, venues in venue_groups.items():
+            if group_name != "any" and venues:
+                for v in venues:
+                    top_venues_lower.add(v.lower())
+
+        def is_top_venue(paper: PaperResult) -> bool:
+            if not paper.venue:
+                return False
+            venue_lower = paper.venue.lower()
+            return any(tv in venue_lower or venue_lower in tv for tv in top_venues_lower)
+
+        top = [p for p in papers if is_top_venue(p)]
+        rest = [p for p in papers if not is_top_venue(p)]
+
+        if top:
+            print(f"[Router] Venue boost: {len(top)} papers from top venues prioritized")
+
+        return top + rest
 
     def _search_source(
         self,

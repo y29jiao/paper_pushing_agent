@@ -147,6 +147,7 @@ async function startSearch() {
   const keywordGroupsRaw = document.getElementById("searchKeywordGroups").value.trim();
   const maxPerGroup = parseInt(document.getElementById("searchMaxResults").value) || 25;
   const yearFrom = parseInt(document.getElementById("searchYearFrom").value) || null;
+  const venueFilter = document.getElementById("searchVenueFilter").value;
 
   if (!query && !keywordGroupsRaw) {
     showToast("请输入搜索查询或关键词组");
@@ -208,6 +209,7 @@ async function startSearch() {
     }
 
     searchResults = scoreAndSort(searchResults, query, keywordGroups);
+    searchResults = applyVenueFilter(searchResults, venueFilter);
     renderSearchResults(searchResults);
 
     statusEl.classList.remove("loading");
@@ -235,6 +237,32 @@ function autoGenerateKeywordGroups(query) {
   if (words.length >= 3) groups.push([words[0], words[words.length - 1]]);
   if (groups.length === 0) groups.push(words);
   return groups;
+}
+
+const VENUE_GROUPS = {
+  top_cs_conference: ["ICLR", "NeurIPS", "ICML", "ACL", "EMNLP", "CVPR", "KDD", "AAAI"],
+  top_construction_journal: [
+    "Automation in Construction", "Advanced Engineering Informatics",
+    "Journal of Computing in Civil Engineering", "Building and Environment",
+    "Journal of Construction Engineering and Management", "Engineering Structures",
+  ],
+};
+
+function applyVenueFilter(papers, venueFilter) {
+  if (!venueFilter || venueFilter === "any") {
+    // "any" mode: boost top venue papers to the front
+    const allVenues = Object.values(VENUE_GROUPS).flat().map(v => v.toLowerCase());
+    const isTop = p => p.venue && allVenues.some(v => p.venue.toLowerCase().includes(v) || v.includes(p.venue.toLowerCase()));
+    const top = papers.filter(p => isTop(p));
+    const rest = papers.filter(p => !isTop(p));
+    return [...top, ...rest];
+  }
+  // Specific venue group: only keep papers matching that group
+  const venues = (VENUE_GROUPS[venueFilter] || []).map(v => v.toLowerCase());
+  if (!venues.length) return papers;
+  return papers.filter(p =>
+    p.venue && venues.some(v => p.venue.toLowerCase().includes(v) || v.includes(p.venue.toLowerCase()))
+  );
 }
 
 // ── Semantic Scholar API ──
@@ -676,7 +704,7 @@ function savePushProfile() {
   const pushYearVal = document.getElementById("pushModalYearFrom").value.trim();
   const profile = {
     id, name, query,
-    sources: ["semantic_scholar", "openalex"],
+    sources: ["semantic_scholar", "openalex", "openreview"],
     venue_filter: document.getElementById("pushModalVenue").value,
     count: parseInt(document.getElementById("pushModalCount").value) || 5,
     year_from: pushYearVal ? parseInt(pushYearVal) : null,
@@ -747,6 +775,7 @@ function loadSearchProfile(index) {
   const kwGroups = (p.keyword_groups || []);
   const kwArea = document.getElementById("searchKeywordGroups");
   kwArea.value = kwGroups.length > 0 ? kwGroups.map(g => g.join(", ")).join("\n") : "";
+  document.getElementById("searchVenueFilter").value = p.venue_filter || "any";
   document.getElementById("searchMaxResults").value = p.max_per_group || 25;
   document.getElementById("searchYearFrom").value = p.year_from || "";
   showToast(`已加载搜索 Profile "${p.name}"`);
@@ -762,6 +791,7 @@ function openSearchProfileModal(index = -1) {
     document.getElementById("searchModalName").value = p.name;
     document.getElementById("searchModalQuery").value = p.query || "";
     document.getElementById("searchModalKeywords").value = (p.keyword_groups || []).map(g => g.join(", ")).join("\n");
+    document.getElementById("searchModalVenue").value = p.venue_filter || "any";
     document.getElementById("searchModalMaxPerGroup").value = p.max_per_group || 25;
     document.getElementById("searchModalYearFrom").value = p.year_from || "";
   } else {
@@ -769,6 +799,7 @@ function openSearchProfileModal(index = -1) {
     document.getElementById("searchModalName").value = "";
     document.getElementById("searchModalQuery").value = "";
     document.getElementById("searchModalKeywords").value = "";
+    document.getElementById("searchModalVenue").value = "any";
     document.getElementById("searchModalMaxPerGroup").value = 25;
     document.getElementById("searchModalYearFrom").value = "";
   }
@@ -794,6 +825,8 @@ function saveSearchProfile() {
   const yearVal = document.getElementById("searchModalYearFrom").value;
   const profile = {
     id, name, query, keyword_groups,
+    sources: ["semantic_scholar", "openalex", "openreview"],
+    venue_filter: document.getElementById("searchModalVenue").value,
     max_per_group: parseInt(document.getElementById("searchModalMaxPerGroup").value) || 25,
     year_from: yearVal ? parseInt(yearVal) : null,
   };

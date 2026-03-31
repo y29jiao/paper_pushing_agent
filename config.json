@@ -6,9 +6,10 @@
       "query": "chatbot or agent for code and regulation comparison",
       "sources": [
         "semantic_scholar",
-        "openalex"
+        "openalex",
+        "openreview"
       ],
-      "venue_filter": "top_ai",
+      "venue_filter": "top_cs_conference",
       "count": 10,
       "year_from": 2023,
       "active": true
@@ -19,9 +20,10 @@
       "query": "应用agent技术于civil engineering的论文",
       "sources": [
         "semantic_scholar",
-        "openalex"
+        "openalex",
+        "openreview"
       ],
-      "venue_filter": "construction",
+      "venue_filter": "top_construction_journal",
       "count": 5,
       "year_from": 2023,
       "active": false
@@ -32,7 +34,8 @@
       "query": "chatbot or agent for code and regulation comparison in civil engineering",
       "sources": [
         "semantic_scholar",
-        "openalex"
+        "openalex",
+        "openreview"
       ],
       "venue_filter": "any",
       "count": 10,
@@ -93,12 +96,14 @@
           "NLP"
         ]
       ],
+      "sources": ["semantic_scholar", "openalex", "openreview"],
+      "venue_filter": "any",
       "max_per_group": 25,
       "year_from": 2024
     }
   ],
   "venue_groups": {
-    "top_ai": [
+    "top_cs_conference": [
       "ICLR",
       "NeurIPS",
       "ICML",
@@ -108,7 +113,7 @@
       "KDD",
       "AAAI"
     ],
-    "construction": [
+    "top_construction_journal": [
       "Automation in Construction",
       "Advanced Engineering Informatics",
       "Journal of Computing in Civil Engineering",

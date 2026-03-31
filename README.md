@@ -1,15 +1,26 @@
 # 📚 Paper Agent
 
-自动化学术论文推送系统。定时检索论文，GPT 生成中文摘要，通过邮件推送。
+自动化学术论文推送 + 搜索系统。支持定时推送和主动搜索两种模式，GPT 生成中文摘要，通过邮件推送或在 Web UI 中直接浏览结果。
 
 ## 功能
 
+### 推送模式（Push Mode）
 - **定时推送**：每周一/周四早 8 点自动推送（可配置）
-- **主动推送**：通过 Web UI 或 GitHub Actions 手动触发
-- **多 Profile**：支持多个搜索方向同时运行（如 AI + Construction）
+- **手动推送**：通过 Web UI 或 GitHub Actions 手动触发
+- **多 Profile**：支持多个搜索方向同时运行
 - **三级数据源**：Semantic Scholar + OpenReview + OpenAlex
 - **智能去重**：跨数据源去重 + 历史去重，不会重复推送
 - **GPT 摘要**：自动生成中文总结和推荐理由
+- **语义重排（Embedding Reranking）**：用 OpenAI Embedding 对论文做语义相似度排序，找到关键词搜不到但语义相关的论文
+- **起始年份**：每个 Profile 可设定 `year_from`，只检索该年份之后的论文
+- **Venue 分组**：可指定只看顶会/顶刊论文，或不限但优先展示 top venue
+
+### 搜索模式（Search Mode）
+- **Web UI 直接搜索**：在浏览器中实时检索三大数据源
+- **关键词组**：支持手动编辑或 GPT 自动生成多组关键词
+- **Venue 分组筛选**：搜索结果可按 venue 分组过滤或优先排序
+- **起始年份**：可设定只搜索某年之后的论文
+- **搜索 Profile**：保存常用的搜索配置，一键加载
 
 ## 快速开始
 
@@ -44,15 +55,28 @@ cd paper-agent
 
 ```json
 {
-  "profiles": [
+  "push_profiles": [
     {
       "id": "my_topic",
       "name": "我的研究方向",
       "query": "用自然语言描述你想找什么论文",
-      "sources": ["semantic_scholar", "openreview", "openalex"],
-      "venue_filter": "top_ai",
+      "sources": ["semantic_scholar", "openalex", "openreview"],
+      "venue_filter": "top_cs_conference",
       "count": 5,
+      "year_from": 2023,
       "active": true
+    }
+  ],
+  "search_profiles": [
+    {
+      "id": "my_search",
+      "name": "我的搜索方向",
+      "query": "搜索描述",
+      "keyword_groups": [["keyword1", "keyword2"], ["keyword3", "keyword4"]],
+      "sources": ["semantic_scholar", "openalex", "openreview"],
+      "venue_filter": "any",
+      "max_per_group": 25,
+      "year_from": 2024
     }
   ],
   "global": {
@@ -65,11 +89,8 @@ cd paper-agent
 
 1. **Settings → Pages**
 2. Source 选择 **Deploy from a branch**
-3. Branch 选择 `main`，文件夹选择 `/web`（或将 web 内容放在 `/docs`）
+3. Branch 选择 `main`，文件夹选择 `/docs`
 4. 保存后访问 `https://YOUR_USERNAME.github.io/paper-agent/`
-
-> **注意**：GitHub Pages 默认从 root 或 `/docs` 部署。如需从 `/web` 部署，
-> 可将 web 文件夹重命名为 `docs`，或使用 GitHub Actions 部署 Pages。
 
 ### 5. 配置 Web UI
 
@@ -107,13 +128,44 @@ export GMAIL_APP_PASSWORD="xxxx xxxx xxxx xxxx"
 python src/main.py
 ```
 
+### Web UI 搜索
+打开 Web UI → 切换到「搜索」面板 → 输入查询或加载搜索 Profile → 选择 Venue 分组和起始年份 → 点击「开始搜索」
+
+## Profile 配置
+
+### 推送 Profile（push_profiles）
+
+| 字段 | 说明 |
+|---|---|
+| `id` | 唯一标识 |
+| `name` | 显示名称 |
+| `query` | 自然语言搜索描述（GPT 会自动解析成关键词） |
+| `sources` | 数据源列表（`semantic_scholar`、`openalex`、`openreview`） |
+| `venue_filter` | Venue 分组名（见下表） |
+| `count` | 每次推送的目标论文数量 |
+| `year_from` | 起始年份，只检索该年份及之后的论文（可选） |
+| `active` | 是否启用 |
+
+### 搜索 Profile（search_profiles）
+
+| 字段 | 说明 |
+|---|---|
+| `id` | 唯一标识 |
+| `name` | 显示名称 |
+| `query` | 自然语言搜索描述 |
+| `keyword_groups` | 关键词组（每组为一个字符串数组） |
+| `sources` | 数据源列表 |
+| `venue_filter` | Venue 分组名（见下表） |
+| `max_per_group` | 每组关键词最大检索数量 |
+| `year_from` | 起始年份（可选） |
+
 ## Venue 分组
 
 | 分组 | 包含 |
 |---|---|
-| `top_ai` | ICLR, NeurIPS, ICML, ACL, EMNLP, CVPR, KDD, AAAI |
-| `construction` | Automation in Construction, Advanced Engineering Informatics, J. Computing in Civil Eng., Building and Environment, J. Constr. Eng. Mgmt., Engineering Structures |
-| `any` | 不限制 venue |
+| `top_cs_conference` | ICLR, NeurIPS, ICML, ACL, EMNLP, CVPR, KDD, AAAI |
+| `top_construction_journal` | Automation in Construction, Advanced Engineering Informatics, J. Computing in Civil Eng., Building and Environment, J. Constr. Eng. Mgmt., Engineering Structures |
+| `any` | 不限制 venue（但优先展示来自 top venue 的论文） |
 
 可在 `config.json` 的 `venue_groups` 中自由添加新分组。
 
@@ -128,6 +180,7 @@ paper-agent/
 │   ├── main.py              # 主流程
 │   ├── query_parser.py      # GPT 意图解析
 │   ├── summarizer.py        # GPT 筛选 + 中文摘要
+│   ├── reranker.py          # Embedding 语义重排
 │   ├── dedup.py             # 跨源 + 历史去重
 │   ├── email_sender.py      # Gmail SMTP + HTML 模板
 │   ├── utils.py             # 工具函数
@@ -136,8 +189,8 @@ paper-agent/
 │       ├── semantic_scholar.py
 │       ├── openreview.py
 │       ├── openalex.py
-│       └── router.py        # 智能数据源路由
-├── web/                     # GitHub Pages 前端
+│       └── router.py        # 智能数据源路由 + venue 优先级
+├── docs/                    # GitHub Pages 前端（Web UI）
 │   ├── index.html
 │   ├── style.css
 │   └── app.js
@@ -147,7 +200,12 @@ paper-agent/
 
 ## GPT 模型
 
-默认使用 `gpt-5.2`。可通过 GitHub Secret `GPT_MODEL` 修改，例如设为 `gpt-4o` 或 `gpt-4o-mini`。
+| 环境变量 | 默认值 | 用途 |
+|---|---|---|
+| `GPT_MODEL_KEYWORD` | `gpt-5.4` | 关键词解析 |
+| `GPT_MODEL_SUMMARY` | `gpt-5.4-mini` | 论文筛选 + 中文摘要生成 |
+
+可通过 GitHub Secrets 中设置对应环境变量来修改模型。
 
 ## License
 

@@ -57,6 +57,14 @@
           </div>
           <div class="field-group inline">
             <div>
+              <label for="searchVenueFilter">Venue 分组</label>
+              <select id="searchVenueFilter">
+                <option value="any">不限（Top venue 优先）</option>
+                <option value="top_cs_conference">Top CS Conference (会议)</option>
+                <option value="top_construction_journal">Top Construction Journal (期刊)</option>
+              </select>
+            </div>
+            <div>
               <label for="searchMaxResults">每组最大数量</label>
               <input type="number" id="searchMaxResults" min="5" max="100" value="25">
             </div>
@@ -242,8 +250,8 @@
             <label for="pushModalVenue">Venue 分组</label>
             <select id="pushModalVenue">
               <option value="any">不限</option>
-              <option value="top_ai">Top AI (会议)</option>
-              <option value="construction">Construction (期刊)</option>
+              <option value="top_cs_conference">Top CS Conference (会议)</option>
+              <option value="top_construction_journal">Top Construction Journal (期刊)</option>
             </select>
           </div>
           <div>
@@ -288,6 +296,14 @@
           </div>
         </div>
         <div class="field-group inline">
+          <div>
+            <label for="searchModalVenue">Venue 分组</label>
+            <select id="searchModalVenue">
+              <option value="any">不限</option>
+              <option value="top_cs_conference">Top CS Conference (会议)</option>
+              <option value="top_construction_journal">Top Construction Journal (期刊)</option>
+            </select>
+          </div>
           <div>
             <label for="searchModalMaxPerGroup">每组最大数量</label>
             <input type="number" id="searchModalMaxPerGroup" min="5" max="100" value="25">

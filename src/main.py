@@ -204,7 +204,7 @@ def run(config_path="config.json", history_path="history.json", search_only=Fals
 
         # Step 2: Search
         print("[Step 2] Searching papers...")
-        search_max = count * 3  # fetch extra for filtering
+        search_max = count * 5 if not search_only else count * 3
 
         # Check if profile has explicit keyword groups
         keyword_groups = profile.get("search_keyword_groups")
@@ -220,6 +220,7 @@ def run(config_path="config.json", history_path="history.json", search_only=Fals
                     venue_list=venue_list,
                     max_results=search_max // len(keyword_groups) + 10,
                     year_from=parsed.get("year_from"),
+                    all_venue_groups=venue_groups,
                 )
                 papers.extend(group_papers)
                 print(f"    Found {len(group_papers)} papers (total so far: {len(papers)})")
@@ -231,6 +232,7 @@ def run(config_path="config.json", history_path="history.json", search_only=Fals
                 venue_list=venue_list,
                 max_results=search_max,
                 year_from=parsed.get("year_from"),
+                all_venue_groups=venue_groups,
             )
             print(f"  Found {len(papers)} papers with primary keywords")
 
@@ -244,6 +246,7 @@ def run(config_path="config.json", history_path="history.json", search_only=Fals
                     venue_list=venue_list,
                     max_results=search_max,
                     year_from=parsed.get("year_from"),
+                    all_venue_groups=venue_groups,
                 )
                 papers.extend(alt_papers)
                 print(f"  Total after alt search: {len(papers)}")
@@ -257,6 +260,21 @@ def run(config_path="config.json", history_path="history.json", search_only=Fals
             print("  No new papers found for this profile")
             profile_results[profile_name] = []
             continue
+
+        # Step 3.5: Semantic reranking with embeddings (push mode only)
+        if not search_only:
+            from src.reranker import rerank_papers
+            from openai import OpenAI
+            client = OpenAI(api_key=openai_api_key)
+            rerank_top_k = min(count * 2, len(papers))
+            print(f"[Step 3.5] Semantic reranking {len(papers)} papers -> top {rerank_top_k}...")
+            papers = rerank_papers(
+                papers=papers,
+                query=query,
+                client=client,
+                top_k=rerank_top_k,
+            )
+            print(f"  After reranking: {len(papers)} papers")
 
         # Step 4: Filter/summarize
         if search_only:
