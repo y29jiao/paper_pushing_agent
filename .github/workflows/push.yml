@@ -2,8 +2,7 @@ name: Paper Agent Push
 
 on:
   schedule:
-    # UTC 14:00 = MDT 08:00 (Mountain Daylight Time, UTC-6)
-    - cron: '0 14 * * 1,4'   # Monday and Thursday
+    - cron: '49 22 * * *'
   workflow_dispatch:
     inputs:
       query:

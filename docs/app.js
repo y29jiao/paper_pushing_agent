@@ -81,6 +81,8 @@ const I18N = {
     // Dynamic strings used in JS
     toast_config_loaded: "配置已从 GitHub 加载",
     toast_config_saved: "✅ 配置已保存到 GitHub",
+    toast_schedule_synced: "✅ 推送时间已同步到 GitHub Actions",
+    toast_schedule_sync_fail: "⚠️ 推送时间同步失败，请手动检查 workflow 文件",
     toast_fill_name_query: "请填写名称和搜索需求",
     toast_fill_name_query_kw: "请填写名称，以及搜索查询或关键词组",
     toast_id_exists: "ID 已存在",
@@ -163,6 +165,8 @@ const I18N = {
     btn_cancel: "Cancel", btn_save: "Save",
     toast_config_loaded: "Config loaded from GitHub",
     toast_config_saved: "✅ Config saved to GitHub",
+    toast_schedule_synced: "✅ Push schedule synced to GitHub Actions",
+    toast_schedule_sync_fail: "⚠️ Schedule sync failed, please check workflow file manually",
     toast_fill_name_query: "Please fill in name and query",
     toast_fill_name_query_kw: "Please fill in name, and query or keyword groups",
     toast_id_exists: "ID already exists",
@@ -800,6 +804,91 @@ async function loadConfigFromRepo() {
   } catch (e) { console.error("Failed to load config:", e); }
 }
 
+/**
+ * Convert config schedule (local timezone) to a GitHub Actions UTC cron expression.
+ * Returns e.g. "49 22 * * 1,2,3,4,5,6,0"
+ */
+function scheduleToCron(schedule, timezone) {
+  const dayMap = { monday: 1, tuesday: 2, wednesday: 3, thursday: 4, friday: 5, saturday: 6, sunday: 0 };
+  const localH = schedule.hour || 8;
+  const localM = schedule.minute || 0;
+  const days = schedule.days || [];
+  if (!days.length) return null;
+
+  // Use a known date to compute UTC offset for the given timezone.
+  // Pick next occurrence to get correct DST offset.
+  const probe = new Date();
+  const localStr = probe.toLocaleString("en-US", { timeZone: timezone });
+  const utcStr = probe.toLocaleString("en-US", { timeZone: "UTC" });
+  const offsetMs = new Date(localStr) - new Date(utcStr);
+  const offsetMin = Math.round(offsetMs / 60000); // positive = ahead of UTC
+
+  // Convert local time to UTC
+  let totalMin = localH * 60 + localM - offsetMin;
+  let dayShift = 0;
+  if (totalMin < 0) { totalMin += 1440; dayShift = -1; }
+  else if (totalMin >= 1440) { totalMin -= 1440; dayShift = 1; }
+  const utcH = Math.floor(totalMin / 60);
+  const utcM = totalMin % 60;
+
+  // Shift days if needed
+  let cronDays = days.map(d => {
+    let num = dayMap[d];
+    if (num === undefined) return null;
+    num = (num + dayShift + 7) % 7;
+    return num;
+  }).filter(d => d !== null);
+  cronDays = [...new Set(cronDays)].sort((a, b) => a - b);
+
+  return `${utcM} ${utcH} * * ${cronDays.join(",")}`;
+}
+
+/**
+ * Sync the schedule from config.json to .github/workflows/push.yml via GitHub API.
+ */
+async function syncWorkflowSchedule(schedule, timezone) {
+  if (!isConnected()) return;
+  const cron = scheduleToCron(schedule, timezone);
+  if (!cron) return;
+
+  try {
+    // Fetch current workflow file
+    const resp = await githubAPI("/contents/.github/workflows/push.yml");
+    if (!resp.ok) { console.warn("Could not fetch push.yml:", resp.status); return; }
+    const data = await resp.json();
+    const sha = data.sha;
+    const raw = atob(data.content.replace(/\n/g, ""));
+    const content = new TextDecoder("utf-8").decode(new Uint8Array([...raw].map(c => c.charCodeAt(0))));
+
+    // Replace the cron line
+    const updated = content.replace(
+      /- cron:\s*'[^']*'.*/,
+      `- cron: '${cron}'`
+    );
+
+    if (updated === content) { console.log("Cron line unchanged, skipping sync"); return; }
+
+    // Commit updated workflow
+    const bytes = new TextEncoder().encode(updated);
+    const b64 = btoa(String.fromCharCode(...bytes));
+    const putResp = await githubAPI("/contents/.github/workflows/push.yml", "PUT", {
+      message: "🔄 sync push schedule from web UI",
+      content: b64,
+      sha,
+    });
+    if (putResp.ok) {
+      showToast(t("toast_schedule_synced"));
+    } else {
+      const err = await putResp.json();
+      console.error("Workflow sync failed:", err);
+      showToast(t("toast_schedule_sync_fail"));
+    }
+  } catch (e) {
+    console.error("Workflow sync error:", e);
+    showToast(t("toast_schedule_sync_fail"));
+  }
+}
+
 async function saveConfigToRepo() {
   if (!isConnected() || !config) return;
   const sha = config._sha;
@@ -1143,6 +1232,9 @@ function saveSettings() {
   const [hour, minute] = document.getElementById("schedTime").value.split(":").map(Number);
   config.global.schedule = { days, hour: hour || 8, minute: minute || 0 };
   saveConfigToRepo();
+  // Sync schedule to GitHub Actions workflow cron
+  const tz = config.global.timezone || "America/Edmonton";
+  syncWorkflowSchedule(config.global.schedule, tz);
 }
 
 // ════════════════════════════════════════
