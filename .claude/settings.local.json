@@ -1,7 +1,0 @@
-{
-  "permissions": {
-    "allow": [
-      "Bash(/c/Users/Administrator/AppData/Local/Programs/Python/Python39/python.exe -m src.main --search-only)"
-    ]
-  }
-}

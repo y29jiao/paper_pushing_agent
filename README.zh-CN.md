@@ -26,6 +26,8 @@
 
 ## 快速开始
 
+当前仓库中的 `config.json` 是我自己的日常使用配置。你 clone 之后可以直接在 Web UI 里修改成你自己的 profiles 和设置。
+
 ### 1. Fork 或 Clone 仓库
 
 ```bash

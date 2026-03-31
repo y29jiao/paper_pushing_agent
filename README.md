@@ -26,6 +26,8 @@ An automated academic paper push + search system. It supports both scheduled pus
 
 ## Quick Start
 
+The current `config.json` in this repository is a personal working config. After cloning the repo, you can directly update your own profiles and settings from the Web UI.
+
 ### 1. Fork or clone the repository
 
 ```bash
