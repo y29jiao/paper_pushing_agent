@@ -11,7 +11,7 @@
       ],
       "venue_filter": "top_cs_conference",
       "count": 10,
-      "year_from": 2023,
+      "year_from": 2024,
       "active": true
     },
     {
@@ -39,7 +39,7 @@
       ],
       "venue_filter": "any",
       "count": 10,
-      "year_from": 2023,
+      "year_from": 2025,
       "active": true
     }
   ],
@@ -132,7 +132,12 @@
     "schedule": {
       "days": [
         "monday",
-        "thursday"
+        "tuesday",
+        "wednesday",
+        "thursday",
+        "friday",
+        "saturday",
+        "sunday"
       ],
       "hour": 8,
       "minute": 0
