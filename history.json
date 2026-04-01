@@ -1,1 +1,17 @@
-{"pushed_papers": [], "last_push": null}
+{
+  "pushed_papers": [
+    {
+      "title_hash": "69f312452f409b0d2e0d97093b288ef7",
+      "title": "User Privacy and Large Language Models: An Analysis of Frontier Developers’ Privacy Policies",
+      "doi": "10.1609/aies.v8i2.36646",
+      "pushed_at": "2026-04-01T13:33:13.330678-06:00"
+    },
+    {
+      "title_hash": "7073ba84f2ae709de32a6ed7791e14e4",
+      "title": "Agentic AI with retrieval-augmented generation for automated compliance assistance in finance",
+      "doi": "10.30574/ijsra.2025.15.2.1522",
+      "pushed_at": "2026-04-01T13:33:13.330678-06:00"
+    }
+  ],
+  "last_push": "2026-04-01T13:33:13.330678-06:00"
+}
