@@ -2,7 +2,7 @@ name: Paper Agent Push
 
 on:
   schedule:
-    - cron: '30 0 * * *'
+    - cron: '40 2 * * *'
   workflow_dispatch:
     inputs:
       query:
