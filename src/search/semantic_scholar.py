@@ -33,7 +33,7 @@ class SemanticScholarSearcher(BaseSearcher):
             if len(results) >= max_results:
                 break
             if i > 0:
-                time.sleep(5)  # Extra delay between query variants
+                time.sleep(2)  # Delay between query variants
             page_results = self._search_single_query(
                 query, venue_filter, max_results - len(results), year_from, seen_ids
             )
@@ -87,7 +87,7 @@ class SemanticScholarSearcher(BaseSearcher):
                 try:
                     resp = self.session.get(self.SEARCH_URL, params=params, timeout=30)
                     if resp.status_code == 429:
-                        wait = (attempt + 1) * 10
+                        wait = (attempt + 1) * 5
                         print(f"[SemanticScholar] Rate limited (429), waiting {wait}s... (attempt {attempt+1}/3)")
                         time.sleep(wait)
                         continue
@@ -158,7 +158,7 @@ class SemanticScholarSearcher(BaseSearcher):
             if offset >= total or len(papers) < per_page:
                 break
 
-            time.sleep(3)  # Rate limiting between pages
+            time.sleep(1.5)  # Rate limiting between pages
 
-        time.sleep(2)
+        time.sleep(1)
         return results
