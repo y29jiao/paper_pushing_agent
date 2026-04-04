@@ -131,7 +131,127 @@
       "title": "Artificial Intelligence on Trial: Who Is Responsible When Systems Fail? Toward a Framework for the U",
       "doi": "10.20944/preprints202506.0554.v1",
       "pushed_at": "2026-04-02T23:03:58.591617-06:00"
+    },
+    {
+      "title_hash": "7738d232b0d93d241dfa058756c30719",
+      "title": "Interactive Evaluation of Large Language Models for Multi-Requirement Software Engineering Tasks",
+      "doi": "10.1609/aaai.v40i39.40564",
+      "pushed_at": "2026-04-03T22:36:46.355380-06:00"
+    },
+    {
+      "title_hash": "e60b2152a71804a885ad0bebf13451da",
+      "title": "CodeHalu: Investigating Code Hallucinations in LLMs via Execution-based Verification",
+      "doi": "10.1609/aaai.v39i24.34717",
+      "pushed_at": "2026-04-03T22:36:46.355380-06:00"
+    },
+    {
+      "title_hash": "c2f422c0b3c7533dbc65bb6a6efb67c3",
+      "title": "Security Attacks on LLM-based Code Completion Tools",
+      "doi": "10.1609/aaai.v39i22.34537",
+      "pushed_at": "2026-04-03T22:36:46.355380-06:00"
+    },
+    {
+      "title_hash": "412a5b872a9759ee17af7c3c7ddcfd31",
+      "title": "ExploreGen: Large Language Models for Envisioning the Uses and Risks of AI Technologies",
+      "doi": "10.1609/aies.v7i1.31660",
+      "pushed_at": "2026-04-03T22:36:46.355380-06:00"
+    },
+    {
+      "title_hash": "4a591703b5e2429f9e0661484edc2201",
+      "title": "Habemus a Right to an Explanation: so What? – A Framework on Transparency-Explainability Functionali",
+      "doi": "10.1609/aies.v7i1.31700",
+      "pushed_at": "2026-04-03T22:36:46.355380-06:00"
+    },
+    {
+      "title_hash": "4e5c50fddc15a96c8186c6f3f1f1e91c",
+      "title": "Acceptable Use Policies for Foundation Models",
+      "doi": "10.1609/aies.v7i1.31677",
+      "pushed_at": "2026-04-03T22:36:46.355380-06:00"
+    },
+    {
+      "title_hash": "4811767f123e3a6b42ef626eeebb4969",
+      "title": "Bridging the Copyright Gap: Do Large Vision-Language Models Recognize and Respect Copyrighted Conten",
+      "doi": "10.1609/aaai.v40i42.40910",
+      "pushed_at": "2026-04-03T22:36:46.355380-06:00"
+    },
+    {
+      "title_hash": "afb350e57a37e65d50b139e4c9f1ba64",
+      "title": "SceneJailEval: A Scenario-Adaptive Multi-Dimensional Framework for Jailbreak Evaluation",
+      "doi": "10.1609/aaai.v40i42.40866",
+      "pushed_at": "2026-04-03T22:36:46.355380-06:00"
+    },
+    {
+      "title_hash": "6501d04f5856f691d16f06154bce358d",
+      "title": "From Benchmarks to Business Impact: Deploying IBM Generalist Agent in Enterprise Production",
+      "doi": "10.1609/aaai.v40i47.41485",
+      "pushed_at": "2026-04-03T22:36:46.355380-06:00"
+    },
+    {
+      "title_hash": "6e0c48234281f67ee9d6f83a247ec6c2",
+      "title": "EnronSR: A Benchmark for Evaluating AI-Generated Email Replies",
+      "doi": "10.1609/icwsm.v18i1.31448",
+      "pushed_at": "2026-04-03T22:36:46.355380-06:00"
+    },
+    {
+      "title_hash": "c68a930e750fe82271eaeebce9f10fd2",
+      "title": "Large Language Model-Driven Code Compliance Checking in Building Information Modeling",
+      "doi": "10.3390/electronics14112146",
+      "pushed_at": "2026-04-03T22:36:46.355380-06:00"
+    },
+    {
+      "title_hash": "651e2a293ba89fa7712ad29e750186ae",
+      "title": "LSDTs: LLM-Augmented Semantic Digital Twins for Adaptive Knowledge-Intensive Infrastructure Planning",
+      "doi": "10.1609/aaai.v40i45.41232",
+      "pushed_at": "2026-04-03T22:36:46.355380-06:00"
+    },
+    {
+      "title_hash": "6db58eacb713f67e52f2c14b87bced06",
+      "title": "Human–AI Teaming in Structural Analysis: A Model Context Protocol Approach for Explainable and Accur",
+      "doi": "10.3390/buildings15173190",
+      "pushed_at": "2026-04-03T22:36:46.355380-06:00"
+    },
+    {
+      "title_hash": "14f0a5c4c05de467b7a90cf976dee67e",
+      "title": "A Declarative Language for Building And Orchestrating LLM-Powered Agent Workflows",
+      "doi": "10.48550/arXiv.2512.19769",
+      "pushed_at": "2026-04-03T22:36:46.355380-06:00"
+    },
+    {
+      "title_hash": "a37b7caeb98fb01c8815b78fbf865ee0",
+      "title": "QLCoder: A Query Synthesizer For Static Analysis of Security Vulnerabilities",
+      "doi": "10.48550/arXiv.2511.08462",
+      "pushed_at": "2026-04-03T22:36:46.355380-06:00"
+    },
+    {
+      "title_hash": "793eece3927060a47984b48bee7a042d",
+      "title": "Trustworthy agentic AI systems: a cross-layer review of architectures, threat models, and governance",
+      "doi": "10.12688/f1000research.169927.1",
+      "pushed_at": "2026-04-03T22:36:46.355380-06:00"
+    },
+    {
+      "title_hash": "b4517ed6bdf00b442b3335bef2866f47",
+      "title": "Digital Platforms for the Built Environment: A Systematic Review Across Sectors and Scales",
+      "doi": "10.3390/buildings15142432",
+      "pushed_at": "2026-04-03T22:36:46.355380-06:00"
+    },
+    {
+      "title_hash": "33a6c8c06e1f7292ed5b999aca380a4b",
+      "title": "AI-Driven Digital Twins in Industrialized Offsite Construction: A Systematic Review",
+      "doi": "10.3390/buildings15172997",
+      "pushed_at": "2026-04-03T22:36:46.355380-06:00"
+    },
+    {
+      "title_hash": "e884a45a579395b74ecd64e8bd2ab5d7",
+      "title": "AI Large Models for Power System: A Survey and Outlook",
+      "doi": "10.1049/ses2.70000",
+      "pushed_at": "2026-04-03T22:36:46.355380-06:00"
+    },
+    {
+      "title_hash": "37639849879e28bf8b0665144fea7a17",
+      "title": "A Comparative Review of Large Language Models in Engineering with Emphasis on Chemical Engineering A",
+      "doi": "10.3390/pr13092680",
+      "pushed_at": "2026-04-03T22:36:46.355380-06:00"
     }
   ],
-  "last_push": "2026-04-02T23:03:58.591617-06:00"
+  "last_push": "2026-04-03T22:36:46.355380-06:00"
 }
