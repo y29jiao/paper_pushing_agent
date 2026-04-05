@@ -251,7 +251,133 @@
       "title": "A Comparative Review of Large Language Models in Engineering with Emphasis on Chemical Engineering A",
       "doi": "10.3390/pr13092680",
       "pushed_at": "2026-04-03T22:36:46.355380-06:00"
+    },
+    {
+      "title_hash": "345d88387756c2806a90db37fbdd2c4c",
+      "title": "Incident Analysis for AI Agents",
+      "doi": "10.1609/aies.v8i1.36596",
+      "pushed_at": "2026-04-04T23:08:37.633722-06:00"
+    },
+    {
+      "title_hash": "60c93ea22a605ef10e6488c4a0d978ff",
+      "title": "EchoLeak: The First Real-World Zero-Click Prompt InjectionExploit in a Production LLM System",
+      "doi": "10.1609/aaaiss.v7i1.36899",
+      "pushed_at": "2026-04-04T23:08:37.633722-06:00"
+    },
+    {
+      "title_hash": "32e78933180f3bc98e7f5857f13d8ab6",
+      "title": "Responsible AI in the OSS: Reconciling Innovation with Risk Assessment and Disclosure",
+      "doi": "10.1609/aies.v8i1.36567",
+      "pushed_at": "2026-04-04T23:08:37.633722-06:00"
+    },
+    {
+      "title_hash": "d6d0bb371bd4b96f01e60cddcc73e19f",
+      "title": "Aligning AI with Public Values: Deliberation and Decision-Making for Governing Multimodal LLMs in Po",
+      "doi": "10.1609/aies.v8i3.36720",
+      "pushed_at": "2026-04-04T23:08:37.633722-06:00"
+    },
+    {
+      "title_hash": "cee4f28f957eb538155debd8c521e55b",
+      "title": "Knowledge-Augmented Intelligent Bot Framework for Enabling Accessible Design",
+      "doi": "10.1609/icwsm.v19i1.35966",
+      "pushed_at": "2026-04-04T23:08:37.633722-06:00"
+    },
+    {
+      "title_hash": "479e5a395082ef5009638289e69d8f9e",
+      "title": "Generating Ontology-Learning Training-Data through Verbalization",
+      "doi": "10.1609/aaaiss.v4i1.31797",
+      "pushed_at": "2026-04-04T23:08:37.633722-06:00"
+    },
+    {
+      "title_hash": "c152a9f32b12a6bec04e74038acbbd6f",
+      "title": "Recording for Eyes, Not Echoing to Ears: Contextualized Spoken-to-Written Conversion of ASR Transcri",
+      "doi": "10.1609/aaai.v39i23.34642",
+      "pushed_at": "2026-04-04T23:08:37.633722-06:00"
+    },
+    {
+      "title_hash": "21e8cad2b36492fdd239aebf30d629bc",
+      "title": "How Are LLMs Mitigating Stereotyping Harms? Learning from Search Engine Studies",
+      "doi": "10.1609/aies.v7i1.31684",
+      "pushed_at": "2026-04-04T23:08:37.633722-06:00"
+    },
+    {
+      "title_hash": "73fb5576c6641df307ccc0f70afda891",
+      "title": "Hide or Highlight: Understanding the Impact of Factuality Expression on User Trust",
+      "doi": "10.1609/aies.v8i1.36589",
+      "pushed_at": "2026-04-04T23:08:37.633722-06:00"
+    },
+    {
+      "title_hash": "5257c25717268164eaf3fd6a6b128320",
+      "title": "Anthropomorphism as Social Affordance: Charting the Co-Animation of Chatbots into Social “Agents”",
+      "doi": "10.1609/aies.v8i2.36664",
+      "pushed_at": "2026-04-04T23:08:37.633722-06:00"
+    },
+    {
+      "title_hash": "7d968b9db60ca0b1f47d5c690ed23cb3",
+      "title": "Towards Experience-Centered AI: A Framework for Integrating Lived Experience in Design and Developme",
+      "doi": "10.1609/aies.v8i2.36611",
+      "pushed_at": "2026-04-04T23:08:37.633722-06:00"
+    },
+    {
+      "title_hash": "bba449cba2b0c656b1dc06894d052557",
+      "title": "LLM-assisted Extraction of Regulatory Requirements: A Case Study on the GDPR",
+      "doi": "10.1109/re63999.2025.00023",
+      "pushed_at": "2026-04-04T23:08:37.633722-06:00"
+    },
+    {
+      "title_hash": "ad034b3008db88d50ba9d5e99cb13f7b",
+      "title": "Legal AI in Low-Resource Languages: Building and Evaluating QA Systems for the Kazakh Legislation",
+      "doi": "10.3390/computers14090354",
+      "pushed_at": "2026-04-04T23:08:37.633722-06:00"
+    },
+    {
+      "title_hash": "5f31cf47f51adbde4abf6a066bd29e3c",
+      "title": "Question Answering System for Smart Cities and Urban Planning With The World Avatar",
+      "doi": "10.1049/smc2.70009",
+      "pushed_at": "2026-04-04T23:08:37.633722-06:00"
+    },
+    {
+      "title_hash": "6cdf7a6eb76d2a6068008f860989846e",
+      "title": "Large Language Models for Structured Information Processing in Construction and Facility Management",
+      "doi": "10.3390/electronics14204106",
+      "pushed_at": "2026-04-04T23:08:37.633722-06:00"
+    },
+    {
+      "title_hash": "bf8827bf8ad31bb163c065685dcab66b",
+      "title": "ChatTwin: Bridging the usability gap to digital twin adoption in infrastructure operations and maint",
+      "doi": "10.1016/j.autcon.2025.106655",
+      "pushed_at": "2026-04-04T23:08:37.633722-06:00"
+    },
+    {
+      "title_hash": "80717c3521bfd9ce3f79debfad4253d4",
+      "title": "Next-generation language-based data mining techniques for smart construction documentation: challeng",
+      "doi": "10.1139/cjce-2025-0329",
+      "pushed_at": "2026-04-04T23:08:37.633722-06:00"
+    },
+    {
+      "title_hash": "7353321ca5ff82ffda37ef720706a68c",
+      "title": "Semi-Automated Reporting from Environmental Monitoring Data Using a Large Language Model-Based Chatb",
+      "doi": "10.3390/ijgi15020080",
+      "pushed_at": "2026-04-04T23:08:37.633722-06:00"
+    },
+    {
+      "title_hash": "fff38bb33fd1c4614bc5bd9f1b8745dc",
+      "title": "New Trends in the Use of Artificial Intelligence and Natural Language Processing for Occupational Ri",
+      "doi": "10.3390/safety12010007",
+      "pushed_at": "2026-04-04T23:08:37.633722-06:00"
+    },
+    {
+      "title_hash": "68fc0e86c9838438ae39e3fcfa5375e6",
+      "title": "ROBUST AND VERIFIABLE LLMS FOR HIGH-STAKES DECISION-MAKING (HEALTHCARE, DEFENSE, FINANCE)",
+      "doi": "10.63125/xv9bab19",
+      "pushed_at": "2026-04-04T23:08:37.633722-06:00"
+    },
+    {
+      "title_hash": "681c8fa812ff1a3f94f480184bf9ad95",
+      "title": "A Review of TRiSM Frameworks in Artificial Intelligence Systems: Fundamentals, Taxonomy, Use Cases, ",
+      "doi": "10.36227/techrxiv.174913612.20443736/v1",
+      "pushed_at": "2026-04-04T23:08:37.633722-06:00"
     }
   ],
-  "last_push": "2026-04-03T22:36:46.355380-06:00"
+  "last_push": "2026-04-04T23:08:37.633722-06:00"
 }
