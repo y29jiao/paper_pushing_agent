@@ -377,7 +377,79 @@
       "title": "A Review of TRiSM Frameworks in Artificial Intelligence Systems: Fundamentals, Taxonomy, Use Cases, ",
       "doi": "10.36227/techrxiv.174913612.20443736/v1",
       "pushed_at": "2026-04-04T23:08:37.633722-06:00"
+    },
+    {
+      "title_hash": "7a72824ef5d23ad3a75fa2aa57420ad4",
+      "title": "PulseMind: A Multi-Modal Medical Model for Real-World Clinical Diagnosis",
+      "doi": "10.1609/aaai.v40i13.38106",
+      "pushed_at": "2026-04-05T23:18:24.806347-06:00"
+    },
+    {
+      "title_hash": "da3a316eb200175c39cfaf46a0cb29db",
+      "title": "What Is Required for Empathic AI? It Depends, and Why That Matters for AI Developers and Users",
+      "doi": "10.1609/aies.v7i1.31725",
+      "pushed_at": "2026-04-05T23:18:24.806347-06:00"
+    },
+    {
+      "title_hash": "f4bcfda3b35277858e44199dbd8a36e4",
+      "title": "Large Language Models in Legal Systems: A Survey",
+      "doi": "10.1057/s41599-025-05924-3",
+      "pushed_at": "2026-04-05T23:18:24.806347-06:00"
+    },
+    {
+      "title_hash": "d92fd4f0091a8ef75676bbd55398f0c5",
+      "title": "Addressing Complexity in System of Systems With GraphRAG: An AI‐Driven Framework for Dynamic Data In",
+      "doi": "10.1002/sys.70012",
+      "pushed_at": "2026-04-05T23:18:24.806347-06:00"
+    },
+    {
+      "title_hash": "6757dbb01823b9b54929cbaffd281744",
+      "title": "Proceedings of the 1st Workshop on NLP for Empowering Justice (JUST-NLP 2025)",
+      "doi": "10.18653/v1/2025.justnlp-main",
+      "pushed_at": "2026-04-05T23:18:24.806347-06:00"
+    },
+    {
+      "title_hash": "12df8094830f614aab0acbbd32c70481",
+      "title": "Multimodal Large Language Models in Construction Education for Learning Human–Robot Collaboration: A",
+      "doi": "10.1061/aomjah.aoeng-0102",
+      "pushed_at": "2026-04-05T23:18:24.806347-06:00"
+    },
+    {
+      "title_hash": "f7a03c3d3bf876a367ced4c7103a5994",
+      "title": "The role of Artificial Intelligence in the corporate sustainability reporting in the context of Corp",
+      "doi": null,
+      "pushed_at": "2026-04-05T23:18:24.806347-06:00"
+    },
+    {
+      "title_hash": "07742a61cecdf96d510ead381a21b1b9",
+      "title": "Text analytics for co-creation in public sector organizations: a literature review-based research fr",
+      "doi": "10.1007/s10462-025-11112-1",
+      "pushed_at": "2026-04-05T23:18:24.806347-06:00"
+    },
+    {
+      "title_hash": "6079df6f8cbcd55fc48dd946ac65ddec",
+      "title": "From Vulnerability to Defense: The Role of Large Language Models in Enhancing Cybersecurity",
+      "doi": "10.3390/computation13020030",
+      "pushed_at": "2026-04-05T23:18:24.806347-06:00"
+    },
+    {
+      "title_hash": "070a6413b61f78310d53d6fd6d154508",
+      "title": "Vulnerabilities and Defenses: A Monograph on Comprehensive Analysis of Security Attacks on Large Lan",
+      "doi": "10.51983/ijiss-2025.ijiss.15.2.54",
+      "pushed_at": "2026-04-05T23:18:24.806347-06:00"
+    },
+    {
+      "title_hash": "b28450faa317329779cd6e6a75ced966",
+      "title": "Responsible agentic artificial intelligence governance: Risk, safety, and ethical challenges in auto",
+      "doi": "10.70593/deepsci.0202005",
+      "pushed_at": "2026-04-05T23:18:24.806347-06:00"
+    },
+    {
+      "title_hash": "1017a956c90845e9fa5a22c210196b24",
+      "title": "AI Goes Off the Grid: The Rise of Local AI Demands Rethinking AI Governance",
+      "doi": "10.20944/preprints202506.0680.v1",
+      "pushed_at": "2026-04-05T23:18:24.806347-06:00"
     }
   ],
-  "last_push": "2026-04-04T23:08:37.633722-06:00"
+  "last_push": "2026-04-05T23:18:24.806347-06:00"
 }
