@@ -449,7 +449,103 @@
       "title": "AI Goes Off the Grid: The Rise of Local AI Demands Rethinking AI Governance",
       "doi": "10.20944/preprints202506.0680.v1",
       "pushed_at": "2026-04-05T23:18:24.806347-06:00"
+    },
+    {
+      "title_hash": "13d70c5e0e679572f7654572af61e765",
+      "title": "Co-designing an AI Impact Assessment Report Template with AI Practitioners and AI Compliance Experts",
+      "doi": "10.1609/aies.v7i1.31627",
+      "pushed_at": "2026-04-06T23:12:05.614595-06:00"
+    },
+    {
+      "title_hash": "713e79268e443ecd0701b8bc34b7e01c",
+      "title": "Introducing the AI Governance and Regulatory Archive (AGORA): An Analytic Infrastructure for Navigat",
+      "doi": "10.1609/aies.v7i1.31615",
+      "pushed_at": "2026-04-06T23:12:05.614595-06:00"
+    },
+    {
+      "title_hash": "299facad87b6c74df6dcee00fc1372d5",
+      "title": "Decoding Global AI Governance: A Computational Linguistic Analysis of National Regulations",
+      "doi": "10.1609/aies.v7i2.31909",
+      "pushed_at": "2026-04-06T23:12:05.614595-06:00"
+    },
+    {
+      "title_hash": "88130d19a5002fa3b11e01df3ef4632e",
+      "title": "Participatory AI and the EU AI Act",
+      "doi": "10.1609/aies.v8i3.36737",
+      "pushed_at": "2026-04-06T23:12:05.614595-06:00"
+    },
+    {
+      "title_hash": "03ce3613d8c1b682863cb11d1744580a",
+      "title": "Public vs Private Bodies: Who Should Run Advanced AI Evaluations and Audits? A Three-Step Logic Base",
+      "doi": "10.1609/aies.v7i1.31733",
+      "pushed_at": "2026-04-06T23:12:05.614595-06:00"
+    },
+    {
+      "title_hash": "4f620767a76eacdd02d0a915658d5d6e",
+      "title": "Prospective Regulation of Private Sector Legal Compliance Audits Through the Draft National Legal Gu",
+      "doi": "10.22219/aclj.v5i3.34641",
+      "pushed_at": "2026-04-06T23:12:05.614595-06:00"
+    },
+    {
+      "title_hash": "2608e8ff43df9e8ab8d8dd879f3a43ed",
+      "title": "Ontology-Based Knowledge Graph Approach for Legal Queries",
+      "doi": "10.15388/25-infor617",
+      "pushed_at": "2026-04-06T23:12:05.614595-06:00"
+    },
+    {
+      "title_hash": "86944198b25b97c03d11c3619b45add4",
+      "title": "Strategic implementation of artificial intelligence (AI) in construction: an integrated change and i",
+      "doi": "10.1007/s44290-026-00422-0",
+      "pushed_at": "2026-04-06T23:12:05.614595-06:00"
+    },
+    {
+      "title_hash": "cf0f1fd0d729b78fc84a08bcde5d9c66",
+      "title": "Ethical Perspectives on Artificial Intelligence in Biomedical Engineering",
+      "doi": "10.1515/9783111586458",
+      "pushed_at": "2026-04-06T23:12:05.614595-06:00"
+    },
+    {
+      "title_hash": "b33e03ed425cacfa2c44a5e13ba9717d",
+      "title": "Socially Responsible AI in the GPT Era",
+      "doi": "10.25172/smulr.78.3.7",
+      "pushed_at": "2026-04-06T23:12:05.614595-06:00"
+    },
+    {
+      "title_hash": "bac274633879b8317014548ebfe2336d",
+      "title": "Business transformation in the age of generative AI: from strategy to societal impact",
+      "doi": "10.1504/ijgaib.2026.151813",
+      "pushed_at": "2026-04-06T23:12:05.614595-06:00"
+    },
+    {
+      "title_hash": "55f9332e17a0fcbff98bb27de17afa9b",
+      "title": "Securing Large Language Models: Adversarial Attacks, Data Privacy, and Artificial Intelligence Safet",
+      "doi": "10.70593/978-93-7185-447-4",
+      "pushed_at": "2026-04-06T23:12:05.614595-06:00"
+    },
+    {
+      "title_hash": "14550f04361b965ea04946188a8caced",
+      "title": "Foresight and Technology Assesment: Monitoring future issues for the Austrian Parliament (May 2023-M",
+      "doi": "10.1553/ita-2025-03",
+      "pushed_at": "2026-04-06T23:12:05.614595-06:00"
+    },
+    {
+      "title_hash": "f6f028d63e64f6956f617ddc5fd4d126",
+      "title": "Artificial Intelligence in Science and Society: The Vision of USERN",
+      "doi": "10.1109/access.2025.3529357",
+      "pushed_at": "2026-04-06T23:12:05.614595-06:00"
+    },
+    {
+      "title_hash": "b4807cb8fc65360ce5d4dfe00a9465d6",
+      "title": "Generative AI and digital resilience: a research agenda",
+      "doi": "10.1080/13669877.2025.2539105",
+      "pushed_at": "2026-04-06T23:12:05.614595-06:00"
+    },
+    {
+      "title_hash": "d6bc639d8b23625eff3f52a38ca697b2",
+      "title": "AI for sustainable development in ASEAN: Advancing safe, trustworthy, and ethical AI for climate act",
+      "doi": "10.53832/evidence-fund.0008",
+      "pushed_at": "2026-04-06T23:12:05.614595-06:00"
     }
   ],
-  "last_push": "2026-04-05T23:18:24.806347-06:00"
+  "last_push": "2026-04-06T23:12:05.614595-06:00"
 }
