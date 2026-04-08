@@ -599,7 +599,121 @@
       "title": "Book of Abstracts of the III International Conference on Humanities and Social Sciences",
       "doi": "10.56002/ceos.0104ba",
       "pushed_at": "2026-04-07T09:06:14.200700-06:00"
+    },
+    {
+      "title_hash": "47a5770f03bf1fadab47b98bc2ee79fb",
+      "title": "Disclosure and Evaluation as Fairness Interventions for General-Purpose AI",
+      "doi": "10.1609/aies.v8i3.36700",
+      "pushed_at": "2026-04-08T09:07:40.406025-06:00"
+    },
+    {
+      "title_hash": "a1ed7166c7ab7cbd268ba09cd49b955a",
+      "title": "Known Unknowns and Unknown Unknowns: Designing a Scalable Adverse Event Reporting System for AI",
+      "doi": "10.1609/aies.v8i2.36607",
+      "pushed_at": "2026-04-08T09:07:40.406025-06:00"
+    },
+    {
+      "title_hash": "d9106a7d4a6af8ba491a7f9d647b4cb7",
+      "title": "A Framework for Integrating Privacy by Design into Generative AI Applications",
+      "doi": "10.1609/aaaiss.v6i1.36018",
+      "pushed_at": "2026-04-08T09:07:40.406025-06:00"
+    },
+    {
+      "title_hash": "2208d0808f31775de360b74c120c1175",
+      "title": "A Conceptual Framework for Ethical Evaluation of Machine Learning Systems",
+      "doi": "10.1609/aies.v7i1.31656",
+      "pushed_at": "2026-04-08T09:07:40.406025-06:00"
+    },
+    {
+      "title_hash": "921b888b0e9507bfa9470a27b36e8a80",
+      "title": "Unravelling Responsible AI: An Umbrella Review",
+      "doi": "10.1609/aies.v8i3.36704",
+      "pushed_at": "2026-04-08T09:07:40.406025-06:00"
+    },
+    {
+      "title_hash": "7d22010b4e505584c7db55ed63b9d320",
+      "title": "Who Owns the Robot?: Four Ethical and Socio-Technical Questions About Wellbeing Robots in the Real W",
+      "doi": "10.1609/aies.v8i1.36546",
+      "pushed_at": "2026-04-08T09:07:40.406025-06:00"
+    },
+    {
+      "title_hash": "71e595144dd6d1d922c6a1047f378d0b",
+      "title": "Toward an Ethic of Synthetic Relationality: Identity, Intimacy, and Risk in AI-Mediated Roleplay Env",
+      "doi": "10.1609/aies.v8i1.36560",
+      "pushed_at": "2026-04-08T09:07:40.406025-06:00"
+    },
+    {
+      "title_hash": "28d07c68d4a94063563ff1170602fc44",
+      "title": "Reframing AI-for-Good: Radical Questioning in AI for Human Trafficking Interventions",
+      "doi": "10.1609/aies.v8i2.36677",
+      "pushed_at": "2026-04-08T09:07:40.406025-06:00"
+    },
+    {
+      "title_hash": "2208d0808f31775de360b74c120c1175",
+      "title": "A Conceptual Framework for Ethical Evaluation of Machine Learning Systems",
+      "doi": "10.1609/aies.v7i1.31656",
+      "pushed_at": "2026-04-08T09:07:40.406025-06:00"
+    },
+    {
+      "title_hash": "747028e19983e50ecd5c15ae41fba18d",
+      "title": "Claim Knowledge Graph Construction and GraphRAG-Based Question-Answering System",
+      "doi": "10.3390/buildings16040845",
+      "pushed_at": "2026-04-08T09:07:40.406025-06:00"
+    },
+    {
+      "title_hash": "7215ee9c7d9dc229d2921a40e899ec5f",
+      "title": "Штучний інтелект: сталий розвиток освіти, науки, індустрії: зб.тез доп.",
+      "doi": null,
+      "pushed_at": "2026-04-08T09:07:40.406025-06:00"
+    },
+    {
+      "title_hash": "2d588f0facf4056f37f400c8f7cdf0c6",
+      "title": "<i>Hidden</i> Good-to-Bad <i>Tipping in ChatGPT-Like AI</i>",
+      "doi": "10.5772/acrt20250142",
+      "pushed_at": "2026-04-08T09:07:40.406025-06:00"
+    },
+    {
+      "title_hash": "e1e890dfd2c57424a5498b8b18c78938",
+      "title": "Leveraging Blockchain for Ethical AI: Mitigating Digital Threats and Strengthening Societal Resilien",
+      "doi": "10.3390/fi17070309",
+      "pushed_at": "2026-04-08T09:07:40.406025-06:00"
+    },
+    {
+      "title_hash": "ca716a92bc452b285311ade1cce9b540",
+      "title": "Local AI Governance: Addressing Model Safety and Policy Challenges Posed by Decentralized AI",
+      "doi": "10.3390/ai6070159",
+      "pushed_at": "2026-04-08T09:07:40.406025-06:00"
+    },
+    {
+      "title_hash": "ba7776704f21094dd1a05cff626105e3",
+      "title": "Synthetic biology/AI convergence (SynBioAI): security threats in frontier science and regulatory cha",
+      "doi": "10.1007/s00146-025-02576-4",
+      "pushed_at": "2026-04-08T09:07:40.406025-06:00"
+    },
+    {
+      "title_hash": "f0d2e5e2e9a7fb86ab602c7344fb6b9f",
+      "title": "Towards AI-augmented sustainability assessments: integrating large language models in the case of pr",
+      "doi": "10.1007/s11367-025-02508-w",
+      "pushed_at": "2026-04-08T09:07:40.406025-06:00"
+    },
+    {
+      "title_hash": "79f979df1ba4eed1b100937ea8bea59e",
+      "title": "AI-Assisted OSINT/SOCMINT for Safeguarding Borders: A Systematic Review",
+      "doi": "10.3390/info16121095",
+      "pushed_at": "2026-04-08T09:07:40.406025-06:00"
+    },
+    {
+      "title_hash": "618f2ebac30c6d171d9c3ab9a6c52a6a",
+      "title": "AI at Work: Promises, Perils and Paradoxes of Adoption",
+      "doi": null,
+      "pushed_at": "2026-04-08T09:07:40.406025-06:00"
+    },
+    {
+      "title_hash": "7bb7133743b76f5b634c03771173d7e1",
+      "title": "The Impact of Artificial Intelligence on the Sustainability of Regional Ecosystems: Current Challeng",
+      "doi": "10.3390/su17114795",
+      "pushed_at": "2026-04-08T09:07:40.406025-06:00"
     }
   ],
-  "last_push": "2026-04-07T09:06:14.200700-06:00"
+  "last_push": "2026-04-08T09:07:40.406025-06:00"
 }
