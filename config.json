@@ -3,7 +3,7 @@
     {
       "id": "graphrag",
       "name": "Regulation Chatbot/Agent",
-      "query": "chatbot or agent for code and regulation comparison",
+      "query": "帮我找可以用来法规对比的agent或者chatbot相关的论文。注意，是要有能力对比不同的法规文件",
       "sources": [
         "semantic_scholar",
         "openalex",
