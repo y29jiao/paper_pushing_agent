@@ -713,7 +713,127 @@
       "title": "The Impact of Artificial Intelligence on the Sustainability of Regional Ecosystems: Current Challeng",
       "doi": "10.3390/su17114795",
       "pushed_at": "2026-04-08T09:07:40.406025-06:00"
+    },
+    {
+      "title_hash": "754ad8a9129a1b256f40b45dbcd49387",
+      "title": "Knowledge Graph Prompting for Multi-Document Question Answering",
+      "doi": "10.1609/aaai.v38i17.29889",
+      "pushed_at": "2026-04-09T09:22:54.115610-06:00"
+    },
+    {
+      "title_hash": "015947bcb6e164f29d29650b6ddf3e91",
+      "title": "Tree-of-Reasoning Question Decomposition for Complex Question Answering with Large Language Models",
+      "doi": "10.1609/aaai.v38i17.29928",
+      "pushed_at": "2026-04-09T09:22:54.115610-06:00"
+    },
+    {
+      "title_hash": "97fdcc0608136e5c0e8ed2bc92c97bbe",
+      "title": "StructuGraphRAG: Structured Document-Informed Knowledge Graphs for Retrieval-Augmented Generation",
+      "doi": "10.1609/aaaiss.v4i1.31798",
+      "pushed_at": "2026-04-09T09:22:54.115610-06:00"
+    },
+    {
+      "title_hash": "31bac597bdc51ac71f1e2df01f7e596f",
+      "title": "Rethinking the Development of Large Language Models from the Causal Perspective: A Legal Text Predic",
+      "doi": "10.1609/aaai.v38i19.30086",
+      "pushed_at": "2026-04-09T09:22:54.115610-06:00"
+    },
+    {
+      "title_hash": "a159540aeaf9f15a548ddae6c95580de",
+      "title": "J&amp;H: Evaluating the Robustness of Large Language Models Under Knowledge-Injection Attacks in Leg",
+      "doi": "10.1609/aaai.v39i27.35029",
+      "pushed_at": "2026-04-09T09:22:54.115610-06:00"
+    },
+    {
+      "title_hash": "062879d2bc9fe69c58b4e831fa97342b",
+      "title": "Can We Trust AI Benchmarks? An Interdisciplinary Review of Current Issues in AI Evaluation",
+      "doi": "10.1609/aies.v8i1.36595",
+      "pushed_at": "2026-04-09T09:22:54.115610-06:00"
+    },
+    {
+      "title_hash": "58e32e3efd16410050b03cb6264d157f",
+      "title": "Value Kaleidoscope: Engaging AI with Pluralistic Human Values, Rights, and Duties",
+      "doi": "10.1609/aaai.v38i18.29970",
+      "pushed_at": "2026-04-09T09:22:54.115610-06:00"
+    },
+    {
+      "title_hash": "fc9e08cb2eba681da91ca4a539622cd4",
+      "title": "Authorship Attribution in the Era of LLMs: Problems, Methodologies, and Challenges",
+      "doi": "10.1145/3715073.3715076",
+      "pushed_at": "2026-04-09T09:22:54.115610-06:00"
+    },
+    {
+      "title_hash": "3723cee477571a1311f4344bbd810150",
+      "title": "Using Large Language Models in the Companion Cognitive Architecture: A Case Study and Future Prospec",
+      "doi": "10.1609/aaaiss.v2i1.27700",
+      "pushed_at": "2026-04-09T09:22:54.115610-06:00"
+    },
+    {
+      "title_hash": "1b2f17f8275abbb3cf570519c6aa4b9b",
+      "title": "What Can Computers Do Now? Dreyfus Revisited for the Third Wave of Artificial Intelligence",
+      "doi": "10.1609/aaaiss.v3i1.31207",
+      "pushed_at": "2026-04-09T09:22:54.115610-06:00"
+    },
+    {
+      "title_hash": "a6711b4c4f4c40c2f779b845ee833d25",
+      "title": "Online Social Behavior Enhanced Detection of Political Stances in Tweets",
+      "doi": "10.1609/icwsm.v18i1.31383",
+      "pushed_at": "2026-04-09T09:22:54.115610-06:00"
+    },
+    {
+      "title_hash": "21ec401ccf5915f8bb19ea6d3a7e6ed0",
+      "title": "AI Agents for Smart City Operations: A Multi Domain Analysis of Global Deployments",
+      "doi": "10.46254/wc02.20250331",
+      "pushed_at": "2026-04-09T09:22:54.115610-06:00"
+    },
+    {
+      "title_hash": "fc909f71885e08f14fa00a462c37df6a",
+      "title": "Crimebots and Lawbots: Cyberwarfare Powered by Generative Artificial Intelligence",
+      "doi": "10.14738/tecs.1302.18401",
+      "pushed_at": "2026-04-09T09:22:54.115610-06:00"
+    },
+    {
+      "title_hash": "4ee296bf0ae04678e3995ce37c245a04",
+      "title": "Historical Methods for AI Evaluations, Assessments, and Audits",
+      "doi": "10.1145/3715275.3732093",
+      "pushed_at": "2026-04-09T09:22:54.115610-06:00"
+    },
+    {
+      "title_hash": "d14bd759807b9202b140aa51fd7c9a00",
+      "title": "Artificial Intelligence in Public Services : Mutuality in the organisational governance of AI implem",
+      "doi": null,
+      "pushed_at": "2026-04-09T09:22:54.115610-06:00"
+    },
+    {
+      "title_hash": "93cdccc398230142e754980a5ea314b7",
+      "title": "Transparency and Trust: Enhancing AI Ethics Communication in Governmental Contexts",
+      "doi": null,
+      "pushed_at": "2026-04-09T09:22:54.115610-06:00"
+    },
+    {
+      "title_hash": "d2a7382f1e43e7479f65bdb3b985e77a",
+      "title": "Opportunities and challenges of artificial intelligence in public health: a systematic review on tec",
+      "doi": "10.3389/fpubh.2025.1748797",
+      "pushed_at": "2026-04-09T09:22:54.115610-06:00"
+    },
+    {
+      "title_hash": "90e1f8fef438e79d1a3129e2ff6fd399",
+      "title": "Global case studies of social dialogue on AI and algorithmic management",
+      "doi": "10.54394/voqe4924",
+      "pushed_at": "2026-04-09T09:22:54.115610-06:00"
+    },
+    {
+      "title_hash": "603b486c61d981c693c2a03bd50deaf2",
+      "title": "Integration of Intelligent Digital Technologies into Accounting and Management Systems of Insurance ",
+      "doi": "10.15276/etr.06.2025.4",
+      "pushed_at": "2026-04-09T09:22:54.115610-06:00"
+    },
+    {
+      "title_hash": "0906f70496d47d5a00010c69e862bac1",
+      "title": "Evaluation of Building Design Variants in Early Phases on the Basis of Adaptive Detailing Strategies",
+      "doi": "10.3390/buildings16040685",
+      "pushed_at": "2026-04-09T09:22:54.115610-06:00"
     }
   ],
-  "last_push": "2026-04-08T09:07:40.406025-06:00"
+  "last_push": "2026-04-09T09:22:54.115610-06:00"
 }
