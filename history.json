@@ -833,7 +833,121 @@
       "title": "Evaluation of Building Design Variants in Early Phases on the Basis of Adaptive Detailing Strategies",
       "doi": "10.3390/buildings16040685",
       "pushed_at": "2026-04-09T09:22:54.115610-06:00"
+    },
+    {
+      "title_hash": "6d159ed2b26bda747f0360ab8361fe6e",
+      "title": "Driving with Regulation: Trustworthy and Interpretable Decision-Making for Autonomous Driving with R",
+      "doi": "10.1609/aaai.v40i45.41168",
+      "pushed_at": "2026-04-10T08:52:07.396612-06:00"
+    },
+    {
+      "title_hash": "8fcc25745b0b95a275a2448eac7bea99",
+      "title": "EvalQAG: A Framework for Automatic Complex QA Generation and a Benchmark QA Dataset for Policy Docum",
+      "doi": "10.1609/aaai.v40i46.41277",
+      "pushed_at": "2026-04-10T08:52:07.396612-06:00"
+    },
+    {
+      "title_hash": "21251caff16af09c2491f5bc2701ad30",
+      "title": "Simulating Policy Impacts: Developing a Generative Scenario Writing Method to Evaluate the Perceived",
+      "doi": "10.1609/aies.v7i1.31620",
+      "pushed_at": "2026-04-10T08:52:07.396612-06:00"
+    },
+    {
+      "title_hash": "846192971a785fb2bbb5c9f68e36f198",
+      "title": "Why Do Decision Makers (Not) Use AI? A Cross-Domain Analysis of Factors Impacting AI Adoption",
+      "doi": "10.1609/aies.v8i3.36758",
+      "pushed_at": "2026-04-10T08:52:07.396612-06:00"
+    },
+    {
+      "title_hash": "12759c4796d9f60eef1c23de4e3a4ddf",
+      "title": "Comparing Human and LLM Ethical Analyses: A Case Study in Computational Social Science Research",
+      "doi": "10.1609/aies.v8i2.36626",
+      "pushed_at": "2026-04-10T08:52:07.396612-06:00"
+    },
+    {
+      "title_hash": "3b6559737444d0d4f4b4407980eece93",
+      "title": "The PPOu Framework: A Structured Approach for Assessing the Likelihood of Malicious Use of Advanced ",
+      "doi": "10.1609/aies.v7i1.31653",
+      "pushed_at": "2026-04-10T08:52:07.396612-06:00"
+    },
+    {
+      "title_hash": "34b71eb992d53eaa01c2399e12cd6e12",
+      "title": "Interactive AI and Human Behavior: Challenges and Pathways for AI Governance",
+      "doi": "10.1609/aies.v8i3.36692",
+      "pushed_at": "2026-04-10T08:52:07.396612-06:00"
+    },
+    {
+      "title_hash": "435f2ec7a7c1a8bab9fff31495e0d5c1",
+      "title": "Embodied AI at the Margins: Postcolonial Ethics for Intelligent Robotic Systems",
+      "doi": "10.1609/aies.v8i2.36615",
+      "pushed_at": "2026-04-10T08:52:07.396612-06:00"
+    },
+    {
+      "title_hash": "0900203a362dcd22f6f801f1038250a4",
+      "title": "Measuring Human-AI Value Alignment in Large Language Models",
+      "doi": "10.1609/aies.v7i1.31703",
+      "pushed_at": "2026-04-10T08:52:07.396612-06:00"
+    },
+    {
+      "title_hash": "79e8539285ba20359e63d08cea1c7996",
+      "title": "An Adaptive LLM-Based Agent Framework with Self-Extending Tool Library for Automated Building Code C",
+      "doi": null,
+      "pushed_at": "2026-04-10T08:52:07.396612-06:00"
+    },
+    {
+      "title_hash": "42254bd65925001835e723a407ca526f",
+      "title": "Qwen-BIM: developing large language model for BIM-based design with domain-specific benchmark and da",
+      "doi": null,
+      "pushed_at": "2026-04-10T08:52:07.396612-06:00"
+    },
+    {
+      "title_hash": "d187d0d352a45e51b57354452a1a089e",
+      "title": "Multimodal retrieval-augmented generation framework for visually rich knowledge in the architecture ",
+      "doi": "10.1007/s44223-025-00102-6",
+      "pushed_at": "2026-04-10T08:52:07.396612-06:00"
+    },
+    {
+      "title_hash": "652ca18f2c50eeb9e6166a8795c7c0fe",
+      "title": "Large language model-based multi-agent systems for automated foundation design: router-driven task c",
+      "doi": "10.1007/s43503-026-00088-8",
+      "pushed_at": "2026-04-10T08:52:07.396612-06:00"
+    },
+    {
+      "title_hash": "a19245a8bad271d79365818e4d14947f",
+      "title": "Intelligent Rebar Optimization Framework for Urban Transit Infrastructure: A Case Study of a Diaphra",
+      "doi": "10.3390/smartcities8040130",
+      "pushed_at": "2026-04-10T08:52:07.396612-06:00"
+    },
+    {
+      "title_hash": "8afe5b5278cdee0c93bb1edf52fc62d2",
+      "title": "AI-Powered Advanced Technologies for a Sustainable Built Environment: A Systematic Review on Emergin",
+      "doi": "10.3390/su17178005",
+      "pushed_at": "2026-04-10T08:52:07.396612-06:00"
+    },
+    {
+      "title_hash": "ddafa47feeb7da39c1d48ebbcdb5b2b2",
+      "title": "A review of recent advances in data-driven computer vision methods for structural damage evaluation:",
+      "doi": "10.1007/s11831-025-10279-8",
+      "pushed_at": "2026-04-10T08:52:07.396612-06:00"
+    },
+    {
+      "title_hash": "00094fcc278e8b29e1bdba13a455db41",
+      "title": "Advances in Human-Robot Collaboration (HRC) in Construction 5.0 for building construction: A bibliom",
+      "doi": "10.36680/j.itcon.2025.050",
+      "pushed_at": "2026-04-10T08:52:07.396612-06:00"
+    },
+    {
+      "title_hash": "52eba0027dfdb4957af3266ea8278d85",
+      "title": "UAV Accident Forensics via HFACS-LLM Reasoning: Low-Altitude Safety Insights",
+      "doi": "10.3390/drones9100704",
+      "pushed_at": "2026-04-10T08:52:07.396612-06:00"
+    },
+    {
+      "title_hash": "e6194cd3034abb927fe7102f9154de39",
+      "title": "Accessing acute care hospitals in the San Francisco Bay Area after a major hayward earthquake",
+      "doi": "10.1038/s41467-025-64354-6",
+      "pushed_at": "2026-04-10T08:52:07.396612-06:00"
     }
   ],
-  "last_push": "2026-04-09T09:22:54.115610-06:00"
+  "last_push": "2026-04-10T08:52:07.396612-06:00"
 }
