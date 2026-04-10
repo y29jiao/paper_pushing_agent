@@ -133,12 +133,7 @@
     "schedule": {
       "days": [
         "monday",
-        "tuesday",
-        "wednesday",
-        "thursday",
-        "friday",
-        "saturday",
-        "sunday"
+        "thursday"
       ],
       "hour": 8,
       "minute": 0
