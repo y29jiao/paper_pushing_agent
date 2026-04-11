@@ -947,7 +947,121 @@
       "title": "Accessing acute care hospitals in the San Francisco Bay Area after a major hayward earthquake",
       "doi": "10.1038/s41467-025-64354-6",
       "pushed_at": "2026-04-10T08:52:07.396612-06:00"
+    },
+    {
+      "title_hash": "b458d6026bf72dde1447b32e9b4adcfc",
+      "title": "Evaluating and Improving Value Judgments in AI: A Scenario-Based Study on Large Language Models’ Dep",
+      "doi": "10.1609/icwsm.v18i1.31421",
+      "pushed_at": "2026-04-11T08:33:05.106121-06:00"
+    },
+    {
+      "title_hash": "025eb132b09272e63c477062a7b4b552",
+      "title": "Investigating Political and Demographic Associations in Large Language Models Through Moral Foundati",
+      "doi": "10.1609/aies.v8i3.36727",
+      "pushed_at": "2026-04-11T08:33:05.106121-06:00"
+    },
+    {
+      "title_hash": "6d78b9f82b5f63a605d17c131253b793",
+      "title": "Testing Under Strategic Manipulation: Mechanism Design for Human and AI Institutions",
+      "doi": "10.1609/aaai.v40i20.38772",
+      "pushed_at": "2026-04-11T08:33:05.106121-06:00"
+    },
+    {
+      "title_hash": "88fbc021975f8e774c6d8d670e810c93",
+      "title": "Learning When Not to Measure: Theorizing Ethical Alignment in LLMs",
+      "doi": "10.1609/aies.v7i1.31716",
+      "pushed_at": "2026-04-11T08:33:05.106121-06:00"
+    },
+    {
+      "title_hash": "508ced895509715229789e35293d581b",
+      "title": "Understanding Privacy Norms Around LLM-Based Chatbots: A Contextual Integrity Perspective",
+      "doi": "10.1609/aies.v8i3.36735",
+      "pushed_at": "2026-04-11T08:33:05.106121-06:00"
+    },
+    {
+      "title_hash": "6c038c69212265fe9e8bfa1ad544c08e",
+      "title": "Perceived Risks and Benefits of Disclosing ADHD to AI-based Educational Technologies: Semi-structure",
+      "doi": "10.1609/aies.v8i3.36693",
+      "pushed_at": "2026-04-11T08:33:05.106121-06:00"
+    },
+    {
+      "title_hash": "cdbf150518a0592769034e2137204ec8",
+      "title": "Invisible Filters: Cultural Bias in Hiring Evaluations Using Large Language Models",
+      "doi": "10.1609/aies.v8i3.36703",
+      "pushed_at": "2026-04-11T08:33:05.106121-06:00"
+    },
+    {
+      "title_hash": "0e76e98c482d6f76935195ac48afc409",
+      "title": "Reflection of Its Creators: Qualitative Analysis of General Public and Expert Perceptions of Artific",
+      "doi": "10.1609/aies.v7i1.31667",
+      "pushed_at": "2026-04-11T08:33:05.106121-06:00"
+    },
+    {
+      "title_hash": "a96131454a6c9f888b442b17aa46b307",
+      "title": "The Transformer Led Policing model: a framework for applying generative artificial intelligence in p",
+      "doi": "10.1093/police/paaf027",
+      "pushed_at": "2026-04-11T08:33:05.106121-06:00"
+    },
+    {
+      "title_hash": "d28fb0d8808cc5e6530320ed7ba0bd57",
+      "title": "Impact of EU Laws on AI Adoption in Smart Grids: A Review of Regulatory Barriers, Technological Chal",
+      "doi": "10.3390/en18123002",
+      "pushed_at": "2026-04-11T08:33:05.106121-06:00"
+    },
+    {
+      "title_hash": "f54710f3d3381ea6094a2b17bef8f5ca",
+      "title": "Regulating AI in the Energy Sector: A Scoping Review of EU Laws, Challenges, and Global Perspectives",
+      "doi": "10.3390/en18092359",
+      "pushed_at": "2026-04-11T08:33:05.106121-06:00"
+    },
+    {
+      "title_hash": "c35bcef64244ea6996705aca55ac4a03",
+      "title": "Risk, regulation, and governance: evaluating artificial intelligence across diverse application scen",
+      "doi": "10.1057/s41284-025-00495-z",
+      "pushed_at": "2026-04-11T08:33:05.106121-06:00"
+    },
+    {
+      "title_hash": "1013cf10570f55bad57de86ebd4612fb",
+      "title": "Evaluating Trustworthiness in AI: Risks, Metrics, and Applications Across Industries",
+      "doi": "10.3390/electronics14132717",
+      "pushed_at": "2026-04-11T08:33:05.106121-06:00"
+    },
+    {
+      "title_hash": "515bff9ee7989dec272e860859f78b27",
+      "title": "International AI Safety Report",
+      "doi": "10.48550/arxiv.2501.17805",
+      "pushed_at": "2026-04-11T08:33:05.106121-06:00"
+    },
+    {
+      "title_hash": "94a2d7a78d469a54372fc4f646bafb22",
+      "title": "AI Governance in the GCC States: A Comparative Analysis of National AI Strategies",
+      "doi": "10.1613/jair.1.17619",
+      "pushed_at": "2026-04-11T08:33:05.106121-06:00"
+    },
+    {
+      "title_hash": "e39fbf929a860b6273fd45da692fa10b",
+      "title": "The ethics of national artificial intelligence plans: an empirical lens",
+      "doi": "10.1007/s43681-025-00663-2",
+      "pushed_at": "2026-04-11T08:33:05.106121-06:00"
+    },
+    {
+      "title_hash": "dd675fb8564741b7e4ad4fc0cb2376b0",
+      "title": "Public Opinion and the Rise of Digital Minds: Perceived Risk, Trust, and Regulation Support",
+      "doi": "10.1080/15309576.2025.2495094",
+      "pushed_at": "2026-04-11T08:33:05.106121-06:00"
+    },
+    {
+      "title_hash": "e5a010d9a5dfad2b2fb550ac22fc503e",
+      "title": "Perspectives on Managing AI Ethics in the Digital Age",
+      "doi": "10.3390/info16040318",
+      "pushed_at": "2026-04-11T08:33:05.106121-06:00"
+    },
+    {
+      "title_hash": "2bbc837f32fb7c94d9d8b91d34df3d53",
+      "title": "Artificial Intelligence Applications in Smart Cities: Integrating Communication, Energy Management, ",
+      "doi": "10.1049/tje2.70166",
+      "pushed_at": "2026-04-11T08:33:05.106121-06:00"
     }
   ],
-  "last_push": "2026-04-10T08:52:07.396612-06:00"
+  "last_push": "2026-04-11T08:33:05.106121-06:00"
 }
