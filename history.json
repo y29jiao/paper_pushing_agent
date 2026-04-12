@@ -1061,7 +1061,67 @@
       "title": "Artificial Intelligence Applications in Smart Cities: Integrating Communication, Energy Management, ",
       "doi": "10.1049/tje2.70166",
       "pushed_at": "2026-04-11T08:33:05.106121-06:00"
+    },
+    {
+      "title_hash": "d79a26b7a98812fe123badca726f1d8e",
+      "title": "Graph of Thoughts: Solving Elaborate Problems with Large Language Models",
+      "doi": "10.1609/aaai.v38i16.29720",
+      "pushed_at": "2026-04-12T08:41:08.420819-06:00"
+    },
+    {
+      "title_hash": "429e8558136421bb912f3ad77a7b95dc",
+      "title": "LLM Agents Can Be Choice-Supportive Biased Evaluators: An Empirical Study",
+      "doi": "10.1609/aaai.v39i25.34843",
+      "pushed_at": "2026-04-12T08:41:08.420819-06:00"
+    },
+    {
+      "title_hash": "75e1dae04f2cd3972828a976331b3087",
+      "title": "How Audit Methods Impact Our Understanding of YouTube’s Recommendation Systems",
+      "doi": "10.1609/icwsm.v18i1.31311",
+      "pushed_at": "2026-04-12T08:41:08.420819-06:00"
+    },
+    {
+      "title_hash": "d7968e346593244d206f36e8d63c38d1",
+      "title": "All Too Human? Mapping and Mitigating the Risk from Anthropomorphic AI",
+      "doi": "10.1609/aies.v7i1.31613",
+      "pushed_at": "2026-04-12T08:41:08.420819-06:00"
+    },
+    {
+      "title_hash": "93c9050a92fca819323c94e56c79f7ba",
+      "title": "Are Large Language Models Moral Hypocrites? A Study Based on Moral Foundations",
+      "doi": "10.1609/aies.v7i1.31704",
+      "pushed_at": "2026-04-12T08:41:08.420819-06:00"
+    },
+    {
+      "title_hash": "60d59647dab9a6deee2f3547cfab3dfd",
+      "title": "Addressing Bias in LLMs: Strategies and Application to Fair AI-based Recruitment",
+      "doi": "10.1609/aies.v8i2.36689",
+      "pushed_at": "2026-04-12T08:41:08.420819-06:00"
+    },
+    {
+      "title_hash": "b2b5e80c596e24bc5e86874a9cbb43fa",
+      "title": "Scaling Laws Do Not Scale",
+      "doi": "10.1609/aies.v7i1.31641",
+      "pushed_at": "2026-04-12T08:41:08.420819-06:00"
+    },
+    {
+      "title_hash": "e96f27103015583621a9fd43eed4e907",
+      "title": "Artificial Intelligence in the CS2023 Undergraduate Computer Science Curriculum: Rationale and Chall",
+      "doi": "10.1609/aaai.v38i21.30352",
+      "pushed_at": "2026-04-12T08:41:08.420819-06:00"
+    },
+    {
+      "title_hash": "7bc42c20b8d16f7a88a9f7694f6bf8a3",
+      "title": "Reinforcement Active Client Selection for Federated Heterogeneous Graph Learning",
+      "doi": "10.1609/aaai.v39i20.35409",
+      "pushed_at": "2026-04-12T08:41:08.420819-06:00"
+    },
+    {
+      "title_hash": "969df72cceb56783e697a9a6d999a2b8",
+      "title": "A Growing Sense of Alienation: Spirals of Silence and Suppression of Structural Circumstances of Sui",
+      "doi": "10.1609/icwsm.v19i1.35830",
+      "pushed_at": "2026-04-12T08:41:08.420819-06:00"
     }
   ],
-  "last_push": "2026-04-11T08:33:05.106121-06:00"
+  "last_push": "2026-04-12T08:41:08.420819-06:00"
 }
