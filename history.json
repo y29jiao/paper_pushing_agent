@@ -1175,7 +1175,61 @@
       "title": "The Long Reach of the Strong Arm: Evolving Forms of Transnational Authoritarianism",
       "doi": "10.1007/978-3-032-04940-7",
       "pushed_at": "2026-04-13T09:20:35.667755-06:00"
+    },
+    {
+      "title_hash": "7b015e0a5a27c459b57d92c672306e82",
+      "title": "TaxReasoning: Benchmarking Knowledge-Intensive Mathematical Reasoning with Evolving Tax Laws",
+      "doi": "10.1609/aaai.v40i37.40367",
+      "pushed_at": "2026-04-14T09:16:16.704462-06:00"
+    },
+    {
+      "title_hash": "667e368642cd948b40b6fe0fa30485db",
+      "title": "Language Models and Logic Programs for Trustworthy Tax Reasoning",
+      "doi": "10.1609/aaai.v40i45.41212",
+      "pushed_at": "2026-04-14T09:16:16.704462-06:00"
+    },
+    {
+      "title_hash": "c7806e565d9a73a3a1da7e5ac6812775",
+      "title": "LLM Safety in Judicial AI: A Stress Test of Social Media Influence on Real-World Judgments",
+      "doi": "10.1609/aaai.v40i46.41297",
+      "pushed_at": "2026-04-14T09:16:16.704462-06:00"
+    },
+    {
+      "title_hash": "1c690d19534b341425674a3efecf73aa",
+      "title": "LexChain: Modeling Legal Reasoning Chains for Chinese Tort Case Analysis",
+      "doi": "10.1609/aaai.v40i42.40906",
+      "pushed_at": "2026-04-14T09:16:16.704462-06:00"
+    },
+    {
+      "title_hash": "a9329bc1283418775d21d94547e9a439",
+      "title": "Against AI Jurisprudence: Large Language Models and the False Promises of Empirical Judging",
+      "doi": "10.1609/aies.v8i3.36695",
+      "pushed_at": "2026-04-14T09:16:16.704462-06:00"
+    },
+    {
+      "title_hash": "f40b6bc1d883d7dac6da3198cd4eb07b",
+      "title": "ShieldRAG: Safeguarding Retrieval-Augmented Generation from Untrusted Knowledge Bases",
+      "doi": "10.1609/aaai.v40i40.40725",
+      "pushed_at": "2026-04-14T09:16:16.704462-06:00"
+    },
+    {
+      "title_hash": "7910ed6daa8d8189c2b190f7e3260ee4",
+      "title": "LiRA: A Multi-Agent Framework for Reliable and Readable Literature Review Generation",
+      "doi": "10.1609/aaai.v40i47.41489",
+      "pushed_at": "2026-04-14T09:16:16.704462-06:00"
+    },
+    {
+      "title_hash": "2c447bb3d854f6f397bd530ee1819a70",
+      "title": "The Implications of Open Generative Models in Human-Centered Data Science Work: A Case Study with Fa",
+      "doi": "10.1609/aies.v7i1.31750",
+      "pushed_at": "2026-04-14T09:16:16.704462-06:00"
+    },
+    {
+      "title_hash": "b07861eee53662558930a163492b7b38",
+      "title": "Promoting Transparent and Consistent Frameworks for Interactive Digital Testimonies: A Case Study on",
+      "doi": "10.1609/aaaiss.v4i1.31822",
+      "pushed_at": "2026-04-14T09:16:16.704462-06:00"
     }
   ],
-  "last_push": "2026-04-13T09:20:35.667755-06:00"
+  "last_push": "2026-04-14T09:16:16.704462-06:00"
 }
