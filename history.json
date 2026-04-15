@@ -1229,7 +1229,127 @@
       "title": "Promoting Transparent and Consistent Frameworks for Interactive Digital Testimonies: A Case Study on",
       "doi": "10.1609/aaaiss.v4i1.31822",
       "pushed_at": "2026-04-14T09:16:16.704462-06:00"
+    },
+    {
+      "title_hash": "7f328191f9ad7152ce667d15501c7b72",
+      "title": "Thinker: Training LLMs in Hierarchical Thinking for Deep Search via Multi-Turn Interaction",
+      "doi": "10.1609/aaai.v40i40.40709",
+      "pushed_at": "2026-04-15T09:10:37.468212-06:00"
+    },
+    {
+      "title_hash": "e692b12f1eebfd3a3830016217e6f8c7",
+      "title": "The Anatomy of a Trustworthy AI Answer: A ComparativeExperiment for RAG Architectures",
+      "doi": "10.1609/aaaiss.v7i1.36892",
+      "pushed_at": "2026-04-15T09:10:37.468212-06:00"
+    },
+    {
+      "title_hash": "859689e58b820bfb24d62bb7a658926c",
+      "title": "GEM: Generative Entropy-Guided Preference Modeling for Few-Shot Alignment of LLMs",
+      "doi": "10.1609/aaai.v40i44.41153",
+      "pushed_at": "2026-04-15T09:10:37.468212-06:00"
+    },
+    {
+      "title_hash": "67507f9a544f97fa9fcabeff5da5801a",
+      "title": "Benchmarking LLMs for Political Science: A United Nations Perspective",
+      "doi": "10.1609/aaai.v40i1.37040",
+      "pushed_at": "2026-04-15T09:10:37.468212-06:00"
+    },
+    {
+      "title_hash": "16487e1ad4455abcc31a397ddbf9a2e9",
+      "title": "Is There No Such Thing as a Bad Question? H4R: HalluciBot for Ratiocination, Rewriting, Ranking, and",
+      "doi": "10.1609/aaai.v39i24.34736",
+      "pushed_at": "2026-04-15T09:10:37.468212-06:00"
+    },
+    {
+      "title_hash": "a2ffcced5b52731ccc64f5276437498a",
+      "title": "ToC: Tree-of-Claims Search with Multi-Agent Language Models",
+      "doi": "10.1609/aaai.v40i41.40748",
+      "pushed_at": "2026-04-15T09:10:37.468212-06:00"
+    },
+    {
+      "title_hash": "001010f9b2f499c5a17c7da2e10e35de",
+      "title": "AgentODRL: A Large Language Model-based Multi-agent System for ODRL Generation",
+      "doi": "10.1609/aaai.v40i23.39026",
+      "pushed_at": "2026-04-15T09:10:37.468212-06:00"
+    },
+    {
+      "title_hash": "a3829495eb9941b77ffda708207ff6c4",
+      "title": "MARS: Multi-Agent Adaptive Reasoning with Socratic Guidance for Automated Prompt Optimization",
+      "doi": "10.1609/aaai.v40i19.38668",
+      "pushed_at": "2026-04-15T09:10:37.468212-06:00"
+    },
+    {
+      "title_hash": "e9b40d026bcbf6aa032328ac1e348b1b",
+      "title": "Balancing Accuracy and Efficiency in Multi-Turn Intent Classification for LLM-Powered Dialog Systems",
+      "doi": "10.1609/aaai.v40i47.41442",
+      "pushed_at": "2026-04-15T09:10:37.468212-06:00"
+    },
+    {
+      "title_hash": "857fa60f1f48f1713b5fe2255d432d04",
+      "title": "When Explainability Meets Privacy: An Investigation at the Intersection of Post-hoc Explainability a",
+      "doi": "10.1609/aies.v8i1.36585",
+      "pushed_at": "2026-04-15T09:10:37.468212-06:00"
+    },
+    {
+      "title_hash": "92dfd238ee32f84ec25df8e0127b76e8",
+      "title": "Human-in-the-Loop Semantic Rule Base Generation and Dynamic Updating for Automated BIM Compliance Ch",
+      "doi": "10.3390/buildings16040719",
+      "pushed_at": "2026-04-15T09:10:37.468212-06:00"
+    },
+    {
+      "title_hash": "594f8df01afaa65aab6e76df11b83f0c",
+      "title": "EnergAI: A Large Language Model-Driven Generative Design Method for Early-Stage Building Energy Opti",
+      "doi": "10.3390/en18225921",
+      "pushed_at": "2026-04-15T09:10:37.468212-06:00"
+    },
+    {
+      "title_hash": "305cadb22ed6b2b00b4ed2e16fa2cf8f",
+      "title": "Artificial Intelligence in Construction Health and Safety: Use Cases, Benefits and Barriers",
+      "doi": "10.3390/safety12010030",
+      "pushed_at": "2026-04-15T09:10:37.468212-06:00"
+    },
+    {
+      "title_hash": "a0e67783789b86b8ca97c5e9f36fb751",
+      "title": "Uncovering Semantic Patterns in Sustainability Research: A Systematic <scp>NLP</scp> Review",
+      "doi": "10.1002/sd.70319",
+      "pushed_at": "2026-04-15T09:10:37.468212-06:00"
+    },
+    {
+      "title_hash": "b6ff6607a1db3874c673663f53b8c564",
+      "title": "Review of Generative AI methods in cybersecurity",
+      "doi": "10.1016/j.iotcps.2026.04.001",
+      "pushed_at": "2026-04-15T09:10:37.468212-06:00"
+    },
+    {
+      "title_hash": "5571795c0e3fdf1ac598cf4eec648ef4",
+      "title": "Clinical Data Sharing and Integration Model for Precision Anticoagulation Therapy",
+      "doi": "10.47191/etj/v10i09.12",
+      "pushed_at": "2026-04-15T09:10:37.468212-06:00"
+    },
+    {
+      "title_hash": "2d1787c2e843c54cf4661dddbb9c7f5a",
+      "title": "Secure Communication in Drone Networks: A Comprehensive Survey of Lightweight Encryption and Key Man",
+      "doi": "10.20944/preprints202507.1503.v1",
+      "pushed_at": "2026-04-15T09:10:37.468212-06:00"
+    },
+    {
+      "title_hash": "fc1e1c3bfa540bfe332f0993b6726674",
+      "title": "Self-Sovereign Identities and Content Provenance: VeriTrust—A Blockchain-Based Framework for Fake Ne",
+      "doi": "10.3390/fi17100448",
+      "pushed_at": "2026-04-15T09:10:37.468212-06:00"
+    },
+    {
+      "title_hash": "8334d8971c3686f3a190081dce793b0a",
+      "title": "Trust, Discourse, and Corporate Corruption",
+      "doi": "10.1017/9781009665957",
+      "pushed_at": "2026-04-15T09:10:37.468212-06:00"
+    },
+    {
+      "title_hash": "69abec348f80e5642500619103f1bcbb",
+      "title": "AI Integration in Tactical Communication Systems and Networks: A Survey and Future Research Directio",
+      "doi": "10.3390/systems13090752",
+      "pushed_at": "2026-04-15T09:10:37.468212-06:00"
     }
   ],
-  "last_push": "2026-04-14T09:16:16.704462-06:00"
+  "last_push": "2026-04-15T09:10:37.468212-06:00"
 }
