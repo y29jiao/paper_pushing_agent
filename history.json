@@ -1349,7 +1349,31 @@
       "title": "AI Integration in Tactical Communication Systems and Networks: A Survey and Future Research Directio",
       "doi": "10.3390/systems13090752",
       "pushed_at": "2026-04-15T09:10:37.468212-06:00"
+    },
+    {
+      "title_hash": "50664cbd6d07428ec3f053a28bc0a481",
+      "title": "Interpretable Long-Form Legal Question Answering with Retrieval-Augmented Large Language Models",
+      "doi": "10.1609/aaai.v38i20.30232",
+      "pushed_at": "2026-04-16T09:24:47.282718-06:00"
+    },
+    {
+      "title_hash": "2fdfd11526217466c86c06a3b4a256b8",
+      "title": "System L: Toward System 2-Style Legal Reasoning",
+      "doi": "10.1609/aaai.v40i46.41328",
+      "pushed_at": "2026-04-16T09:24:47.282718-06:00"
+    },
+    {
+      "title_hash": "e984570408f966414b87cce2883b32fc",
+      "title": "NomicLaw: Emergent Trust and Strategic Argumentation in LLMs During Collaborative Law-Making",
+      "doi": "10.1609/aies.v8i2.36629",
+      "pushed_at": "2026-04-16T09:24:47.282718-06:00"
+    },
+    {
+      "title_hash": "dd8c832f8aaef377bb08c12fe07e2d5e",
+      "title": "Legal Policy for Name Impersonation Victims in Online Loans: A Comparison Between Indonesia and Sing",
+      "doi": "10.22219/aclj.v6i3.40969",
+      "pushed_at": "2026-04-16T09:24:47.282718-06:00"
     }
   ],
-  "last_push": "2026-04-15T09:10:37.468212-06:00"
+  "last_push": "2026-04-16T09:24:47.282718-06:00"
 }
