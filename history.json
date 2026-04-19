@@ -1427,7 +1427,13 @@
       "title": "Is Vibe Coding the Future? An Empirical Assessment of LLM Generated Codes for Construction Safety",
       "doi": null,
       "pushed_at": "2026-04-18T08:41:45.523694-06:00"
+    },
+    {
+      "title_hash": "ea7a549e4fd2ac702cbff794fa7c6fc5",
+      "title": "Preventing Another Tessa: Modular Safety Middleware forHealth-Adjacent AI Assistants",
+      "doi": "10.1609/aaaiss.v7i1.36935",
+      "pushed_at": "2026-04-19T08:40:00.190912-06:00"
     }
   ],
-  "last_push": "2026-04-18T08:41:45.523694-06:00"
+  "last_push": "2026-04-19T08:40:00.190912-06:00"
 }
