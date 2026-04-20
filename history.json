@@ -1433,7 +1433,73 @@
       "title": "Preventing Another Tessa: Modular Safety Middleware forHealth-Adjacent AI Assistants",
       "doi": "10.1609/aaaiss.v7i1.36935",
       "pushed_at": "2026-04-19T08:40:00.190912-06:00"
+    },
+    {
+      "title_hash": "d39f139b208a99937a679d996f428585",
+      "title": "MARSHA: multi-agent RAG system for hazard adaptation",
+      "doi": "10.1038/s44168-025-00254-1",
+      "pushed_at": "2026-04-20T09:19:53.608882-06:00"
+    },
+    {
+      "title_hash": "01605450a88b4e791272ca6c8112dcac",
+      "title": "Privacy in the Age of Digital Surveillance: Analyzing WhatsApp’s Policy and Cybersecurity Implicatio",
+      "doi": "10.52783/jisem.v10i40s.7543",
+      "pushed_at": "2026-04-20T09:19:53.608882-06:00"
+    },
+    {
+      "title_hash": "64bfe66081ae178d9069ddde4321e73c",
+      "title": "Systematic Review of Service Quality Models in Construction",
+      "doi": "10.3390/buildings15132331",
+      "pushed_at": "2026-04-20T09:19:53.608882-06:00"
+    },
+    {
+      "title_hash": "11c239eb4d5701610d2a87f7601cee7f",
+      "title": "A systematic review of generative AI: importance of industry and startup-centered perspectives, agen",
+      "doi": "10.1007/s10462-025-11435-z",
+      "pushed_at": "2026-04-20T09:19:53.608882-06:00"
+    },
+    {
+      "title_hash": "333aa4ee5e2611425cfff398453c261a",
+      "title": "A Systematic Review of Responsible Artificial Intelligence Principles and Practice",
+      "doi": "10.3390/asi8040097",
+      "pushed_at": "2026-04-20T09:19:53.608882-06:00"
+    },
+    {
+      "title_hash": "b194f6ed2f22ab50e4cd7f84b2c10551",
+      "title": "Personalized smart immersive XR environments: a systematic literature review",
+      "doi": "10.1007/s00371-025-03887-9",
+      "pushed_at": "2026-04-20T09:19:53.608882-06:00"
+    },
+    {
+      "title_hash": "b8f14ffe8ba6bbc08166961dccd6aaf3",
+      "title": "ChatGPT and Digital Transformation: A Narrative Review of Its Role in Health, Education, and the Eco",
+      "doi": "10.3390/digital5030024",
+      "pushed_at": "2026-04-20T09:19:53.608882-06:00"
+    },
+    {
+      "title_hash": "f2cfd2f3c1483bfad3209f215c8e1171",
+      "title": "A Systematic Review of AI Ethics in Education",
+      "doi": "10.4018/jgim.386381",
+      "pushed_at": "2026-04-20T09:19:53.608882-06:00"
+    },
+    {
+      "title_hash": "cef1f493cade95a89f3f48ff62892524",
+      "title": "The challenges of consent in a decentralised metaverse: exploring ethically informed protections and",
+      "doi": "10.3389/frvir.2025.1401073",
+      "pushed_at": "2026-04-20T09:19:53.608882-06:00"
+    },
+    {
+      "title_hash": "845995c9d132296c7531df8aef3c68d7",
+      "title": "Ethical Leadership and Management of Small- and Medium-Sized Enterprises: The Role of AI in Decision",
+      "doi": "10.3390/admsci15070274",
+      "pushed_at": "2026-04-20T09:19:53.608882-06:00"
+    },
+    {
+      "title_hash": "cb7075f797dcbb8e41ce5566948b2c56",
+      "title": "Scratching the Surface of Responsible AI in Financial Services: A Qualitative Study on Non-Technical",
+      "doi": "10.3390/ai6080169",
+      "pushed_at": "2026-04-20T09:19:53.608882-06:00"
     }
   ],
-  "last_push": "2026-04-19T08:40:00.190912-06:00"
+  "last_push": "2026-04-20T09:19:53.608882-06:00"
 }
