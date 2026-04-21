@@ -1499,7 +1499,19 @@
       "title": "Scratching the Surface of Responsible AI in Financial Services: A Qualitative Study on Non-Technical",
       "doi": "10.3390/ai6080169",
       "pushed_at": "2026-04-20T09:19:53.608882-06:00"
+    },
+    {
+      "title_hash": "80c80399c46391cd85187aa6b2d602be",
+      "title": "Should LLMs Be WEIRD? Exploring WEIRDness and Human Rights in Large Language Models",
+      "doi": "10.1609/aies.v8i3.36761",
+      "pushed_at": "2026-04-21T09:21:59.268108-06:00"
+    },
+    {
+      "title_hash": "0632535cfffedb1727fe4a24cf732716",
+      "title": "Low-Altitude Wireless Networks: A Comprehensive Survey",
+      "doi": "10.48550/arxiv.2509.11607",
+      "pushed_at": "2026-04-21T09:21:59.268108-06:00"
     }
   ],
-  "last_push": "2026-04-20T09:19:53.608882-06:00"
+  "last_push": "2026-04-21T09:21:59.268108-06:00"
 }
