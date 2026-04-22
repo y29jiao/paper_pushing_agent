@@ -1511,7 +1511,19 @@
       "title": "Low-Altitude Wireless Networks: A Comprehensive Survey",
       "doi": "10.48550/arxiv.2509.11607",
       "pushed_at": "2026-04-21T09:21:59.268108-06:00"
+    },
+    {
+      "title_hash": "c8f7f10a1092cc850e068f95eb95bd4c",
+      "title": "Co-Producing AI: Toward an Augmented, Participatory Lifecycle",
+      "doi": "10.1609/aies.v8i2.36674",
+      "pushed_at": "2026-04-22T09:14:15.153710-06:00"
+    },
+    {
+      "title_hash": "be3438fddd963d470d40a0affce360e5",
+      "title": "Designing for diversity: a feminist technoscience and behavioural fabrication approach in human–robo",
+      "doi": "10.1007/s41693-025-00164-y",
+      "pushed_at": "2026-04-22T09:14:15.153710-06:00"
     }
   ],
-  "last_push": "2026-04-21T09:21:59.268108-06:00"
+  "last_push": "2026-04-22T09:14:15.153710-06:00"
 }
