@@ -1523,7 +1523,19 @@
       "title": "Designing for diversity: a feminist technoscience and behavioural fabrication approach in human–robo",
       "doi": "10.1007/s41693-025-00164-y",
       "pushed_at": "2026-04-22T09:14:15.153710-06:00"
+    },
+    {
+      "title_hash": "41376c7e417af3da97511c70130b5bba",
+      "title": "AI and the Social Contract",
+      "doi": "10.1609/aies.v8i1.36575",
+      "pushed_at": "2026-04-23T09:36:31.517695-06:00"
+    },
+    {
+      "title_hash": "4b93af548b1829fa47fe3135442fb321",
+      "title": "Aggregation Problems in Machine Ethics and AI Alignment",
+      "doi": "10.1609/aies.v8i1.36554",
+      "pushed_at": "2026-04-23T09:36:31.517695-06:00"
     }
   ],
-  "last_push": "2026-04-22T09:14:15.153710-06:00"
+  "last_push": "2026-04-23T09:36:31.517695-06:00"
 }
