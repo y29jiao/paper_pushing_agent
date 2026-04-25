@@ -1595,7 +1595,61 @@
       "title": "Unlocking the Commercialization of SAF Through Integration of Industry 4.0: A Technological Perspect",
       "doi": "10.20944/preprints202507.0819.v1",
       "pushed_at": "2026-04-24T09:07:29.237254-06:00"
+    },
+    {
+      "title_hash": "53c1fde1f6d7c155bab174a5e1e104cd",
+      "title": "Code Comparison Tuning for Code Large Language Models",
+      "doi": null,
+      "pushed_at": "2026-04-25T08:44:24.434662-06:00"
+    },
+    {
+      "title_hash": "03295d431e6eb38e23be48148ef338e4",
+      "title": "An Empirical Comparison of Pre-Trained Models of Source Code",
+      "doi": null,
+      "pushed_at": "2026-04-25T08:44:24.434662-06:00"
+    },
+    {
+      "title_hash": "624e42c211580153c8d9dd640359d5a7",
+      "title": "Generative AI and LLMs for Critical Infrastructure Protection: Evaluation Benchmarks, Agentic AI, Ch",
+      "doi": "10.3390/s25061666",
+      "pushed_at": "2026-04-25T08:44:24.434662-06:00"
+    },
+    {
+      "title_hash": "15117e1e672f3eb5aab4d815c2f8593d",
+      "title": "Artificial intelligence for secure and sustainable industrial control systems - A Survey of challeng",
+      "doi": "10.1007/s10462-025-11320-9",
+      "pushed_at": "2026-04-25T08:44:24.434662-06:00"
+    },
+    {
+      "title_hash": "9f9eadba03abdfb712c0d76c48c73928",
+      "title": "A Review of Agentic AI in Cybersecurity: Cognitive Autonomy, Ethical Governance, and Quantum-Resilie",
+      "doi": "10.12688/f1000research.169337.1",
+      "pushed_at": "2026-04-25T08:44:24.434662-06:00"
+    },
+    {
+      "title_hash": "4f99a557b1d8fd2c0157068abef6bee7",
+      "title": "SoK: On the Offensive Potential of AI",
+      "doi": "10.1109/satml64287.2025.00021",
+      "pushed_at": "2026-04-25T08:44:24.434662-06:00"
+    },
+    {
+      "title_hash": "f315e7894798eac581facdcdebf94b7c",
+      "title": "Managing Misuse Risk for Dual-Use Foundation Models",
+      "doi": "10.6028/nist.ai.800-1.2pd",
+      "pushed_at": "2026-04-25T08:44:24.434662-06:00"
+    },
+    {
+      "title_hash": "2132d1b82881738af142f806a10eeb02",
+      "title": "A Guide to Machine Learning Epistemic Ignorance, Hidden Paradoxes, and Other Tensions",
+      "doi": "10.1002/widm.70038",
+      "pushed_at": "2026-04-25T08:44:24.434662-06:00"
+    },
+    {
+      "title_hash": "695cdea2d08c7d89547fdb82d2203e1a",
+      "title": "How Can ChatGPT Empower Indonesian Classrooms?",
+      "doi": "10.47134/frontiers.v1i3.423",
+      "pushed_at": "2026-04-25T08:44:24.434662-06:00"
     }
   ],
-  "last_push": "2026-04-24T09:07:29.237254-06:00"
+  "last_push": "2026-04-25T08:44:24.434662-06:00"
 }
