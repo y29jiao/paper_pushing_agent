@@ -1661,7 +1661,19 @@
       "title": "A survey of classification tasks and approaches for legal contracts",
       "doi": "10.1007/s10462-025-11359-8",
       "pushed_at": "2026-04-28T10:18:57.290836-06:00"
+    },
+    {
+      "title_hash": "6f0df62eb83af7b406d80ffe555cea0e",
+      "title": "“Reasoning” with Rhetoric: On the Style-Evidence Tradeoff in LLM-Generated Counter-Arguments",
+      "doi": "10.1609/icwsm.v19i1.35913",
+      "pushed_at": "2026-04-29T10:03:16.872629-06:00"
+    },
+    {
+      "title_hash": "f14bb588891c38fe0045a21af20ecccc",
+      "title": "Sound Check: Auditing Recent Audio Dataset Practices",
+      "doi": "10.1609/aies.v8i1.36528",
+      "pushed_at": "2026-04-29T10:03:16.872629-06:00"
     }
   ],
-  "last_push": "2026-04-28T10:18:57.290836-06:00"
+  "last_push": "2026-04-29T10:03:16.872629-06:00"
 }
