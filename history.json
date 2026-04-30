@@ -1673,7 +1673,19 @@
       "title": "Sound Check: Auditing Recent Audio Dataset Practices",
       "doi": "10.1609/aies.v8i1.36528",
       "pushed_at": "2026-04-29T10:03:16.872629-06:00"
+    },
+    {
+      "title_hash": "4aa5d1ec27baec83a31f30628b91daf2",
+      "title": "News Media and Violence against Women: Understanding Framings of Stigma",
+      "doi": "10.1609/icwsm.v18i1.31373",
+      "pushed_at": "2026-04-30T09:42:14.039415-06:00"
+    },
+    {
+      "title_hash": "1f08fa2e0fc08a8e91cdf84646fa9dcd",
+      "title": "Knowledge graph exploitation to enhance the usability of risk assessment in construction safety plan",
+      "doi": "10.1016/j.aei.2025.103305",
+      "pushed_at": "2026-04-30T09:42:14.039415-06:00"
     }
   ],
-  "last_push": "2026-04-29T10:03:16.872629-06:00"
+  "last_push": "2026-04-30T09:42:14.039415-06:00"
 }
