@@ -1685,7 +1685,25 @@
       "title": "Knowledge graph exploitation to enhance the usability of risk assessment in construction safety plan",
       "doi": "10.1016/j.aei.2025.103305",
       "pushed_at": "2026-04-30T09:42:14.039415-06:00"
+    },
+    {
+      "title_hash": "76bb09b18c9e1c4c4a53151866eb0005",
+      "title": "Security and Privacy of Large Language Models: Threat Taxonomy, Ethical Implications, and Governance",
+      "doi": "10.3390/ai7050152",
+      "pushed_at": "2026-05-02T08:47:04.936521-06:00"
+    },
+    {
+      "title_hash": "ce056a405fe79d5d85c917bc6fa0f23e",
+      "title": "Standardization of AI Ethics",
+      "doi": null,
+      "pushed_at": "2026-05-02T08:47:04.936521-06:00"
+    },
+    {
+      "title_hash": "a4ad6d6dd287f31738a2182f3dad7429",
+      "title": "Advancing Regulation in Artificial Intelligence: An Auction-Based Approach",
+      "doi": null,
+      "pushed_at": "2026-05-02T08:47:04.936521-06:00"
     }
   ],
-  "last_push": "2026-04-30T09:42:14.039415-06:00"
+  "last_push": "2026-05-02T08:47:04.936521-06:00"
 }
