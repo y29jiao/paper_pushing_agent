@@ -1703,7 +1703,13 @@
       "title": "Advancing Regulation in Artificial Intelligence: An Auction-Based Approach",
       "doi": null,
       "pushed_at": "2026-05-02T08:47:04.936521-06:00"
+    },
+    {
+      "title_hash": "dc852b501018754fe3050e1cb5d512c8",
+      "title": "No Thoughts Just AI: Biased LLM Hiring Recommendations Alter Human Decision Making and Limit Human A",
+      "doi": "10.1609/aies.v8i3.36749",
+      "pushed_at": "2026-05-03T08:50:23.766477-06:00"
     }
   ],
-  "last_push": "2026-05-02T08:47:04.936521-06:00"
+  "last_push": "2026-05-03T08:50:23.766477-06:00"
 }
