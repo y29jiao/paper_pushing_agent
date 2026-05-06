@@ -1709,7 +1709,25 @@
       "title": "No Thoughts Just AI: Biased LLM Hiring Recommendations Alter Human Decision Making and Limit Human A",
       "doi": "10.1609/aies.v8i3.36749",
       "pushed_at": "2026-05-03T08:50:23.766477-06:00"
+    },
+    {
+      "title_hash": "10a2ac97b990af1ae624a2039bbe83a0",
+      "title": "An IFC-Based Framework for Automated Integration of Structural Analysis Results to Support BIM-Based",
+      "doi": "10.3390/buildings16040746",
+      "pushed_at": "2026-05-06T10:08:33.360668-06:00"
+    },
+    {
+      "title_hash": "9adb4fdb541325f7a9eabdab8c960fb0",
+      "title": "Precision Build AI",
+      "doi": "10.55041/ijsrem43007",
+      "pushed_at": "2026-05-06T10:08:33.360668-06:00"
+    },
+    {
+      "title_hash": "2d91a366b1592f17e62f90665e800ced",
+      "title": "LLM attribution analysis across different fine-tuning strategies and model scales for automated code",
+      "doi": null,
+      "pushed_at": "2026-05-06T10:08:33.360668-06:00"
     }
   ],
-  "last_push": "2026-05-03T08:50:23.766477-06:00"
+  "last_push": "2026-05-06T10:08:33.360668-06:00"
 }
