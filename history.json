@@ -1727,7 +1727,13 @@
       "title": "LLM attribution analysis across different fine-tuning strategies and model scales for automated code",
       "doi": null,
       "pushed_at": "2026-05-06T10:08:33.360668-06:00"
+    },
+    {
+      "title_hash": "b32c6829a8eba4cae9fb972882464023",
+      "title": "Integrating Knowledge Graphs and Semantic Retrieval for Indonesian Legal Question Answering",
+      "doi": "10.1109/ICICyTA68677.2025.11362380",
+      "pushed_at": "2026-05-07T10:06:53.559792-06:00"
     }
   ],
-  "last_push": "2026-05-06T10:08:33.360668-06:00"
+  "last_push": "2026-05-07T10:06:53.559792-06:00"
 }
