@@ -1733,7 +1733,13 @@
       "title": "Integrating Knowledge Graphs and Semantic Retrieval for Indonesian Legal Question Answering",
       "doi": "10.1109/ICICyTA68677.2025.11362380",
       "pushed_at": "2026-05-07T10:06:53.559792-06:00"
+    },
+    {
+      "title_hash": "00058e51aa21c6fb4b36a74c64705c29",
+      "title": "ML-EAT: A Multilevel Embedding Association Test for Interpretable and Transparent Social Science",
+      "doi": "10.1609/aies.v7i1.31751",
+      "pushed_at": "2026-05-08T09:24:00.922959-06:00"
     }
   ],
-  "last_push": "2026-05-07T10:06:53.559792-06:00"
+  "last_push": "2026-05-08T09:24:00.922959-06:00"
 }
