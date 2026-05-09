@@ -1739,7 +1739,25 @@
       "title": "ML-EAT: A Multilevel Embedding Association Test for Interpretable and Transparent Social Science",
       "doi": "10.1609/aies.v7i1.31751",
       "pushed_at": "2026-05-08T09:24:00.922959-06:00"
+    },
+    {
+      "title_hash": "8f1e9fc536c67c65577f4ec6e54a6d67",
+      "title": "Addressing the Reality Gap: A Three-Tension Framework for Agentic AI Adoption",
+      "doi": null,
+      "pushed_at": "2026-05-09T08:49:42.611551-06:00"
+    },
+    {
+      "title_hash": "ce58247303224fbda40eae56287e134c",
+      "title": "Cognitive Artificial Intelligence for Health and Climate: Deep Models, Interpretability, and Decisio",
+      "doi": "10.70593/978-93-7185-745-1",
+      "pushed_at": "2026-05-09T08:49:42.611551-06:00"
+    },
+    {
+      "title_hash": "05f2c9a15381651ed8ab9c8a635778f7",
+      "title": "REFLECTIONS ON THE ESSENCE OF THE CONCEPT OF «ECOSYSTEM»",
+      "doi": "10.34660/inf.2025.69.96.173",
+      "pushed_at": "2026-05-09T08:49:42.611551-06:00"
     }
   ],
-  "last_push": "2026-05-08T09:24:00.922959-06:00"
+  "last_push": "2026-05-09T08:49:42.611551-06:00"
 }
