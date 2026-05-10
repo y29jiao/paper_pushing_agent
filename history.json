@@ -1757,7 +1757,19 @@
       "title": "REFLECTIONS ON THE ESSENCE OF THE CONCEPT OF «ECOSYSTEM»",
       "doi": "10.34660/inf.2025.69.96.173",
       "pushed_at": "2026-05-09T08:49:42.611551-06:00"
+    },
+    {
+      "title_hash": "954cb72f940c10079e5f6d69f32a5925",
+      "title": "On the Feasibility of Using MultiModal LLMs to Execute AR Social Engineering Attacks",
+      "doi": "10.1609/aaai.v40i45.41164",
+      "pushed_at": "2026-05-10T08:50:25.432136-06:00"
+    },
+    {
+      "title_hash": "cf35509e942e8632130fd0c7a8c6d579",
+      "title": "How Can You Tell if Your Large Language Model Could Be a Closet Antisemite? An Explainability-Based ",
+      "doi": "10.1609/aaai.v40i45.41181",
+      "pushed_at": "2026-05-10T08:50:25.432136-06:00"
     }
   ],
-  "last_push": "2026-05-09T08:49:42.611551-06:00"
+  "last_push": "2026-05-10T08:50:25.432136-06:00"
 }
