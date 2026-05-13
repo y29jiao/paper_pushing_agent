@@ -1775,7 +1775,19 @@
       "title": "Digital Twins and Civil Engineering Phases: Reorienting Adoption Strategies",
       "doi": null,
       "pushed_at": "2026-05-12T10:18:56.236031-06:00"
+    },
+    {
+      "title_hash": "f029f9f65862057d4da934cb767174a0",
+      "title": "Adoption of Explainable Natural Language Processing: Perspectives from Industry and Academia on Prac",
+      "doi": "10.1609/aies.v8i1.36584",
+      "pushed_at": "2026-05-13T10:22:15.291757-06:00"
+    },
+    {
+      "title_hash": "1b6b0c9620cf0d10ac11e958c4017c2f",
+      "title": "Accurate Legal Reasoning at Scale: Neuro-Symbolic Offloading and Structural Auditability for Robust ",
+      "doi": null,
+      "pushed_at": "2026-05-13T10:22:15.291757-06:00"
     }
   ],
-  "last_push": "2026-05-12T10:18:56.236031-06:00"
+  "last_push": "2026-05-13T10:22:15.291757-06:00"
 }
