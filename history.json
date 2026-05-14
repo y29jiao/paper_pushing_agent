@@ -1787,7 +1787,67 @@
       "title": "Accurate Legal Reasoning at Scale: Neuro-Symbolic Offloading and Structural Auditability for Robust ",
       "doi": null,
       "pushed_at": "2026-05-13T10:22:15.291757-06:00"
+    },
+    {
+      "title_hash": "49478532734b6baa953d93071924d93d",
+      "title": "BLADE: Enhancing Black-Box Large Language Models with Small Domain-Specific Models",
+      "doi": "10.1609/aaai.v39i23.34620",
+      "pushed_at": "2026-05-14T10:21:46.743246-06:00"
+    },
+    {
+      "title_hash": "129cf45e28e0ea606293cb2c80cb2a24",
+      "title": "Can LLMs Answer Investment Banking Questions? Using Domain-Tuned Functions to Improve LLM Performanc",
+      "doi": "10.1609/aaaiss.v3i1.31191",
+      "pushed_at": "2026-05-14T10:21:46.743246-06:00"
+    },
+    {
+      "title_hash": "f2dceb657a23c1e32e79b72f28379878",
+      "title": "Benchmarking Large Language Models in Retrieval-Augmented Generation",
+      "doi": "10.1609/aaai.v38i16.29728",
+      "pushed_at": "2026-05-14T10:21:46.743246-06:00"
+    },
+    {
+      "title_hash": "c56598252619306671b52a4a59672240",
+      "title": "DELTA: Pre-Train a Discriminative Encoder for Legal Case Retrieval via Structural Word Alignment",
+      "doi": "10.1609/aaai.v39i25.34914",
+      "pushed_at": "2026-05-14T10:21:46.743246-06:00"
+    },
+    {
+      "title_hash": "649f3763dccc35cbe6e82d952aa5a04f",
+      "title": "Legal Minds, Algorithmic Decisions: How LLMs Apply Constitutional Principles in Complex Scenarios",
+      "doi": "10.1609/aies.v7i1.31623",
+      "pushed_at": "2026-05-14T10:21:46.743246-06:00"
+    },
+    {
+      "title_hash": "ad8dfd7ed11a03e2ccca485417530d37",
+      "title": "Xiezhi: An Ever-Updating Benchmark for Holistic Domain Knowledge Evaluation",
+      "doi": "10.1609/aaai.v38i16.29767",
+      "pushed_at": "2026-05-14T10:21:46.743246-06:00"
+    },
+    {
+      "title_hash": "06c08e8c28e1b634a3c37b5bdc19dfe6",
+      "title": "LLMs and Memorization: On Quality and Specificity of Copyright Compliance",
+      "doi": "10.1609/aies.v7i1.31697",
+      "pushed_at": "2026-05-14T10:21:46.743246-06:00"
+    },
+    {
+      "title_hash": "f989afbdb373bf8b48da4b6f5de1ff26",
+      "title": "Implementation of Business Competition Compliance Program to Prevent Unfair Business Competition Pra",
+      "doi": "10.22219/aclj.v5i1.29780",
+      "pushed_at": "2026-05-14T10:21:46.743246-06:00"
+    },
+    {
+      "title_hash": "30664b777d27ee249cc7345c183d115c",
+      "title": "Pay Attention: a Call to Regulate the Attention Market and Prevent Algorithmic Emotional Governance",
+      "doi": "10.1609/aies.v7i1.31696",
+      "pushed_at": "2026-05-14T10:21:46.743246-06:00"
+    },
+    {
+      "title_hash": "3d14e0acfe19dbd96a099d615e5f9494",
+      "title": "Surveys Considered Harmful? Reflecting on the Use of Surveys in AI Research, Development, and Govern",
+      "doi": "10.1609/aies.v7i1.31734",
+      "pushed_at": "2026-05-14T10:21:46.743246-06:00"
     }
   ],
-  "last_push": "2026-05-13T10:22:15.291757-06:00"
+  "last_push": "2026-05-14T10:21:46.743246-06:00"
 }
