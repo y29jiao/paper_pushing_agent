@@ -1847,7 +1847,13 @@
       "title": "Surveys Considered Harmful? Reflecting on the Use of Surveys in AI Research, Development, and Govern",
       "doi": "10.1609/aies.v7i1.31734",
       "pushed_at": "2026-05-14T10:21:46.743246-06:00"
+    },
+    {
+      "title_hash": "7d1a18152bbbd030532d1a7e830c04d3",
+      "title": "Cybersecurity Compliance for Operational Technology Using Large Language Models",
+      "doi": "10.1109/ojcs.2026.3684079",
+      "pushed_at": "2026-05-15T10:02:22.637116-06:00"
     }
   ],
-  "last_push": "2026-05-14T10:21:46.743246-06:00"
+  "last_push": "2026-05-15T10:02:22.637116-06:00"
 }
