@@ -1853,7 +1853,79 @@
       "title": "Cybersecurity Compliance for Operational Technology Using Large Language Models",
       "doi": "10.1109/ojcs.2026.3684079",
       "pushed_at": "2026-05-15T10:02:22.637116-06:00"
+    },
+    {
+      "title_hash": "9a091d444d060497fc0fe36e12d16834",
+      "title": "Gender, Race, and Intersectional Bias in Resume Screening via Language Model Retrieval",
+      "doi": "10.1609/aies.v7i1.31748",
+      "pushed_at": "2026-05-17T08:58:11.318085-06:00"
+    },
+    {
+      "title_hash": "182518a8c6e1852193b2c62bd22efc4d",
+      "title": "Generative AI in construction risk management: a bibliometric analysis of the associated benefits an",
+      "doi": "10.1108/uss-11-2024-0069",
+      "pushed_at": "2026-05-17T08:58:11.318085-06:00"
+    },
+    {
+      "title_hash": "182518a8c6e1852193b2c62bd22efc4d",
+      "title": "Generative AI in construction risk management: a bibliometric analysis of the associated benefits an",
+      "doi": "10.1108/uss-11-2024-0069",
+      "pushed_at": "2026-05-17T08:58:11.318085-06:00"
+    },
+    {
+      "title_hash": "87132a7f838546d8b28c936387edc73d",
+      "title": "A framework for leveraging artificial intelligence in strategic business decision-making",
+      "doi": "10.51594/gjabr.v3i11.171",
+      "pushed_at": "2026-05-17T08:58:11.318085-06:00"
+    },
+    {
+      "title_hash": "8b49ee96c9a4f00531191b46c42e859a",
+      "title": "Digital Twin Technology in Transportation Infrastructure: A Comprehensive Survey of Current Applicat",
+      "doi": "10.3390/app15041911",
+      "pushed_at": "2026-05-17T08:58:11.318085-06:00"
+    },
+    {
+      "title_hash": "80d28404d68c57ef3bf8697443956204",
+      "title": "BIM, IoT, and GIS integration in construction resource monitoring",
+      "doi": "10.1016/j.autcon.2025.106149",
+      "pushed_at": "2026-05-17T08:58:11.318085-06:00"
+    },
+    {
+      "title_hash": "0057339a513eac8bf67e28027ce5f5e6",
+      "title": "Modular Construction: A Comprehensive Review",
+      "doi": "10.3390/buildings15122020",
+      "pushed_at": "2026-05-17T08:58:11.318085-06:00"
+    },
+    {
+      "title_hash": "0c5c7bbfb9eabd43c1c0417c9ec3585c",
+      "title": "Artificial intelligence in the design, optimization, and performance prediction of concrete material",
+      "doi": "10.1038/s44296-025-00058-8",
+      "pushed_at": "2026-05-17T08:58:11.318085-06:00"
+    },
+    {
+      "title_hash": "e2c2f11d0354719c49e8fd95dd22ccf6",
+      "title": "The Role of Artificial Intelligence and Machine Learning in Advancing Civil Engineering: A Comprehen",
+      "doi": "10.3390/app151910499",
+      "pushed_at": "2026-05-17T08:58:11.318085-06:00"
+    },
+    {
+      "title_hash": "41bc9402a0ed57824e050c635cdf9907",
+      "title": "Physics-informed machine learning in geotechnical engineering: a direction paper",
+      "doi": "10.1080/17486025.2025.2502029",
+      "pushed_at": "2026-05-17T08:58:11.318085-06:00"
+    },
+    {
+      "title_hash": "faf25dd3277b0ce331f408a1cec0bfb5",
+      "title": "Digital Twin Applications in the Water Sector: A Review",
+      "doi": "10.3390/w17202957",
+      "pushed_at": "2026-05-17T08:58:11.318085-06:00"
+    },
+    {
+      "title_hash": "26efbc57dda08220749ccc1fe66de045",
+      "title": "Integrating fuzzy logic into life cycle assessment for sustainable municipal solid waste management ",
+      "doi": "10.12912/27197050/205500",
+      "pushed_at": "2026-05-17T08:58:11.318085-06:00"
     }
   ],
-  "last_push": "2026-05-15T10:02:22.637116-06:00"
+  "last_push": "2026-05-17T08:58:11.318085-06:00"
 }
