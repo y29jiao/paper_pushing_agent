@@ -1925,7 +1925,13 @@
       "title": "Integrating fuzzy logic into life cycle assessment for sustainable municipal solid waste management ",
       "doi": "10.12912/27197050/205500",
       "pushed_at": "2026-05-17T08:58:11.318085-06:00"
+    },
+    {
+      "title_hash": "6cbbc30ea03e230e0311f642d301c414",
+      "title": "Bridging dual knowledge graphs for multi-hop question answering in construction safety",
+      "doi": "10.1016/j.autcon.2026.106794",
+      "pushed_at": "2026-05-20T10:50:23.512771-06:00"
     }
   ],
-  "last_push": "2026-05-17T08:58:11.318085-06:00"
+  "last_push": "2026-05-20T10:50:23.512771-06:00"
 }
