@@ -1931,7 +1931,13 @@
       "title": "Bridging dual knowledge graphs for multi-hop question answering in construction safety",
       "doi": "10.1016/j.autcon.2026.106794",
       "pushed_at": "2026-05-20T10:50:23.512771-06:00"
+    },
+    {
+      "title_hash": "e0c5390a24d28b5c0b37a15c75c24e7d",
+      "title": "Nurture-First Agent Development: Building Domain-Expert AI Agents Through Conversational Knowledge C",
+      "doi": null,
+      "pushed_at": "2026-05-23T09:00:08.361724-06:00"
     }
   ],
-  "last_push": "2026-05-20T10:50:23.512771-06:00"
+  "last_push": "2026-05-23T09:00:08.361724-06:00"
 }
