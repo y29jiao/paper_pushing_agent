@@ -1937,7 +1937,49 @@
       "title": "Nurture-First Agent Development: Building Domain-Expert AI Agents Through Conversational Knowledge C",
       "doi": null,
       "pushed_at": "2026-05-23T09:00:08.361724-06:00"
+    },
+    {
+      "title_hash": "a16be6e79f6f48a1b2373fbfdb1ede05",
+      "title": "Design, Validation, and Risk Assessment of LLM-Based Generative AI Systems Operating in the Legal Se",
+      "doi": "10.36227/techrxiv.172114926.68591276/v4",
+      "pushed_at": "2026-05-28T11:41:18.514830-06:00"
+    },
+    {
+      "title_hash": "1f21622ea4892a0656385d60960fadae",
+      "title": "AI Act Evaluation Benchmark: An Open, Transparent, and Reproducible Evaluation Dataset for NLP and R",
+      "doi": null,
+      "pushed_at": "2026-05-28T11:41:18.514830-06:00"
+    },
+    {
+      "title_hash": "cc2aca9239897a3b612ad633791b2bf0",
+      "title": "An Artificial Intelligence Value at Risk Approach: Metrics and Models",
+      "doi": "10.57017/jaes.v20.4(90).11",
+      "pushed_at": "2026-05-28T11:41:18.514830-06:00"
+    },
+    {
+      "title_hash": "7560b0e096d5093f854799cba320b4a7",
+      "title": "Regulating AI to Combat Tech-Crimes: Fighting the Misuse of Generative AI for Cyber Attacks and Digi",
+      "doi": "10.71265/23nqtq40",
+      "pushed_at": "2026-05-28T11:41:18.514830-06:00"
+    },
+    {
+      "title_hash": "c59ff0baa91d4e5cf46967795c57c439",
+      "title": "Decoding China's Industrial Policies",
+      "doi": "10.3386/w33814",
+      "pushed_at": "2026-05-28T11:41:18.514830-06:00"
+    },
+    {
+      "title_hash": "7646f207f67cc7a64d4ffb928204cc5c",
+      "title": "A systematic literature review to implement large language model in higher education: issues and sol",
+      "doi": "10.1007/s44217-025-00424-7",
+      "pushed_at": "2026-05-28T11:41:18.514830-06:00"
+    },
+    {
+      "title_hash": "63b19c9c68c9e4ddc4600f084453b99c",
+      "title": "Deployment of LLM-Powered Healthcare Information Kiosks in Primary Health Centers in India: Technica",
+      "doi": "10.60142/ijhti.v5i01.08",
+      "pushed_at": "2026-05-28T11:41:18.514830-06:00"
     }
   ],
-  "last_push": "2026-05-23T09:00:08.361724-06:00"
+  "last_push": "2026-05-28T11:41:18.514830-06:00"
 }
