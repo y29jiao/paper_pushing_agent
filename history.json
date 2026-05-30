@@ -1979,7 +1979,127 @@
       "title": "Deployment of LLM-Powered Healthcare Information Kiosks in Primary Health Centers in India: Technica",
       "doi": "10.60142/ijhti.v5i01.08",
       "pushed_at": "2026-05-28T11:41:18.514830-06:00"
+    },
+    {
+      "title_hash": "75ec87e93162d9f91e18b34f7e8ff62e",
+      "title": "The Problems with Proxies: Making Data Work Visible through Requester Practices",
+      "doi": "10.1609/aies.v7i1.31721",
+      "pushed_at": "2026-05-30T09:04:08.596671-06:00"
+    },
+    {
+      "title_hash": "949996ffd4c454a30b76f6ab42276e72",
+      "title": "CyberQ: Generating Questions and Answers for Cybersecurity Education Using Knowledge Graph-Augmented",
+      "doi": "10.1609/aaai.v38i21.30362",
+      "pushed_at": "2026-05-30T09:04:08.596671-06:00"
+    },
+    {
+      "title_hash": "5dbcc4d8d8a167f15c25210caae87430",
+      "title": "A Framework for Approaching AI Education in Educator Preparation Programs",
+      "doi": "10.1609/aaai.v38i21.30351",
+      "pushed_at": "2026-05-30T09:04:08.596671-06:00"
+    },
+    {
+      "title_hash": "2a81159a7a9422707a4d624cd8a24efa",
+      "title": "The Code That Binds Us: Navigating the Appropriateness of Human-AI Assistant Relationships",
+      "doi": "10.1609/aies.v7i1.31694",
+      "pushed_at": "2026-05-30T09:04:08.596671-06:00"
+    },
+    {
+      "title_hash": "3a3b9dd5ebb704cc428877e1190906f8",
+      "title": "Dr. R.O. Bott Will See You Now: Exploring AI for Wellbeing with Middle School Students",
+      "doi": "10.1609/aaai.v38i21.30379",
+      "pushed_at": "2026-05-30T09:04:08.596671-06:00"
+    },
+    {
+      "title_hash": "6d625cf169cdcc854a206fa5d9aaffa2",
+      "title": "MDD-5k: A New Diagnostic Conversation Dataset for Mental Disorders Synthesized via Neuro-Symbolic LL",
+      "doi": "10.1609/aaai.v39i24.34763",
+      "pushed_at": "2026-05-30T09:04:08.596671-06:00"
+    },
+    {
+      "title_hash": "e8a420b3a8bcd7fd566e8080cc6e7934",
+      "title": "When to Show a Suggestion? Integrating Human Feedback in AI-Assisted Programming",
+      "doi": "10.1609/aaai.v38i9.28878",
+      "pushed_at": "2026-05-30T09:04:08.596671-06:00"
+    },
+    {
+      "title_hash": "7ac3a02f3dd3678a03fdfd1b48600b99",
+      "title": "Gaps in the Safety Evaluation of Generative AI",
+      "doi": "10.1609/aies.v7i1.31717",
+      "pushed_at": "2026-05-30T09:04:08.596671-06:00"
+    },
+    {
+      "title_hash": "753846fc860dccf64d0fde2ae4d636f2",
+      "title": "ChEdBot: Designing a Domain-Specific Conversational Agent in a Simulational Learning Environment Usi",
+      "doi": "10.1609/aaaiss.v3i1.31198",
+      "pushed_at": "2026-05-30T09:04:08.596671-06:00"
+    },
+    {
+      "title_hash": "c820884d88b136e02d408a40172b6eba",
+      "title": "SNAP: Semantic Stories for Next Activity Prediction",
+      "doi": "10.1609/aaai.v39i28.35153",
+      "pushed_at": "2026-05-30T09:04:08.596671-06:00"
+    },
+    {
+      "title_hash": "95159d2e7c49a726b337539821246c45",
+      "title": "Retrieval-Augmented Generation (RAG) in Healthcare: A Comprehensive Review",
+      "doi": "10.3390/ai6090226",
+      "pushed_at": "2026-05-30T09:04:08.596671-06:00"
+    },
+    {
+      "title_hash": "53588547ef00b3a69e94a0ef56e21567",
+      "title": "The evolving field of digital mental health: current evidence and implementation issues for smartpho",
+      "doi": "10.1002/wps.21299",
+      "pushed_at": "2026-05-30T09:04:08.596671-06:00"
+    },
+    {
+      "title_hash": "dc2fde943b89b38e93ab32452cef80d0",
+      "title": "Towards conversational diagnostic artificial intelligence",
+      "doi": "10.1038/s41586-025-08866-7",
+      "pushed_at": "2026-05-30T09:04:08.596671-06:00"
+    },
+    {
+      "title_hash": "016b83b6c702b115702d04bdba9e04d5",
+      "title": "Higher education students’ perceptions of ChatGPT: A global study of early reactions",
+      "doi": "10.1371/journal.pone.0315011",
+      "pushed_at": "2026-05-30T09:04:08.596671-06:00"
+    },
+    {
+      "title_hash": "9148c0ab0d02a68a38ec108ff44659f6",
+      "title": "AI Agents vs. Agentic AI: A Conceptual Taxonomy, Applications and Challenges",
+      "doi": "10.70777/si.v2i3.15161",
+      "pushed_at": "2026-05-30T09:04:08.596671-06:00"
+    },
+    {
+      "title_hash": "191751d068883642b35f3e5569133e64",
+      "title": "Industrial applications of large language models",
+      "doi": "10.1038/s41598-025-98483-1",
+      "pushed_at": "2026-05-30T09:04:08.596671-06:00"
+    },
+    {
+      "title_hash": "81274d7ca3f7e710b2aa9a0943e10c7c",
+      "title": "Convergence of evolving artificial intelligence and machine learning techniques in precision oncolog",
+      "doi": "10.1038/s41746-025-01471-y",
+      "pushed_at": "2026-05-30T09:04:08.596671-06:00"
+    },
+    {
+      "title_hash": "c9198df2c914120b3c5b8324f65a28fc",
+      "title": "Third-party evaluators perceive AI as more compassionate than expert humans",
+      "doi": "10.1038/s44271-024-00182-6",
+      "pushed_at": "2026-05-30T09:04:08.596671-06:00"
+    },
+    {
+      "title_hash": "3ee8926a6bf6a51feb24ce6af017d2ba",
+      "title": "Pedagogical AI conversational agents in higher education: a conceptual framework and survey of the s",
+      "doi": "10.1007/s11423-025-10447-4",
+      "pushed_at": "2026-05-30T09:04:08.596671-06:00"
+    },
+    {
+      "title_hash": "2c2b35472faa6ff5212655f0e9922913",
+      "title": "The role of large language models in personalized learning: a systematic review of educational impac",
+      "doi": "10.1007/s43621-025-01094-z",
+      "pushed_at": "2026-05-30T09:04:08.596671-06:00"
     }
   ],
-  "last_push": "2026-05-28T11:41:18.514830-06:00"
+  "last_push": "2026-05-30T09:04:08.596671-06:00"
 }
