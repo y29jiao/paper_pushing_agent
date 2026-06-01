@@ -2219,7 +2219,127 @@
       "title": "CLASSIFICATION DISPUTES IN CUSTOMS REGULATION: JUDICIAL PRACTICE AND TRENDS",
       "doi": "10.15688/lc.jvolsu.2025.3.15",
       "pushed_at": "2026-05-31T09:13:34.465077-06:00"
+    },
+    {
+      "title_hash": "ec8a66cc7accfa8a37740d476b308a1a",
+      "title": "LLMasMMKG: LLM Assisted Synthetic Multi-Modal Knowledge Graph Creation For Smart City Cognitive Digi",
+      "doi": "10.1609/aaaiss.v4i1.31795",
+      "pushed_at": "2026-06-01T13:20:36.684517-06:00"
+    },
+    {
+      "title_hash": "0bff7122ea5c91169eb77c3ba2acf867",
+      "title": "Designing Characters with AI: An Art &amp; AI Learning Activity",
+      "doi": "10.1609/aaai.v39i28.35182",
+      "pushed_at": "2026-06-01T13:20:36.684517-06:00"
+    },
+    {
+      "title_hash": "8733122b3ec7b2f85e2715ecb023ddd1",
+      "title": "Reflective Agency: Ethical and Empirical Framework for AI-Mediated Self-Reflection Systems",
+      "doi": "10.1609/aies.v8i2.36644",
+      "pushed_at": "2026-06-01T13:20:36.684517-06:00"
+    },
+    {
+      "title_hash": "2a97c2b58822ce3bdc3c6dd724224ccb",
+      "title": "Intelligent IoT Attack Detection Design via ODLLM with Feature Ranking-based Knowledge Base",
+      "doi": "10.1609/aaaiss.v5i1.35587",
+      "pushed_at": "2026-06-01T13:20:36.684517-06:00"
+    },
+    {
+      "title_hash": "e9018e3465cf8de0d8ec5a36b0999831",
+      "title": "Towards a Theory of AI Personhood",
+      "doi": "10.1609/aaai.v39i26.34982",
+      "pushed_at": "2026-06-01T13:20:36.684517-06:00"
+    },
+    {
+      "title_hash": "9e117965054ad3330c31813c856336a3",
+      "title": "Developing Chatbots for Sustainability: Experiential Learning in an Undergraduate Business Course",
+      "doi": "10.1609/aaai.v39i28.35180",
+      "pushed_at": "2026-06-01T13:20:36.684517-06:00"
+    },
+    {
+      "title_hash": "e50f08a6da3b36fce11ebe1bc7f9d66b",
+      "title": "Enabling High-Level Machine Reasoning with Cognitive Neuro-Symbolic Systems",
+      "doi": "10.1609/aaaiss.v2i1.27701",
+      "pushed_at": "2026-06-01T13:20:36.684517-06:00"
+    },
+    {
+      "title_hash": "c5ddd1c6034bbe52c05ef69d991f4a94",
+      "title": "SlideBot: A Multi-Agent Framework for Generating Informative, Reliable, Multi-Modal Presentations",
+      "doi": "10.1609/aaai.v40i48.42124",
+      "pushed_at": "2026-06-01T13:20:36.684517-06:00"
+    },
+    {
+      "title_hash": "86e58ee52f13f81da832381755f858eb",
+      "title": "GENTEEL-NEGOTIATOR: LLM-Enhanced Mixture-of-Expert-Based Reinforcement Learning Approach for Polite ",
+      "doi": "10.1609/aaai.v39i23.34685",
+      "pushed_at": "2026-06-01T13:20:36.684517-06:00"
+    },
+    {
+      "title_hash": "841cce876d122359386500a285569d86",
+      "title": "AgroAskAI: A Multi-Agentic AI Framework for Supporting Smallholder Farmers’ Enquiries Globally",
+      "doi": "10.1609/aaai.v40i47.41458",
+      "pushed_at": "2026-06-01T13:20:36.684517-06:00"
+    },
+    {
+      "title_hash": "75677ad3e78a74bb2005555d268bf1c2",
+      "title": "Large Language Models in Healthcare and Medical Applications: A Review",
+      "doi": "10.3390/bioengineering12060631",
+      "pushed_at": "2026-06-01T13:20:36.684517-06:00"
+    },
+    {
+      "title_hash": "20e1007f7dd3f2c744a7dd32794fa0bd",
+      "title": "A comprehensive review of large language models: issues and solutions in learning environments",
+      "doi": "10.1007/s43621-025-00815-8",
+      "pushed_at": "2026-06-01T13:20:36.684517-06:00"
+    },
+    {
+      "title_hash": "4688109b031922a8f83ccec44045a598",
+      "title": "The benefits and dangers of anthropomorphic conversational agents",
+      "doi": "10.1073/pnas.2415898122",
+      "pushed_at": "2026-06-01T13:20:36.684517-06:00"
+    },
+    {
+      "title_hash": "0d9f9d12c16c9df111a49dcbae267050",
+      "title": "Design and assessment of AI-based learning tools in higher education: a systematic review",
+      "doi": "10.1186/s41239-025-00540-2",
+      "pushed_at": "2026-06-01T13:20:36.684517-06:00"
+    },
+    {
+      "title_hash": "962ca18a76037603f5b7ffc5434dab31",
+      "title": "Artificial intelligence in healthcare and medicine: clinical applications, therapeutic advances, and",
+      "doi": "10.1186/s40001-025-03196-w",
+      "pushed_at": "2026-06-01T13:20:36.684517-06:00"
+    },
+    {
+      "title_hash": "d9e97fa9cafbbcc6abc5bc323ad6a66a",
+      "title": "A scoping review of large language models for generative tasks in mental health care",
+      "doi": "10.1038/s41746-025-01611-4",
+      "pushed_at": "2026-06-01T13:20:36.684517-06:00"
+    },
+    {
+      "title_hash": "1b08a3babfd77b867c44bffb315efd4b",
+      "title": "ChatGPT Integration in Higher Education for Personalized Learning, Academic Writing, and Coding Task",
+      "doi": "10.3390/computers14020053",
+      "pushed_at": "2026-06-01T13:20:36.684517-06:00"
+    },
+    {
+      "title_hash": "cbd964b625c2d3f76d31dcaee80ca236",
+      "title": "Generative Artificial Intelligence: Evolving Technology, Growing Societal Impact, and Opportunities ",
+      "doi": "10.1007/s10796-025-10581-7",
+      "pushed_at": "2026-06-01T13:20:36.684517-06:00"
+    },
+    {
+      "title_hash": "b77e506dc688308bf358a72635d6bade",
+      "title": "The emergence of large language models as tools in literature reviews: a large language model-assist",
+      "doi": "10.1093/jamia/ocaf063",
+      "pushed_at": "2026-06-01T13:20:36.684517-06:00"
+    },
+    {
+      "title_hash": "83d285f77d5a4b306e0f4dbe80d8347a",
+      "title": "Evaluating large language model workflows in clinical decision support for triage and referral and d",
+      "doi": "10.1038/s41746-025-01684-1",
+      "pushed_at": "2026-06-01T13:20:36.684517-06:00"
     }
   ],
-  "last_push": "2026-05-31T09:13:34.465077-06:00"
+  "last_push": "2026-06-01T13:20:36.684517-06:00"
 }
