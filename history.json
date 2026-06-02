@@ -2339,7 +2339,91 @@
       "title": "Evaluating large language model workflows in clinical decision support for triage and referral and d",
       "doi": "10.1038/s41746-025-01684-1",
       "pushed_at": "2026-06-01T13:20:36.684517-06:00"
+    },
+    {
+      "title_hash": "ab941dabbc1c16dbc43a7b78106f0f62",
+      "title": "Trust Formation in Healthcare AI: An Exploration of Older Adults’ Perspectives",
+      "doi": "10.1609/aies.v8i1.36566",
+      "pushed_at": "2026-06-02T12:04:24.396710-06:00"
+    },
+    {
+      "title_hash": "71963e0bd3785ab3e0dc06509336a52a",
+      "title": "Fine-Tuning Language Models with Collaborative and Semantic Experts",
+      "doi": "10.1609/aaai.v39i24.34753",
+      "pushed_at": "2026-06-02T12:04:24.396710-06:00"
+    },
+    {
+      "title_hash": "58d55e8fa92e37e9355905f8bcd6b425",
+      "title": "Understanding the Daily Lives of Older Adults: Integrating Multi-modal Personal Health Tracking Data",
+      "doi": "10.1609/aaaiss.v4i1.31790",
+      "pushed_at": "2026-06-02T12:04:24.396710-06:00"
+    },
+    {
+      "title_hash": "b395949ad6881eb67a186241babf95f0",
+      "title": "A Large-Scale Analysis of Public-Facing, Community-Built Chatbots on character.AI",
+      "doi": "10.1609/icwsm.v20i1.42703",
+      "pushed_at": "2026-06-02T12:04:24.396710-06:00"
+    },
+    {
+      "title_hash": "e03461bb2390a456e198cf4338001a8c",
+      "title": "Intelligent educational technologies in individual learning: a systematic literature review",
+      "doi": "10.1186/s40561-024-00360-3",
+      "pushed_at": "2026-06-02T12:04:24.396710-06:00"
+    },
+    {
+      "title_hash": "d0ec166379721b824b1c28627cb5e231",
+      "title": "AirGPT: pioneering the convergence of conversational AI with atmospheric science",
+      "doi": "10.1038/s41612-025-01070-4",
+      "pushed_at": "2026-06-02T12:04:24.396710-06:00"
+    },
+    {
+      "title_hash": "74215a679de30378d89785e77e4ff936",
+      "title": "An automated framework for assessing how well LLMs cite relevant medical references",
+      "doi": "10.1038/s41467-025-58551-6",
+      "pushed_at": "2026-06-02T12:04:24.396710-06:00"
+    },
+    {
+      "title_hash": "ddf9f0947f374b4f76a4431a699de392",
+      "title": "AI-Powered Educational Agents: Opportunities, Innovations, and Ethical Challenges",
+      "doi": "10.3390/info16060469",
+      "pushed_at": "2026-06-02T12:04:24.396710-06:00"
+    },
+    {
+      "title_hash": "40c1f58b25e3fbcd60b8bbf958c5b76a",
+      "title": "Evaluation of LLMs accuracy and consistency in the registered dietitian exam through prompt engineer",
+      "doi": "10.1038/s41598-024-85003-w",
+      "pushed_at": "2026-06-02T12:04:24.396710-06:00"
+    },
+    {
+      "title_hash": "c0b85671a497e83620332356d0521420",
+      "title": "Can ChatGPT Be Addictive? A Call to Examine the Shift from Support to Dependence in AI Conversationa",
+      "doi": "10.1007/s44230-025-00090-w",
+      "pushed_at": "2026-06-02T12:04:24.396710-06:00"
+    },
+    {
+      "title_hash": "ca2d753eafcea949bc5e35589d2f5b23",
+      "title": "A systematic mapping review at the intersection of artificial intelligence and self-regulated learni",
+      "doi": "10.1186/s41239-025-00548-8",
+      "pushed_at": "2026-06-02T12:04:24.396710-06:00"
+    },
+    {
+      "title_hash": "b992b73e463ebcab70edcfb06bf6bcf4",
+      "title": "Large Language Models in Medical Chatbots: Opportunities, Challenges, and the Need to Address AI Ris",
+      "doi": "10.3390/info16070549",
+      "pushed_at": "2026-06-02T12:04:24.396710-06:00"
+    },
+    {
+      "title_hash": "91ed22487723a0503fa1c4fb4a1277fe",
+      "title": "A Scoping Survey of ChatGPT in Mathematics Education",
+      "doi": "10.1007/s40751-025-00172-1",
+      "pushed_at": "2026-06-02T12:04:24.396710-06:00"
+    },
+    {
+      "title_hash": "aae446878fac23b2eb4235f2aa126bc7",
+      "title": "Unveiling trust in AI: the interplay of antecedents, consequences, and cultural dynamics",
+      "doi": "10.1007/s00146-025-02477-6",
+      "pushed_at": "2026-06-02T12:04:24.396710-06:00"
     }
   ],
-  "last_push": "2026-06-01T13:20:36.684517-06:00"
+  "last_push": "2026-06-02T12:04:24.396710-06:00"
 }
