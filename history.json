@@ -2429,7 +2429,13 @@
       "title": "Evaluation of Seismic Performance and Design of AAC Building Systems",
       "doi": "10.61838/msesj.231",
       "pushed_at": "2026-06-04T10:50:10.626490-06:00"
+    },
+    {
+      "title_hash": "fd01f2cba1a6b306d063074514b35db4",
+      "title": "Ten Insights from Other Domains That Inform Responsible AI Frameworks",
+      "doi": "10.1609/aies.v8i1.36534",
+      "pushed_at": "2026-06-06T09:18:07.204871-06:00"
     }
   ],
-  "last_push": "2026-06-04T10:50:10.626490-06:00"
+  "last_push": "2026-06-06T09:18:07.204871-06:00"
 }
