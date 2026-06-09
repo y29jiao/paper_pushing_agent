@@ -2435,7 +2435,19 @@
       "title": "Ten Insights from Other Domains That Inform Responsible AI Frameworks",
       "doi": "10.1609/aies.v8i1.36534",
       "pushed_at": "2026-06-06T09:18:07.204871-06:00"
+    },
+    {
+      "title_hash": "94f6c10cac87bcca3721f1615a58859f",
+      "title": "Can LLMs Truly Embody Human Personality? Analyzing AI and Human Behavior Alignment in Dispute Resolu",
+      "doi": "10.1609/aaai.v40i45.41223",
+      "pushed_at": "2026-06-09T10:30:50.898404-06:00"
+    },
+    {
+      "title_hash": "86ef4cc61826caada667be42922034a4",
+      "title": "Quality Assessment of Artificial Intelligence Systems: A Metric-Based Approach",
+      "doi": "10.3390/electronics15030691",
+      "pushed_at": "2026-06-09T10:30:50.898404-06:00"
     }
   ],
-  "last_push": "2026-06-06T09:18:07.204871-06:00"
+  "last_push": "2026-06-09T10:30:50.898404-06:00"
 }
