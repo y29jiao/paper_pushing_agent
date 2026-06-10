@@ -2447,7 +2447,13 @@
       "title": "Quality Assessment of Artificial Intelligence Systems: A Metric-Based Approach",
       "doi": "10.3390/electronics15030691",
       "pushed_at": "2026-06-09T10:30:50.898404-06:00"
+    },
+    {
+      "title_hash": "d68f031935908fa4ad4dfbe33544fff4",
+      "title": "EduGuardBench: A Holistic Benchmark for Evaluating the Pedagogical Fidelity and Adversarial Safety o",
+      "doi": "10.1609/aaai.v40i37.40399",
+      "pushed_at": "2026-06-10T11:01:21.693915-06:00"
     }
   ],
-  "last_push": "2026-06-09T10:30:50.898404-06:00"
+  "last_push": "2026-06-10T11:01:21.693915-06:00"
 }
