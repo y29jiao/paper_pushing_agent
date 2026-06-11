@@ -2453,7 +2453,13 @@
       "title": "EduGuardBench: A Holistic Benchmark for Evaluating the Pedagogical Fidelity and Adversarial Safety o",
       "doi": "10.1609/aaai.v40i37.40399",
       "pushed_at": "2026-06-10T11:01:21.693915-06:00"
+    },
+    {
+      "title_hash": "2b1ace65deebc9c45e24d65048b4525e",
+      "title": "PoeTone: A Framework for Constrained Generation of Structured Chinese Songci with LLMs",
+      "doi": "10.1609/aaai.v40i39.40555",
+      "pushed_at": "2026-06-11T11:41:49.449491-06:00"
     }
   ],
-  "last_push": "2026-06-10T11:01:21.693915-06:00"
+  "last_push": "2026-06-11T11:41:49.449491-06:00"
 }
