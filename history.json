@@ -2459,7 +2459,13 @@
       "title": "PoeTone: A Framework for Constrained Generation of Structured Chinese Songci with LLMs",
       "doi": "10.1609/aaai.v40i39.40555",
       "pushed_at": "2026-06-11T11:41:49.449491-06:00"
+    },
+    {
+      "title_hash": "be215da8c1d1a3d5784b067b856b3abd",
+      "title": "PathRAG: Pruning Graph-based Retrieval Augmented Generation with Relational Paths",
+      "doi": "10.1609/aaai.v40i36.40268",
+      "pushed_at": "2026-06-12T10:44:15.049182-06:00"
     }
   ],
-  "last_push": "2026-06-11T11:41:49.449491-06:00"
+  "last_push": "2026-06-12T10:44:15.049182-06:00"
 }
