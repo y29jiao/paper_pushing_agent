@@ -2465,7 +2465,13 @@
       "title": "PathRAG: Pruning Graph-based Retrieval Augmented Generation with Relational Paths",
       "doi": "10.1609/aaai.v40i36.40268",
       "pushed_at": "2026-06-12T10:44:15.049182-06:00"
+    },
+    {
+      "title_hash": "cd83cabb46cd14fb6db0c6c302d73e1d",
+      "title": "LLM Harms: A Taxonomy and Discussion",
+      "doi": "10.48550/arxiv.2512.05929",
+      "pushed_at": "2026-06-13T09:30:02.356374-06:00"
     }
   ],
-  "last_push": "2026-06-12T10:44:15.049182-06:00"
+  "last_push": "2026-06-13T09:30:02.356374-06:00"
 }
