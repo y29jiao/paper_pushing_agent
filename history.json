@@ -2471,7 +2471,25 @@
       "title": "LLM Harms: A Taxonomy and Discussion",
       "doi": "10.48550/arxiv.2512.05929",
       "pushed_at": "2026-06-13T09:30:02.356374-06:00"
+    },
+    {
+      "title_hash": "5e00b1642bafdba1b53f059e9287cf6e",
+      "title": "Applying Action Research to Developing a GPT-Based Assistant for Construction Cost Code Verification",
+      "doi": "10.3390/buildings16030499",
+      "pushed_at": "2026-06-14T09:40:22.256280-06:00"
+    },
+    {
+      "title_hash": "921f52ddd706ac3849ba96df975760ce",
+      "title": "A Comparison of Human Capabilities and Large Language Models for Knowledge Representation with Ontol",
+      "doi": "10.3390/buildings16071395",
+      "pushed_at": "2026-06-14T09:40:22.256280-06:00"
+    },
+    {
+      "title_hash": "68b5a32fff8db0d20080610f74fdc3fd",
+      "title": "From data to policy: a systematic review of AI in water regulations and compliance",
+      "doi": "10.1038/s41545-026-00555-w",
+      "pushed_at": "2026-06-14T09:40:22.256280-06:00"
     }
   ],
-  "last_push": "2026-06-13T09:30:02.356374-06:00"
+  "last_push": "2026-06-14T09:40:22.256280-06:00"
 }
