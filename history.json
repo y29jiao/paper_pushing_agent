@@ -2489,7 +2489,13 @@
       "title": "From data to policy: a systematic review of AI in water regulations and compliance",
       "doi": "10.1038/s41545-026-00555-w",
       "pushed_at": "2026-06-14T09:40:22.256280-06:00"
+    },
+    {
+      "title_hash": "53150c9ca053e125ad59ac64fe76b49d",
+      "title": "An Automated Framework for Natural Language-Based Spatial Query Using Large Language Models",
+      "doi": "10.1007/s41651-026-00260-9",
+      "pushed_at": "2026-06-15T12:28:07.779785-06:00"
     }
   ],
-  "last_push": "2026-06-14T09:40:22.256280-06:00"
+  "last_push": "2026-06-15T12:28:07.779785-06:00"
 }
