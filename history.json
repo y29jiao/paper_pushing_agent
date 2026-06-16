@@ -2495,7 +2495,19 @@
       "title": "An Automated Framework for Natural Language-Based Spatial Query Using Large Language Models",
       "doi": "10.1007/s41651-026-00260-9",
       "pushed_at": "2026-06-15T12:28:07.779785-06:00"
+    },
+    {
+      "title_hash": "01b3a016ba2ae5357b820718aa611137",
+      "title": "A Lightweight Multi-Agent Framework for Automated Concrete Barrier Design",
+      "doi": null,
+      "pushed_at": "2026-06-16T12:30:59.958059-06:00"
+    },
+    {
+      "title_hash": "49c9bc836d73733b4f043ec0f2341c60",
+      "title": "Application of Large Language Models in the AECO Industry: Core Technologies, Application Scenarios,",
+      "doi": "10.3390/buildings15111944",
+      "pushed_at": "2026-06-16T12:30:59.958059-06:00"
     }
   ],
-  "last_push": "2026-06-15T12:28:07.779785-06:00"
+  "last_push": "2026-06-16T12:30:59.958059-06:00"
 }
