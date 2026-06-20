@@ -2561,7 +2561,13 @@
       "title": "A Showing of Hands",
       "doi": "10.26481/dis.20250624tg",
       "pushed_at": "2026-06-19T10:34:43.818851-06:00"
+    },
+    {
+      "title_hash": "2ff6a61341452fa2d3c101e0139e41ca",
+      "title": "The CMA Agentic Platform: Autonomous Asset Verification and Algorithmic Auditor Governance",
+      "doi": "10.3390/fintech5020055",
+      "pushed_at": "2026-06-20T09:36:15.607805-06:00"
     }
   ],
-  "last_push": "2026-06-19T10:34:43.818851-06:00"
+  "last_push": "2026-06-20T09:36:15.607805-06:00"
 }
