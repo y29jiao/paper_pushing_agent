@@ -2567,7 +2567,67 @@
       "title": "The CMA Agentic Platform: Autonomous Asset Verification and Algorithmic Auditor Governance",
       "doi": "10.3390/fintech5020055",
       "pushed_at": "2026-06-20T09:36:15.607805-06:00"
+    },
+    {
+      "title_hash": "610ff82b748b323f68bc3677d68ed30f",
+      "title": "CODE-ACCORD: A Corpus of Building Regulatory Data for Rule Generation towards Automatic Compliance C",
+      "doi": null,
+      "pushed_at": "2026-06-22T12:15:38.691968-06:00"
+    },
+    {
+      "title_hash": "090448bb9853f841f60fef1925447789",
+      "title": "Human-in-the-Loop Learning With LLMs for Efficient RASE Tagging in Building Compliance Regulations",
+      "doi": null,
+      "pushed_at": "2026-06-22T12:15:38.691968-06:00"
+    },
+    {
+      "title_hash": "7e40c1f8088f1f30f969ebf3fd75230b",
+      "title": "Using Large Language Models for the Interpretation of Building Regulations",
+      "doi": null,
+      "pushed_at": "2026-06-22T12:15:38.691968-06:00"
+    },
+    {
+      "title_hash": "f5d1458302d43640171a4595144974ff",
+      "title": "Automated Question Answering for Improved Understanding of Compliance Requirements: A Multi-Document",
+      "doi": null,
+      "pushed_at": "2026-06-22T12:15:38.691968-06:00"
+    },
+    {
+      "title_hash": "e7b4f07f67b7792ece042840c6405d2a",
+      "title": "COREQQA: a COmpliance REQuirements understanding using question answering tool",
+      "doi": null,
+      "pushed_at": "2026-06-22T12:15:38.691968-06:00"
+    },
+    {
+      "title_hash": "7c9b4c459ffe5c2a7b62b026717e20f2",
+      "title": "RegNLP in Action: Facilitating Compliance Through Automated Information Retrieval and Answer Generat",
+      "doi": null,
+      "pushed_at": "2026-06-22T12:15:38.691968-06:00"
+    },
+    {
+      "title_hash": "d32e461d0081833b23be709866d821ea",
+      "title": "R2GQA: Retriever-Reader-Generator Question Answering System to Support Students Understanding Legal ",
+      "doi": null,
+      "pushed_at": "2026-06-22T12:15:38.691968-06:00"
+    },
+    {
+      "title_hash": "12c1a2b5027fc3359b1648e7ab53b052",
+      "title": "Assessing the Compliance of Business Process Models with Regulatory Documents",
+      "doi": null,
+      "pushed_at": "2026-06-22T12:15:38.691968-06:00"
+    },
+    {
+      "title_hash": "dd8c0bf125d15874aaa74277bb541c15",
+      "title": "Automated Compliance Blueprint Optimization with Artificial Intelligence",
+      "doi": null,
+      "pushed_at": "2026-06-22T12:15:38.691968-06:00"
+    },
+    {
+      "title_hash": "4a1bb1de6498c7e36bc40c7d06422f01",
+      "title": "From Application Security Verification Standard (ASVS) to Regulation Compliance: A Case Study in Fin",
+      "doi": null,
+      "pushed_at": "2026-06-22T12:15:38.691968-06:00"
     }
   ],
-  "last_push": "2026-06-20T09:36:15.607805-06:00"
+  "last_push": "2026-06-22T12:15:38.691968-06:00"
 }
