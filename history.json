@@ -2627,7 +2627,73 @@
       "title": "From Application Security Verification Standard (ASVS) to Regulation Compliance: A Case Study in Fin",
       "doi": null,
       "pushed_at": "2026-06-22T12:15:38.691968-06:00"
+    },
+    {
+      "title_hash": "0bb29283cb2e1b2b5ea90ec751fe49c5",
+      "title": "Fine-Tuning Large Language Models and Evaluating Retrieval Methods for Improved Question Answering o",
+      "doi": "10.48550/arXiv.2505.04666",
+      "pushed_at": "2026-06-28T09:13:34.105882-06:00"
+    },
+    {
+      "title_hash": "61d0960550c8e7264cedd9d3d9bb3f7b",
+      "title": "A Building Information Modeling Based Automated Rule-Checking Application for Zoning Regulation Comp",
+      "doi": "10.62520/fujece.1691523",
+      "pushed_at": "2026-06-28T09:13:34.105882-06:00"
+    },
+    {
+      "title_hash": "883becf0cef45d01ac52d45c15b5c5c9",
+      "title": "A Vision-Language Model Agent for building code compliance",
+      "doi": "10.1145/3736425.3770118",
+      "pushed_at": "2026-06-28T09:13:34.105882-06:00"
+    },
+    {
+      "title_hash": "b7ce7bdc830cfe04f69aa3ef722b0fe9",
+      "title": "Table Comprehension in Building Codes using Vision Language Models and Domain-Specific Fine-Tuning",
+      "doi": "10.48550/arXiv.2511.18306",
+      "pushed_at": "2026-06-28T09:13:34.105882-06:00"
+    },
+    {
+      "title_hash": "3fb23b1bd5cc947074c9e7faab7bc326",
+      "title": "A Demonstration System towards NLP and Knowledge Driven Data Platforms for Civil Engineering",
+      "doi": null,
+      "pushed_at": "2026-06-28T09:13:34.105882-06:00"
+    },
+    {
+      "title_hash": "c9ce287e03a7711dd70e7e983661d389",
+      "title": "DocSage: An Agentic Information Structuring  Workflow for Multi-Document Question Answering",
+      "doi": null,
+      "pushed_at": "2026-06-28T09:13:34.105882-06:00"
+    },
+    {
+      "title_hash": "962dd8dcdd83e741930030019697d04b",
+      "title": "Retrieval Augmented Generation for Domain-specific Question Answering",
+      "doi": null,
+      "pushed_at": "2026-06-28T09:13:34.105882-06:00"
+    },
+    {
+      "title_hash": "7e3a272db0fc3b1a69450d898238ee5b",
+      "title": "Multimodal Retrieval-Augmented Generation Question-Answering System",
+      "doi": null,
+      "pushed_at": "2026-06-28T09:13:34.105882-06:00"
+    },
+    {
+      "title_hash": "91f25c296a6c12db98d3b51e529dd593",
+      "title": "BIM-based automated water supply design for high-rise buildings in compliance with Vietnamese codes",
+      "doi": "10.54772/jomc.v16i01.1255",
+      "pushed_at": "2026-06-28T09:13:34.105882-06:00"
+    },
+    {
+      "title_hash": "48bad17ab451ec118a08c50c761af770",
+      "title": "Assessment of the compliance of innovative construction materials and products in the context of the",
+      "doi": "10.36100/dorogimosti2025.32.154",
+      "pushed_at": "2026-06-28T09:13:34.105882-06:00"
+    },
+    {
+      "title_hash": "22d2994467a7e1b27f3b019788532d1d",
+      "title": "Assessing plumbing standards compliance, challenges and training effectiveness in the Ghanaian const",
+      "doi": "10.1108/ijbpa-05-2025-0103",
+      "pushed_at": "2026-06-28T09:13:34.105882-06:00"
     }
   ],
-  "last_push": "2026-06-22T12:15:38.691968-06:00"
+  "last_push": "2026-06-28T09:13:34.105882-06:00"
 }
