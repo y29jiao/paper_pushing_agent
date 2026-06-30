@@ -2693,7 +2693,73 @@
       "title": "Assessing plumbing standards compliance, challenges and training effectiveness in the Ghanaian const",
       "doi": "10.1108/ijbpa-05-2025-0103",
       "pushed_at": "2026-06-28T09:13:34.105882-06:00"
+    },
+    {
+      "title_hash": "33b49133479eee2839bd4dd8e43e3b30",
+      "title": "Analysis of the Readiness of Regulatory Documents for Automation: A Comparison Between the United Ki",
+      "doi": "10.3390/buildings16112052",
+      "pushed_at": "2026-06-30T10:20:11.026038-06:00"
+    },
+    {
+      "title_hash": "7aa9c6ac7def985d77ceef4f2d06c976",
+      "title": "A Case Study on Modeling and Validating Financial Regulations Using (Semi-) Automated Compliance Fra",
+      "doi": null,
+      "pushed_at": "2026-06-30T10:20:11.026038-06:00"
+    },
+    {
+      "title_hash": "ad2d5db91ed8016afc1184c280e9a079",
+      "title": "LegalMind: An Intelligent Solution for Legal Document Analysis with User-Centric UI and AI-Driven Ca",
+      "doi": "10.1145/3715070.3749262",
+      "pushed_at": "2026-06-30T10:20:11.026038-06:00"
+    },
+    {
+      "title_hash": "8f31b60d62273a6794706078f5ef0268",
+      "title": "Retrieval-Augmented Generation for Reliable Interpretation of Radio Regulations",
+      "doi": null,
+      "pushed_at": "2026-06-30T10:20:11.026038-06:00"
+    },
+    {
+      "title_hash": "aaf24f79a933aaaf2d2da56d3f5c3295",
+      "title": "From PDF to RAG-Ready: Evaluating Document Conversion Frameworks for Domain-Specific Question Answer",
+      "doi": "10.3390/app16105069",
+      "pushed_at": "2026-06-30T10:20:11.026038-06:00"
+    },
+    {
+      "title_hash": "d220aad29f9a7423f21dc1dec4f34ae9",
+      "title": "AI Research Intelligence Platform: A Multi-Modal Document Analysis and Code Intelligence System",
+      "doi": "10.55041/ijsrem57117",
+      "pushed_at": "2026-06-30T10:20:11.026038-06:00"
+    },
+    {
+      "title_hash": "dbf7b8fa1f78bc8d7b07c5f877f80590",
+      "title": "AI-Driven RFP Document Intelligence and Question-Answering Pipeline",
+      "doi": "10.47392/irjaeh.2026.0544",
+      "pushed_at": "2026-06-30T10:20:11.026038-06:00"
+    },
+    {
+      "title_hash": "142f8ab10ded73317658483d97089181",
+      "title": "Structured Retrieval-Augmented Generation for Multi-Doc Multi-Entity Question Answering",
+      "doi": null,
+      "pushed_at": "2026-06-30T10:20:11.026038-06:00"
+    },
+    {
+      "title_hash": "8f1bea95c3a0a52141f1a74fcac3213d",
+      "title": "TabRAG: Improving Pixel-Based Tabular Document Question Answering for Retrieval Augmented Generation",
+      "doi": null,
+      "pushed_at": "2026-06-30T10:20:11.026038-06:00"
+    },
+    {
+      "title_hash": "19e6d0ccad1cbaa4a9feac4edaa5dbba",
+      "title": "A Systematic Analysis of Chunking Strategies for Reliable Question Answering",
+      "doi": "10.48550/arXiv.2601.14123",
+      "pushed_at": "2026-06-30T10:20:11.026038-06:00"
+    },
+    {
+      "title_hash": "293a65d3e624f48f1bb005ccf4d68042",
+      "title": "A Comparison of Conversational Models and Humans in Answering Technical Questions: the Firefox Case",
+      "doi": "10.48550/arXiv.2510.21933",
+      "pushed_at": "2026-06-30T10:20:11.026038-06:00"
     }
   ],
-  "last_push": "2026-06-28T09:13:34.105882-06:00"
+  "last_push": "2026-06-30T10:20:11.026038-06:00"
 }
