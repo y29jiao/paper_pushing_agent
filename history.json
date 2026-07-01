@@ -2759,7 +2759,55 @@
       "title": "A Comparison of Conversational Models and Humans in Answering Technical Questions: the Firefox Case",
       "doi": "10.48550/arXiv.2510.21933",
       "pushed_at": "2026-06-30T10:20:11.026038-06:00"
+    },
+    {
+      "title_hash": "91577d2152c2f5a7b819f25ef0d196e8",
+      "title": "AIReg-Bench: Benchmarking Language Models That Assess AI Regulation Compliance",
+      "doi": null,
+      "pushed_at": "2026-07-01T10:17:52.477538-06:00"
+    },
+    {
+      "title_hash": "547932122ff995b61ef5e84b54940c1a",
+      "title": "A domain-specific controlled English language for automated regulatory compliance (industrial paper)",
+      "doi": null,
+      "pushed_at": "2026-07-01T10:17:52.477538-06:00"
+    },
+    {
+      "title_hash": "19b0afb4d48295d7b19de8902a97a3af",
+      "title": "Compliance checking on first-order knowledge with conflicting and compensatory norms: a comparison a",
+      "doi": null,
+      "pushed_at": "2026-07-01T10:17:52.477538-06:00"
+    },
+    {
+      "title_hash": "f21b97a6763f596d7e68cf1bdb6a74a0",
+      "title": "A Framework for the Systematic Comparison and Evaluation of Compliance Monitoring Approaches",
+      "doi": null,
+      "pushed_at": "2026-07-01T10:17:52.477538-06:00"
+    },
+    {
+      "title_hash": "675fe46fe6ba7db070972ca43c622ddf",
+      "title": "Consistency Checking of Compliance Rules",
+      "doi": null,
+      "pushed_at": "2026-07-01T10:17:52.477538-06:00"
+    },
+    {
+      "title_hash": "86f763132df67267543ebc981342779f",
+      "title": "LegiCode: A blockchain-legal LLM framework for real-time compliance in smart contract generation",
+      "doi": null,
+      "pushed_at": "2026-07-01T10:17:52.477538-06:00"
+    },
+    {
+      "title_hash": "c6d16b57af9dafee9a1adcfb1df1c7db",
+      "title": "Checking Compliance to Coding Standards for x86 Executables",
+      "doi": null,
+      "pushed_at": "2026-07-01T10:17:52.477538-06:00"
+    },
+    {
+      "title_hash": "dd649e927b623c0c530465708e40c8c4",
+      "title": "LESSONS OF MASTERS OF THE PAST",
+      "doi": "10.32347/2076-815x.2025.89.404-414",
+      "pushed_at": "2026-07-01T10:17:52.477538-06:00"
     }
   ],
-  "last_push": "2026-06-30T10:20:11.026038-06:00"
+  "last_push": "2026-07-01T10:17:52.477538-06:00"
 }
