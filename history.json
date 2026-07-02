@@ -2807,7 +2807,25 @@
       "title": "LESSONS OF MASTERS OF THE PAST",
       "doi": "10.32347/2076-815x.2025.89.404-414",
       "pushed_at": "2026-07-01T10:17:52.477538-06:00"
+    },
+    {
+      "title_hash": "51c472cd7ae0f24bc0017fbdeae54d3d",
+      "title": "Developing with Compliance in Mind: Addressing Data Protection Law, Cybersecurity Regulation, and AI",
+      "doi": null,
+      "pushed_at": "2026-07-02T10:02:34.481039-06:00"
+    },
+    {
+      "title_hash": "0a020050fcd3d969a7440ac03665155c",
+      "title": "Knowledge-Based Monitoring for Checking Law and Regulation Compliance",
+      "doi": null,
+      "pushed_at": "2026-07-02T10:02:34.481039-06:00"
+    },
+    {
+      "title_hash": "e3a9b4c89c33b4f8347eff742d483282",
+      "title": "Process Compliance Checking using Taint Flow Analysis",
+      "doi": null,
+      "pushed_at": "2026-07-02T10:02:34.481039-06:00"
     }
   ],
-  "last_push": "2026-07-01T10:17:52.477538-06:00"
+  "last_push": "2026-07-02T10:02:34.481039-06:00"
 }
