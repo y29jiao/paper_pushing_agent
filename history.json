@@ -2825,7 +2825,67 @@
       "title": "Process Compliance Checking using Taint Flow Analysis",
       "doi": null,
       "pushed_at": "2026-07-02T10:02:34.481039-06:00"
+    },
+    {
+      "title_hash": "03c85858de1927e1a46e41611de28607",
+      "title": "From RAG to QA-RAG: Integrating Generative AI for Pharmaceutical Regulatory Compliance Process",
+      "doi": null,
+      "pushed_at": "2026-07-03T09:52:17.968678-06:00"
+    },
+    {
+      "title_hash": "f789ebb617caf518deb4f2c13ea491d5",
+      "title": "A Compliance Checking Framework Based on Retrieval Augmented Generation",
+      "doi": null,
+      "pushed_at": "2026-07-03T09:52:17.968678-06:00"
+    },
+    {
+      "title_hash": "73bd0ce51660bfa592d15d67725feb4b",
+      "title": "Semantic Compliance Architecture for Multi-Tenant Telehealth",
+      "doi": null,
+      "pushed_at": "2026-07-03T09:52:17.968678-06:00"
+    },
+    {
+      "title_hash": "55fc0d71998ad7b3638432178dc9eb5a",
+      "title": "Automatic checking of license compliance",
+      "doi": null,
+      "pushed_at": "2026-07-03T09:52:17.968678-06:00"
+    },
+    {
+      "title_hash": "6093437de883bbb7cd3372ed8604ce68",
+      "title": "Value-based argumentation for justifying compliance",
+      "doi": null,
+      "pushed_at": "2026-07-03T09:52:17.968678-06:00"
+    },
+    {
+      "title_hash": "234f1a9820cbab1b847a237334343e7e",
+      "title": "On the Future of Standard Compliance in the Large Language Model Era",
+      "doi": null,
+      "pushed_at": "2026-07-03T09:52:17.968678-06:00"
+    },
+    {
+      "title_hash": "4f2bb542af9b51a1e196abf832f4b175",
+      "title": "Standardizing Intelligence: Aligning Generative AI for Regulatory and Operational Compliance",
+      "doi": null,
+      "pushed_at": "2026-07-03T09:52:17.968678-06:00"
+    },
+    {
+      "title_hash": "18dc7ddf95311bf985a29e350e9d03cd",
+      "title": "Diagnostic Information for Compliance Checking of Temporal Compliance Requirements",
+      "doi": null,
+      "pushed_at": "2026-07-03T09:52:17.968678-06:00"
+    },
+    {
+      "title_hash": "42adbc8a3724947eb0bdbb0e74f0b409",
+      "title": "Automated multi-level governance compliance checking",
+      "doi": null,
+      "pushed_at": "2026-07-03T09:52:17.968678-06:00"
+    },
+    {
+      "title_hash": "773a8bebfbee5ec7379cccdd63a29c43",
+      "title": "Compliance Checking of Data-Aware and Resource-Aware Compliance Requirements",
+      "doi": null,
+      "pushed_at": "2026-07-03T09:52:17.968678-06:00"
     }
   ],
-  "last_push": "2026-07-02T10:02:34.481039-06:00"
+  "last_push": "2026-07-03T09:52:17.968678-06:00"
 }
