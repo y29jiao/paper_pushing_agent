@@ -1,30 +1,6 @@
 {
   "pushed_papers": [
     {
-      "title_hash": "69f312452f409b0d2e0d97093b288ef7",
-      "title": "User Privacy and Large Language Models: An Analysis of Frontier Developers’ Privacy Policies",
-      "doi": "10.1609/aies.v8i2.36646",
-      "pushed_at": "2026-04-01T13:33:13.330678-06:00"
-    },
-    {
-      "title_hash": "7073ba84f2ae709de32a6ed7791e14e4",
-      "title": "Agentic AI with retrieval-augmented generation for automated compliance assistance in finance",
-      "doi": "10.30574/ijsra.2025.15.2.1522",
-      "pushed_at": "2026-04-01T13:33:13.330678-06:00"
-    },
-    {
-      "title_hash": "3eb8fdb0a5263f5181a4e8508a7cf795",
-      "title": "VietCheckMed: Explainable Regulatory Compliance Checking for Medical Advertisements on Vietnamese So",
-      "doi": "10.1609/aaai.v40i2.37077",
-      "pushed_at": "2026-04-02T23:03:58.591617-06:00"
-    },
-    {
-      "title_hash": "200d7ec38bd3038a31a1fa46e9773434",
-      "title": "Accountability Framework for Healthcare AI Systems: Towards Joint Accountability in Decision Making",
-      "doi": "10.1609/aies.v8i1.36548",
-      "pushed_at": "2026-04-02T23:03:58.591617-06:00"
-    },
-    {
       "title_hash": "b90b310457ac691eeea92e26f7b7a5db",
       "title": "APPRAISE: a Governance Framework for Innovation with Artificial Intelligence Systems",
       "doi": "10.1609/aies.v7i1.31640",
@@ -2963,7 +2939,67 @@
       "title": "“Tracking the Trackers” of children's first personal data in mobile applications: Using static analy",
       "doi": "10.1145/3764687.3769936",
       "pushed_at": "2026-07-06T10:51:36.373398-06:00"
+    },
+    {
+      "title_hash": "20b7daeb2e7c415a8db7ea4fa1695131",
+      "title": "Electronic Trials in Indonesian Criminal Courts: Issues and the Urgency for Legal Reform",
+      "doi": "10.62264/ijccj.v2i1.224",
+      "pushed_at": "2026-07-08T10:00:01.657790-06:00"
+    },
+    {
+      "title_hash": "818f3ee546785b71f759e3b925d4e196",
+      "title": "Digital Rights in the Modern Age: Application in Libraries",
+      "doi": "10.25281/0869-608x-2026-75-2-103-114",
+      "pushed_at": "2026-07-08T10:00:01.657790-06:00"
+    },
+    {
+      "title_hash": "84d0970a87bc92fe7054de3ecb97b5a2",
+      "title": "Self-regulated galaxy evolution within a self-consistently varying galaxy-wide initial mass function",
+      "doi": "10.1051/0004-6361/202557352",
+      "pushed_at": "2026-07-08T10:00:01.657790-06:00"
+    },
+    {
+      "title_hash": "74a144cbd70b5a66218b98b1ced04d70",
+      "title": "Ius Constittutum and Ius Constituendum Provisions Peace Fine in Indonesia",
+      "doi": "10.54660/ijjl.2026.5.3.245-250",
+      "pushed_at": "2026-07-08T10:00:01.657790-06:00"
+    },
+    {
+      "title_hash": "055ede876aeaa7c7f8dc2d5736e8a7f7",
+      "title": "Problematika Implementasi Keadilan Restoratif dalam Tujuan Pemidanaan Pasca Berlakunya KUHP 2023",
+      "doi": "10.58192/sidu.v5i1.4763",
+      "pushed_at": "2026-07-08T10:00:01.657790-06:00"
+    },
+    {
+      "title_hash": "67aca3c9eb05b139029c10428080ed68",
+      "title": "Comparative Evaluation of the Load-Carrying Behavior of Fixed-End Steel Beams Using Different Analys",
+      "doi": "10.19113/sdufenbed.1805609",
+      "pushed_at": "2026-07-08T10:00:01.657790-06:00"
+    },
+    {
+      "title_hash": "0791523dc3adef609d44570b7255f29b",
+      "title": "ESG principles as a factor in the development of legal doctrine in legislation: from economic incent",
+      "doi": "10.25136/2409-7136.2026.5.79074",
+      "pushed_at": "2026-07-08T10:00:01.657790-06:00"
+    },
+    {
+      "title_hash": "88a8116efd408e90a001b49c0ea6d2fd",
+      "title": "THE FORMS OF EXPRESSING THE INDIVIDUAL’S LAST CONSENT IN THE REPUBLIC OF MOLDOVA",
+      "doi": "10.47743/eufire-2024-1-18",
+      "pushed_at": "2026-07-08T10:00:01.657790-06:00"
+    },
+    {
+      "title_hash": "cf20ce9a6bdb9519e389d1b4fc97dce5",
+      "title": "New criminal legislation and plea agreements in corruption offenses: in search of an optimal model",
+      "doi": "10.24144/2307-3322.2024.86.1.4.34",
+      "pushed_at": "2026-07-08T10:00:01.657790-06:00"
+    },
+    {
+      "title_hash": "9b7685d71a3199a9f451e8c4ff30851e",
+      "title": "Khasenov M.Kh., Kanatovna M. Legal protection of workers from stress at work: a comparative legal st",
+      "doi": "10.51634/2307-5201_2025_2_75",
+      "pushed_at": "2026-07-08T10:00:01.657790-06:00"
     }
   ],
-  "last_push": "2026-07-06T10:51:36.373398-06:00"
+  "last_push": "2026-07-08T10:00:01.657790-06:00"
 }
