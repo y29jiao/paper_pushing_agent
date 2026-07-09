@@ -1,72 +1,6 @@
 {
   "pushed_papers": [
     {
-      "title_hash": "b90b310457ac691eeea92e26f7b7a5db",
-      "title": "APPRAISE: a Governance Framework for Innovation with Artificial Intelligence Systems",
-      "doi": "10.1609/aies.v7i1.31640",
-      "pushed_at": "2026-04-02T23:03:58.591617-06:00"
-    },
-    {
-      "title_hash": "dfe77df24474e017d77db6a650243290",
-      "title": "Navigating Governance Paradigms: A Cross-Regional Comparative Study of Generative AI Governance Proc",
-      "doi": "10.1609/aies.v7i1.31692",
-      "pushed_at": "2026-04-02T23:03:58.591617-06:00"
-    },
-    {
-      "title_hash": "1526fbb7628c5137c2bbc9b8d2a40571",
-      "title": "Documenting Deployment with Fabric: A Repository of Real-World AI Governance",
-      "doi": "10.1609/aies.v8i2.36636",
-      "pushed_at": "2026-04-02T23:03:58.591617-06:00"
-    },
-    {
-      "title_hash": "9091a526572fc84b0ed73fedf4e10bb5",
-      "title": "Red-Teaming for Generative AI: Silver Bullet or Security Theater?",
-      "doi": "10.1609/aies.v7i1.31647",
-      "pushed_at": "2026-04-02T23:03:58.591617-06:00"
-    },
-    {
-      "title_hash": "f37b2dec8d71e9d48cdb840b18407639",
-      "title": "Post-GPT Policy: Risk and Regulation in EU AI Discourse",
-      "doi": "10.1609/icwsm.v19i1.35856",
-      "pushed_at": "2026-04-02T23:03:58.591617-06:00"
-    },
-    {
-      "title_hash": "911dc43ada38bc9a7a4372c566fabf37",
-      "title": "What Comes After Harm? Mapping Reparative Actions in AI Through Justice Frameworks",
-      "doi": "10.1609/aies.v8i3.36754",
-      "pushed_at": "2026-04-02T23:03:58.591617-06:00"
-    },
-    {
-      "title_hash": "e56710f2548a3a9e7c24999861a8152d",
-      "title": "Learning to Unlearn, Failing to Forget? Assessing Machine Unlearning Through Ethics and Epistemology",
-      "doi": "10.1609/aies.v8i1.36542",
-      "pushed_at": "2026-04-02T23:03:58.591617-06:00"
-    },
-    {
-      "title_hash": "8ccc8caf9d26833a98691f98413277e3",
-      "title": "ASP-Driven Emergency Planning for Norm Violations in Reinforcement Learning",
-      "doi": "10.1609/aaai.v39i14.33619",
-      "pushed_at": "2026-04-02T23:03:58.591617-06:00"
-    },
-    {
-      "title_hash": "0bb1bb17a81b1496cd5d8ee9d723d3ed",
-      "title": "How LLM Counselors Violate Ethical Standards in Mental Health Practice: A Practitioner-Informed Fram",
-      "doi": "10.1609/aies.v8i2.36632",
-      "pushed_at": "2026-04-02T23:03:58.591617-06:00"
-    },
-    {
-      "title_hash": "84cd450b2bcd88c7c14379647c0505a8",
-      "title": "Exploring a Multimodal Conversational Agent for Construction Site Safety: A Low-Code Approach to Haz",
-      "doi": "10.3390/buildings15183352",
-      "pushed_at": "2026-04-02T23:03:58.591617-06:00"
-    },
-    {
-      "title_hash": "7a92e5217de6526ee7e3504da26119bd",
-      "title": "LLM Agents for Smart City Management: Enhancing Decision Support Through Multi-Agent AI Systems",
-      "doi": "10.3390/smartcities8010019",
-      "pushed_at": "2026-04-02T23:03:58.591617-06:00"
-    },
-    {
       "title_hash": "4d19b1e98400ceb3cfecdd85b2aafa3e",
       "title": "Feasibility of Adjusting Contractual Penalty Clauses, Particularly in Construction Partnership Contr",
       "doi": "10.61838/kman.lsda.109",
@@ -2999,7 +2933,73 @@
       "title": "Khasenov M.Kh., Kanatovna M. Legal protection of workers from stress at work: a comparative legal st",
       "doi": "10.51634/2307-5201_2025_2_75",
       "pushed_at": "2026-07-08T10:00:01.657790-06:00"
+    },
+    {
+      "title_hash": "69f312452f409b0d2e0d97093b288ef7",
+      "title": "User Privacy and Large Language Models: An Analysis of Frontier Developers’ Privacy Policies",
+      "doi": "10.1609/aies.v8i2.36646",
+      "pushed_at": "2026-07-09T10:22:55.618710-06:00"
+    },
+    {
+      "title_hash": "13883ea64aede91c3e7f236c2b38007e",
+      "title": "AI-powered Chatbot integration for enhanced accessibility of electronic health records in a pediatri",
+      "doi": "10.1038/s41598-026-42475-2",
+      "pushed_at": "2026-07-09T10:22:55.618710-06:00"
+    },
+    {
+      "title_hash": "a4d0b56890583c2da110551eb696027f",
+      "title": "Review of Tools for Zero-Code LLM Based Application Development",
+      "doi": "10.48550/arXiv.2510.19747",
+      "pushed_at": "2026-07-09T10:22:55.618710-06:00"
+    },
+    {
+      "title_hash": "1fe62fdd687c418f16f3c858b1c5863d",
+      "title": "Effectiveness of Dialogic Reading Versus Typical Reading on Emotional Regulation of Children with At",
+      "doi": "10.1177/10497315261425186",
+      "pushed_at": "2026-07-09T10:22:55.618710-06:00"
+    },
+    {
+      "title_hash": "228f2ba2bbbad8bdddea1136843e2c10",
+      "title": "From Tool Literacy to Workflow Fluency: Designing AI-agent Exemplary Cases for the Professional Deve",
+      "doi": "10.71052/grb2025/bxjn3424",
+      "pushed_at": "2026-07-09T10:22:55.618710-06:00"
+    },
+    {
+      "title_hash": "9005f73c006241e29e4e169a5955c837",
+      "title": "A Comparison of Responses from Human Therapists and Large Language Model–Based Chatbots to Assess Th",
+      "doi": "10.2196/69709",
+      "pushed_at": "2026-07-09T10:22:55.618710-06:00"
+    },
+    {
+      "title_hash": "3a8e867de97388f9c7ffa18f95ca3cff",
+      "title": "THETA: A Textual Hybrid Embedding-based Topic Analysis Framework and AI Scientist Agent for Scalable",
+      "doi": "10.48550/arXiv.2603.05972",
+      "pushed_at": "2026-07-09T10:22:55.618710-06:00"
+    },
+    {
+      "title_hash": "cb85794a0aeae2d1263e2d569b43cac6",
+      "title": "How GenAI Mentor Configurations Shape Early Collaborative Dynamics: A Classroom Comparison of Indivi",
+      "doi": "10.48550/arXiv.2603.12600",
+      "pushed_at": "2026-07-09T10:22:55.618710-06:00"
+    },
+    {
+      "title_hash": "f6098f2751b91226a2d20e47040d1f92",
+      "title": "Comparative Review of Modern AI Chatbots: Capabilities, design, and real-world applications",
+      "doi": "10.30574/wjarr.2025.27.3.2865",
+      "pushed_at": "2026-07-09T10:22:55.618710-06:00"
+    },
+    {
+      "title_hash": "a98b82f06578321da807cbe87965d0ee",
+      "title": "AutismCarebot: Emotion-First, Source-Aware Conversational Support for Autistic Users",
+      "doi": "10.1145/3772363.3798986",
+      "pushed_at": "2026-07-09T10:22:55.618710-06:00"
+    },
+    {
+      "title_hash": "a1ea7c1262cc66de0bb78e7c3fce75fb",
+      "title": "Trajectory Tracking and Obstacle Avoidance: A Comparative Study of LQR and Reinforcement Learning Ap",
+      "doi": "10.1109/CCE67728.2025.11272011",
+      "pushed_at": "2026-07-09T10:22:55.618710-06:00"
     }
   ],
-  "last_push": "2026-07-08T10:00:01.657790-06:00"
+  "last_push": "2026-07-09T10:22:55.618710-06:00"
 }
