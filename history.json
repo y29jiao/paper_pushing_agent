@@ -1,48 +1,6 @@
 {
   "pushed_papers": [
     {
-      "title_hash": "4d19b1e98400ceb3cfecdd85b2aafa3e",
-      "title": "Feasibility of Adjusting Contractual Penalty Clauses, Particularly in Construction Partnership Contr",
-      "doi": "10.61838/kman.lsda.109",
-      "pushed_at": "2026-04-02T23:03:58.591617-06:00"
-    },
-    {
-      "title_hash": "733de8ffda3a5f00515d598620f7fe0c",
-      "title": "CIVIL AND LEGAL CHARACTERISTICS OF THE CONTRACT AS A REASON FOR THE EMERGENCE OF THE RIGHT TO USE SO",
-      "doi": "10.33098/2078-6670.2025.19.31.266-272",
-      "pushed_at": "2026-04-02T23:03:58.591617-06:00"
-    },
-    {
-      "title_hash": "cd414595a304ef11f171c2a531c99c99",
-      "title": "Comparison of Seismic Parameter in RC Building Using NBC 105:2016, IS 1893:2016 and ASCE 7-22",
-      "doi": "10.11648/j.larp.20261101.11",
-      "pushed_at": "2026-04-02T23:03:58.591617-06:00"
-    },
-    {
-      "title_hash": "a64f80438b4c404744e579e430866f26",
-      "title": "ChatGPT’s Expanding Horizons and Transformative Impact Across Domains: A Critical Review of Capabili",
-      "doi": "10.3390/computers14090366",
-      "pushed_at": "2026-04-02T23:03:58.591617-06:00"
-    },
-    {
-      "title_hash": "86cdcd2162656fc8472967fd5518660e",
-      "title": "Large language models: an overview of foundational architectures, recent trends, and a new taxonomy",
-      "doi": "10.1007/s42452-025-07668-w",
-      "pushed_at": "2026-04-02T23:03:58.591617-06:00"
-    },
-    {
-      "title_hash": "25ee1defbdc27f062afa1f3526ede53f",
-      "title": "Rethinking Autonomy: Preventing Failures in AI-Driven Software Engineering",
-      "doi": "10.48550/arXiv.2508.11824",
-      "pushed_at": "2026-04-02T23:03:58.591617-06:00"
-    },
-    {
-      "title_hash": "6ad51462fa7ddd87645ebc9cb3dbb847",
-      "title": "Artificial Intelligence on Trial: Who Is Responsible When Systems Fail? Toward a Framework for the U",
-      "doi": "10.20944/preprints202506.0554.v1",
-      "pushed_at": "2026-04-02T23:03:58.591617-06:00"
-    },
-    {
       "title_hash": "7738d232b0d93d241dfa058756c30719",
       "title": "Interactive Evaluation of Large Language Models for Multi-Requirement Software Engineering Tasks",
       "doi": "10.1609/aaai.v40i39.40564",
@@ -2999,7 +2957,49 @@
       "title": "Trajectory Tracking and Obstacle Avoidance: A Comparative Study of LQR and Reinforcement Learning Ap",
       "doi": "10.1109/CCE67728.2025.11272011",
       "pushed_at": "2026-07-09T10:22:55.618710-06:00"
+    },
+    {
+      "title_hash": "f37b2dec8d71e9d48cdb840b18407639",
+      "title": "Post-GPT Policy: Risk and Regulation in EU AI Discourse",
+      "doi": "10.1609/icwsm.v19i1.35856",
+      "pushed_at": "2026-07-11T08:47:51.850314-06:00"
+    },
+    {
+      "title_hash": "1526fbb7628c5137c2bbc9b8d2a40571",
+      "title": "Documenting Deployment with Fabric: A Repository of Real-World AI Governance",
+      "doi": "10.1609/aies.v8i2.36636",
+      "pushed_at": "2026-07-11T08:47:51.850314-06:00"
+    },
+    {
+      "title_hash": "2a0ddc3350f4cb2205ea8469fae6dc18",
+      "title": "Developing an Integrated ISO 27701 and GDPR based Information Privacy Compliance Requirements Model",
+      "doi": null,
+      "pushed_at": "2026-07-11T08:47:51.850314-06:00"
+    },
+    {
+      "title_hash": "78f124d045208761fdb54c1fbe7aa372",
+      "title": "A Model-based Conceptualization of Requirements for Compliance Checking of Data Processing against G",
+      "doi": null,
+      "pushed_at": "2026-07-11T08:47:51.850314-06:00"
+    },
+    {
+      "title_hash": "70149376026049a8575fd0099363c074",
+      "title": "Between Risks and Rights: a Comparison of the RMS and the FRIA in the EU AI Act",
+      "doi": null,
+      "pushed_at": "2026-07-11T08:47:51.850314-06:00"
+    },
+    {
+      "title_hash": "50e8f0a3c94a1d28b3d8dec100cb4a16",
+      "title": "Regulation-Aware Legal Digital Twins: Constrained World Models for Counterfactual Contract Performan",
+      "doi": null,
+      "pushed_at": "2026-07-11T08:47:51.850314-06:00"
+    },
+    {
+      "title_hash": "d31b35ea3ebd84ee78c4303d17228847",
+      "title": "Auction-Based Regulation for Artificial Intelligence",
+      "doi": null,
+      "pushed_at": "2026-07-11T08:47:51.850314-06:00"
     }
   ],
-  "last_push": "2026-07-09T10:22:55.618710-06:00"
+  "last_push": "2026-07-11T08:47:51.850314-06:00"
 }
