@@ -1,18 +1,6 @@
 {
   "pushed_papers": [
     {
-      "title_hash": "7738d232b0d93d241dfa058756c30719",
-      "title": "Interactive Evaluation of Large Language Models for Multi-Requirement Software Engineering Tasks",
-      "doi": "10.1609/aaai.v40i39.40564",
-      "pushed_at": "2026-04-03T22:36:46.355380-06:00"
-    },
-    {
-      "title_hash": "e60b2152a71804a885ad0bebf13451da",
-      "title": "CodeHalu: Investigating Code Hallucinations in LLMs via Execution-based Verification",
-      "doi": "10.1609/aaai.v39i24.34717",
-      "pushed_at": "2026-04-03T22:36:46.355380-06:00"
-    },
-    {
       "title_hash": "c2f422c0b3c7533dbc65bb6a6efb67c3",
       "title": "Security Attacks on LLM-based Code Completion Tools",
       "doi": "10.1609/aaai.v39i22.34537",
@@ -2999,7 +2987,19 @@
       "title": "Auction-Based Regulation for Artificial Intelligence",
       "doi": null,
       "pushed_at": "2026-07-11T08:47:51.850314-06:00"
+    },
+    {
+      "title_hash": "0bb1bb17a81b1496cd5d8ee9d723d3ed",
+      "title": "How LLM Counselors Violate Ethical Standards in Mental Health Practice: A Practitioner-Informed Fram",
+      "doi": "10.1609/aies.v8i2.36632",
+      "pushed_at": "2026-07-12T08:49:52.902113-06:00"
+    },
+    {
+      "title_hash": "25ee1defbdc27f062afa1f3526ede53f",
+      "title": "Rethinking Autonomy: Preventing Failures in AI-Driven Software Engineering",
+      "doi": "10.48550/arXiv.2508.11824",
+      "pushed_at": "2026-07-12T08:49:52.902113-06:00"
     }
   ],
-  "last_push": "2026-07-11T08:47:51.850314-06:00"
+  "last_push": "2026-07-12T08:49:52.902113-06:00"
 }
