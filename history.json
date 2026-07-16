@@ -1,66 +1,6 @@
 {
   "pushed_papers": [
     {
-      "title_hash": "c2f422c0b3c7533dbc65bb6a6efb67c3",
-      "title": "Security Attacks on LLM-based Code Completion Tools",
-      "doi": "10.1609/aaai.v39i22.34537",
-      "pushed_at": "2026-04-03T22:36:46.355380-06:00"
-    },
-    {
-      "title_hash": "412a5b872a9759ee17af7c3c7ddcfd31",
-      "title": "ExploreGen: Large Language Models for Envisioning the Uses and Risks of AI Technologies",
-      "doi": "10.1609/aies.v7i1.31660",
-      "pushed_at": "2026-04-03T22:36:46.355380-06:00"
-    },
-    {
-      "title_hash": "4a591703b5e2429f9e0661484edc2201",
-      "title": "Habemus a Right to an Explanation: so What? – A Framework on Transparency-Explainability Functionali",
-      "doi": "10.1609/aies.v7i1.31700",
-      "pushed_at": "2026-04-03T22:36:46.355380-06:00"
-    },
-    {
-      "title_hash": "4e5c50fddc15a96c8186c6f3f1f1e91c",
-      "title": "Acceptable Use Policies for Foundation Models",
-      "doi": "10.1609/aies.v7i1.31677",
-      "pushed_at": "2026-04-03T22:36:46.355380-06:00"
-    },
-    {
-      "title_hash": "4811767f123e3a6b42ef626eeebb4969",
-      "title": "Bridging the Copyright Gap: Do Large Vision-Language Models Recognize and Respect Copyrighted Conten",
-      "doi": "10.1609/aaai.v40i42.40910",
-      "pushed_at": "2026-04-03T22:36:46.355380-06:00"
-    },
-    {
-      "title_hash": "afb350e57a37e65d50b139e4c9f1ba64",
-      "title": "SceneJailEval: A Scenario-Adaptive Multi-Dimensional Framework for Jailbreak Evaluation",
-      "doi": "10.1609/aaai.v40i42.40866",
-      "pushed_at": "2026-04-03T22:36:46.355380-06:00"
-    },
-    {
-      "title_hash": "6501d04f5856f691d16f06154bce358d",
-      "title": "From Benchmarks to Business Impact: Deploying IBM Generalist Agent in Enterprise Production",
-      "doi": "10.1609/aaai.v40i47.41485",
-      "pushed_at": "2026-04-03T22:36:46.355380-06:00"
-    },
-    {
-      "title_hash": "6e0c48234281f67ee9d6f83a247ec6c2",
-      "title": "EnronSR: A Benchmark for Evaluating AI-Generated Email Replies",
-      "doi": "10.1609/icwsm.v18i1.31448",
-      "pushed_at": "2026-04-03T22:36:46.355380-06:00"
-    },
-    {
-      "title_hash": "c68a930e750fe82271eaeebce9f10fd2",
-      "title": "Large Language Model-Driven Code Compliance Checking in Building Information Modeling",
-      "doi": "10.3390/electronics14112146",
-      "pushed_at": "2026-04-03T22:36:46.355380-06:00"
-    },
-    {
-      "title_hash": "651e2a293ba89fa7712ad29e750186ae",
-      "title": "LSDTs: LLM-Augmented Semantic Digital Twins for Adaptive Knowledge-Intensive Infrastructure Planning",
-      "doi": "10.1609/aaai.v40i45.41232",
-      "pushed_at": "2026-04-03T22:36:46.355380-06:00"
-    },
-    {
       "title_hash": "6db58eacb713f67e52f2c14b87bced06",
       "title": "Human–AI Teaming in Structural Analysis: A Model Context Protocol Approach for Explainable and Accur",
       "doi": "10.3390/buildings15173190",
@@ -2999,7 +2939,67 @@
       "title": "Rethinking Autonomy: Preventing Failures in AI-Driven Software Engineering",
       "doi": "10.48550/arXiv.2508.11824",
       "pushed_at": "2026-07-12T08:49:52.902113-06:00"
+    },
+    {
+      "title_hash": "a415dfd1f73c209d7f793bf6c47035ef",
+      "title": "Automating geometry-intensive compliance checking in BIM: Graph-based semantic reasoning framework",
+      "doi": "10.1016/j.autcon.2026.107038",
+      "pushed_at": "2026-07-16T09:28:30.033245-06:00"
+    },
+    {
+      "title_hash": "8ba01fe01f1b9306edc94746819962f9",
+      "title": "GridCodex: A RAG-Driven AI Framework for Power Grid Code Reasoning and Compliance",
+      "doi": null,
+      "pushed_at": "2026-07-16T09:28:30.033245-06:00"
+    },
+    {
+      "title_hash": "9b5b3e93839c461800567262309ecbfb",
+      "title": "Explicating Tacit Regulatory Knowledge from LLMs to Auto-Formalize Requirements for Compliance Test ",
+      "doi": null,
+      "pushed_at": "2026-07-16T09:28:30.033245-06:00"
+    },
+    {
+      "title_hash": "1f61fd312ed801c846dcbad27979cb1f",
+      "title": "Enhancing regulatory compliance in AEC industry via LLM-powered decision frameworks",
+      "doi": "10.36680/j.itcon.2026.009",
+      "pushed_at": "2026-07-16T09:28:30.033245-06:00"
+    },
+    {
+      "title_hash": "7d4a7f211b3dc26f01628b81606f305e",
+      "title": "Ontological modeling of regulatory knowledge in the construction industry",
+      "doi": "10.18287/2223-9537-2026-16-2-226-239",
+      "pushed_at": "2026-07-16T09:28:30.033245-06:00"
+    },
+    {
+      "title_hash": "ba16d29507324bba6bcd1f0c52dbbfd1",
+      "title": "Analysis of legal building regulations in Kazakhstan and abroad",
+      "doi": "10.31489/2025l2/35-46",
+      "pushed_at": "2026-07-16T09:28:30.033245-06:00"
+    },
+    {
+      "title_hash": "f7c554983e0f4e691c937de28387fa14",
+      "title": "The Beginning, Not the End: Revisiting Automated Compliance Checking for BIM-Based Design Adaptation",
+      "doi": "10.1061/9780784486436.070",
+      "pushed_at": "2026-07-16T09:28:30.033245-06:00"
+    },
+    {
+      "title_hash": "c4f334af0fc28910adc8ad944b06dc27",
+      "title": "Every Step I Take: Evaluating Stair Compliance At The UP Diliman Institute Of Civil Engineering Thro",
+      "doi": "10.5194/isprs-archives-xlviii-5-w4-2025-23-2026",
+      "pushed_at": "2026-07-16T09:28:30.033245-06:00"
+    },
+    {
+      "title_hash": "edf595ed550d119d3dac35001b8f4ead",
+      "title": "Engineering Concept Case Study: Brownfield Asset Renovation - Regulatory Drift Conceptual Retrofit D",
+      "doi": "10.2139/ssrn.6376841",
+      "pushed_at": "2026-07-16T09:28:30.033245-06:00"
+    },
+    {
+      "title_hash": "4bb860ec6085a51afa61e3573dda265f",
+      "title": "Evaluation of the Feasibility and Sustainability of the Building Blitar Ministry of Environment and ",
+      "doi": "10.52166/dearsip.v6i01.12264",
+      "pushed_at": "2026-07-16T09:28:30.033245-06:00"
     }
   ],
-  "last_push": "2026-07-12T08:49:52.902113-06:00"
+  "last_push": "2026-07-16T09:28:30.033245-06:00"
 }
