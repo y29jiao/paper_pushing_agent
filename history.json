@@ -1,66 +1,6 @@
 {
   "pushed_papers": [
     {
-      "title_hash": "6db58eacb713f67e52f2c14b87bced06",
-      "title": "Human–AI Teaming in Structural Analysis: A Model Context Protocol Approach for Explainable and Accur",
-      "doi": "10.3390/buildings15173190",
-      "pushed_at": "2026-04-03T22:36:46.355380-06:00"
-    },
-    {
-      "title_hash": "14f0a5c4c05de467b7a90cf976dee67e",
-      "title": "A Declarative Language for Building And Orchestrating LLM-Powered Agent Workflows",
-      "doi": "10.48550/arXiv.2512.19769",
-      "pushed_at": "2026-04-03T22:36:46.355380-06:00"
-    },
-    {
-      "title_hash": "a37b7caeb98fb01c8815b78fbf865ee0",
-      "title": "QLCoder: A Query Synthesizer For Static Analysis of Security Vulnerabilities",
-      "doi": "10.48550/arXiv.2511.08462",
-      "pushed_at": "2026-04-03T22:36:46.355380-06:00"
-    },
-    {
-      "title_hash": "793eece3927060a47984b48bee7a042d",
-      "title": "Trustworthy agentic AI systems: a cross-layer review of architectures, threat models, and governance",
-      "doi": "10.12688/f1000research.169927.1",
-      "pushed_at": "2026-04-03T22:36:46.355380-06:00"
-    },
-    {
-      "title_hash": "b4517ed6bdf00b442b3335bef2866f47",
-      "title": "Digital Platforms for the Built Environment: A Systematic Review Across Sectors and Scales",
-      "doi": "10.3390/buildings15142432",
-      "pushed_at": "2026-04-03T22:36:46.355380-06:00"
-    },
-    {
-      "title_hash": "33a6c8c06e1f7292ed5b999aca380a4b",
-      "title": "AI-Driven Digital Twins in Industrialized Offsite Construction: A Systematic Review",
-      "doi": "10.3390/buildings15172997",
-      "pushed_at": "2026-04-03T22:36:46.355380-06:00"
-    },
-    {
-      "title_hash": "e884a45a579395b74ecd64e8bd2ab5d7",
-      "title": "AI Large Models for Power System: A Survey and Outlook",
-      "doi": "10.1049/ses2.70000",
-      "pushed_at": "2026-04-03T22:36:46.355380-06:00"
-    },
-    {
-      "title_hash": "37639849879e28bf8b0665144fea7a17",
-      "title": "A Comparative Review of Large Language Models in Engineering with Emphasis on Chemical Engineering A",
-      "doi": "10.3390/pr13092680",
-      "pushed_at": "2026-04-03T22:36:46.355380-06:00"
-    },
-    {
-      "title_hash": "345d88387756c2806a90db37fbdd2c4c",
-      "title": "Incident Analysis for AI Agents",
-      "doi": "10.1609/aies.v8i1.36596",
-      "pushed_at": "2026-04-04T23:08:37.633722-06:00"
-    },
-    {
-      "title_hash": "60c93ea22a605ef10e6488c4a0d978ff",
-      "title": "EchoLeak: The First Real-World Zero-Click Prompt InjectionExploit in a Production LLM System",
-      "doi": "10.1609/aaaiss.v7i1.36899",
-      "pushed_at": "2026-04-04T23:08:37.633722-06:00"
-    },
-    {
       "title_hash": "32e78933180f3bc98e7f5857f13d8ab6",
       "title": "Responsible AI in the OSS: Reconciling Innovation with Risk Assessment and Disclosure",
       "doi": "10.1609/aies.v8i1.36567",
@@ -2999,7 +2939,67 @@
       "title": "Evaluation of the Feasibility and Sustainability of the Building Blitar Ministry of Environment and ",
       "doi": "10.52166/dearsip.v6i01.12264",
       "pushed_at": "2026-07-16T09:28:30.033245-06:00"
+    },
+    {
+      "title_hash": "c68a930e750fe82271eaeebce9f10fd2",
+      "title": "Large Language Model-Driven Code Compliance Checking in Building Information Modeling",
+      "doi": "10.3390/electronics14112146",
+      "pushed_at": "2026-07-21T09:34:23.667057-06:00"
+    },
+    {
+      "title_hash": "6cf214b19cba36b706212973216b0ca6",
+      "title": "DEVELOPMENT OF AN AI-ASSISTED REINFORCEMENT LAYOUT CHECKING SYSTEM",
+      "doi": "10.62643/ijerst.2026.v22.n2(2).2977",
+      "pushed_at": "2026-07-21T09:34:23.667057-06:00"
+    },
+    {
+      "title_hash": "5ea33821b5dca21194872310db8b4cfe",
+      "title": "Can Large Language Models Detect Real-World Android Software Compliance Violations?",
+      "doi": "10.48550/arXiv.2511.00624",
+      "pushed_at": "2026-07-21T09:34:23.667057-06:00"
+    },
+    {
+      "title_hash": "b5c219df1cf90db9268e129e0ebdc2f2",
+      "title": "LLM-Assisted Forensic and Compliance Auditing for Public Sector Organizations",
+      "doi": "10.34190/eccws.25.1.4707",
+      "pushed_at": "2026-07-21T09:34:23.667057-06:00"
+    },
+    {
+      "title_hash": "0586b222e39d0ad9284369cb6484b5db",
+      "title": "Enhancing Chatbot Performance in a SaaS Platform Through Retrieval-Augmented Generation and Prompt E",
+      "doi": null,
+      "pushed_at": "2026-07-21T09:34:23.667057-06:00"
+    },
+    {
+      "title_hash": "f711bb5aa453d131bd68a9215653a716",
+      "title": "Argumentation-Based Legal Requirements Engineering: The Role of Legal Interpretation in Requirements",
+      "doi": null,
+      "pushed_at": "2026-07-21T09:34:23.667057-06:00"
+    },
+    {
+      "title_hash": "6a62dfe66da5521bb19e174acc28d3ef",
+      "title": "THE EVOLUTION OF INCLUSION APPROACHES IN UKRAINE’S BUILDING REGULATIONS: FROM ACCESSIBILITY TO UNIVE",
+      "doi": "10.32347/2519-8661.2026.35-36.52-60",
+      "pushed_at": "2026-07-21T09:34:23.667057-06:00"
+    },
+    {
+      "title_hash": "6439a26173670f0eb06f5494cb90b4bd",
+      "title": "Engenharia civil e direito: desafios e limites da responsabilidade profissional",
+      "doi": "10.35685/7c808y80",
+      "pushed_at": "2026-07-21T09:34:23.667057-06:00"
+    },
+    {
+      "title_hash": "1e11c45de52ff03717425f4e519c6691",
+      "title": "Integrating Building Information Modeling (BIM) into Public Construction Policy: A Systems-Based Ana",
+      "doi": "10.55003/acaad.2026.283010",
+      "pushed_at": "2026-07-21T09:34:23.667057-06:00"
+    },
+    {
+      "title_hash": "6fd4310f89b8a206fdf29cb89c9a4f16",
+      "title": "Challenges and Gaps in the Emerging Need for Malaysia’s Civil Engineer Technical Competency",
+      "doi": "10.55057/ijbtm.2025.7.9.12",
+      "pushed_at": "2026-07-21T09:34:23.667057-06:00"
     }
   ],
-  "last_push": "2026-07-16T09:28:30.033245-06:00"
+  "last_push": "2026-07-21T09:34:23.667057-06:00"
 }
