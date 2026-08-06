@@ -1,90 +1,6 @@
 {
   "pushed_papers": [
     {
-      "title_hash": "32e78933180f3bc98e7f5857f13d8ab6",
-      "title": "Responsible AI in the OSS: Reconciling Innovation with Risk Assessment and Disclosure",
-      "doi": "10.1609/aies.v8i1.36567",
-      "pushed_at": "2026-04-04T23:08:37.633722-06:00"
-    },
-    {
-      "title_hash": "d6d0bb371bd4b96f01e60cddcc73e19f",
-      "title": "Aligning AI with Public Values: Deliberation and Decision-Making for Governing Multimodal LLMs in Po",
-      "doi": "10.1609/aies.v8i3.36720",
-      "pushed_at": "2026-04-04T23:08:37.633722-06:00"
-    },
-    {
-      "title_hash": "cee4f28f957eb538155debd8c521e55b",
-      "title": "Knowledge-Augmented Intelligent Bot Framework for Enabling Accessible Design",
-      "doi": "10.1609/icwsm.v19i1.35966",
-      "pushed_at": "2026-04-04T23:08:37.633722-06:00"
-    },
-    {
-      "title_hash": "479e5a395082ef5009638289e69d8f9e",
-      "title": "Generating Ontology-Learning Training-Data through Verbalization",
-      "doi": "10.1609/aaaiss.v4i1.31797",
-      "pushed_at": "2026-04-04T23:08:37.633722-06:00"
-    },
-    {
-      "title_hash": "c152a9f32b12a6bec04e74038acbbd6f",
-      "title": "Recording for Eyes, Not Echoing to Ears: Contextualized Spoken-to-Written Conversion of ASR Transcri",
-      "doi": "10.1609/aaai.v39i23.34642",
-      "pushed_at": "2026-04-04T23:08:37.633722-06:00"
-    },
-    {
-      "title_hash": "21e8cad2b36492fdd239aebf30d629bc",
-      "title": "How Are LLMs Mitigating Stereotyping Harms? Learning from Search Engine Studies",
-      "doi": "10.1609/aies.v7i1.31684",
-      "pushed_at": "2026-04-04T23:08:37.633722-06:00"
-    },
-    {
-      "title_hash": "73fb5576c6641df307ccc0f70afda891",
-      "title": "Hide or Highlight: Understanding the Impact of Factuality Expression on User Trust",
-      "doi": "10.1609/aies.v8i1.36589",
-      "pushed_at": "2026-04-04T23:08:37.633722-06:00"
-    },
-    {
-      "title_hash": "5257c25717268164eaf3fd6a6b128320",
-      "title": "Anthropomorphism as Social Affordance: Charting the Co-Animation of Chatbots into Social “Agents”",
-      "doi": "10.1609/aies.v8i2.36664",
-      "pushed_at": "2026-04-04T23:08:37.633722-06:00"
-    },
-    {
-      "title_hash": "7d968b9db60ca0b1f47d5c690ed23cb3",
-      "title": "Towards Experience-Centered AI: A Framework for Integrating Lived Experience in Design and Developme",
-      "doi": "10.1609/aies.v8i2.36611",
-      "pushed_at": "2026-04-04T23:08:37.633722-06:00"
-    },
-    {
-      "title_hash": "bba449cba2b0c656b1dc06894d052557",
-      "title": "LLM-assisted Extraction of Regulatory Requirements: A Case Study on the GDPR",
-      "doi": "10.1109/re63999.2025.00023",
-      "pushed_at": "2026-04-04T23:08:37.633722-06:00"
-    },
-    {
-      "title_hash": "ad034b3008db88d50ba9d5e99cb13f7b",
-      "title": "Legal AI in Low-Resource Languages: Building and Evaluating QA Systems for the Kazakh Legislation",
-      "doi": "10.3390/computers14090354",
-      "pushed_at": "2026-04-04T23:08:37.633722-06:00"
-    },
-    {
-      "title_hash": "5f31cf47f51adbde4abf6a066bd29e3c",
-      "title": "Question Answering System for Smart Cities and Urban Planning With The World Avatar",
-      "doi": "10.1049/smc2.70009",
-      "pushed_at": "2026-04-04T23:08:37.633722-06:00"
-    },
-    {
-      "title_hash": "6cdf7a6eb76d2a6068008f860989846e",
-      "title": "Large Language Models for Structured Information Processing in Construction and Facility Management",
-      "doi": "10.3390/electronics14204106",
-      "pushed_at": "2026-04-04T23:08:37.633722-06:00"
-    },
-    {
-      "title_hash": "bf8827bf8ad31bb163c065685dcab66b",
-      "title": "ChatTwin: Bridging the usability gap to digital twin adoption in infrastructure operations and maint",
-      "doi": "10.1016/j.autcon.2025.106655",
-      "pushed_at": "2026-04-04T23:08:37.633722-06:00"
-    },
-    {
       "title_hash": "80717c3521bfd9ce3f79debfad4253d4",
       "title": "Next-generation language-based data mining techniques for smart construction documentation: challeng",
       "doi": "10.1139/cjce-2025-0329",
@@ -2999,7 +2915,91 @@
       "title": "Challenges and Gaps in the Emerging Need for Malaysia’s Civil Engineer Technical Competency",
       "doi": "10.55057/ijbtm.2025.7.9.12",
       "pushed_at": "2026-07-21T09:34:23.667057-06:00"
+    },
+    {
+      "title_hash": "9091a526572fc84b0ed73fedf4e10bb5",
+      "title": "Red-Teaming for Generative AI: Silver Bullet or Security Theater?",
+      "doi": "10.1609/aies.v7i1.31647",
+      "pushed_at": "2026-08-06T10:09:08.583920-06:00"
+    },
+    {
+      "title_hash": "911dc43ada38bc9a7a4372c566fabf37",
+      "title": "What Comes After Harm? Mapping Reparative Actions in AI Through Justice Frameworks",
+      "doi": "10.1609/aies.v8i3.36754",
+      "pushed_at": "2026-08-06T10:09:08.583920-06:00"
+    },
+    {
+      "title_hash": "724d7e3afd4f7b515eb0ddfec3a4884c",
+      "title": "An Intelligent Assistant for Working with Regulatory Documents Based on Ontological Modeling and RAG",
+      "doi": "10.1109/APEIE66761.2025.11289384",
+      "pushed_at": "2026-08-06T10:09:08.583920-06:00"
+    },
+    {
+      "title_hash": "a98198856784d253d02343a6cdd087c1",
+      "title": "AgenticIE: An Adaptive Agent for Information Extraction from Complex Regulatory Documents",
+      "doi": null,
+      "pushed_at": "2026-08-06T10:09:08.583920-06:00"
+    },
+    {
+      "title_hash": "b096d2c9dfabd47b9012982f63e42154",
+      "title": "Suppressing Domain-Specific Hallucination in Construction LLMs: A Knowledge Graph Foundation for Gra",
+      "doi": "10.48550/arXiv.2603.13307",
+      "pushed_at": "2026-08-06T10:09:08.583920-06:00"
+    },
+    {
+      "title_hash": "1f8543bcb98510997b283775ac8e8ca8",
+      "title": "Self-Reflective VLM with Multimodal Retrieval-Augmented Generation for Long-Context Construction Reg",
+      "doi": "10.1061/jmenea.meeng-7498",
+      "pushed_at": "2026-08-06T10:09:08.583920-06:00"
+    },
+    {
+      "title_hash": "97e394129ccef954a3e2d3a1be3b8313",
+      "title": "Comparing FAQ-Based and Retrieval-Augmented Generation Chatbots for Academic Service Question Answer",
+      "doi": "10.70609/g-tech.v10i3.10019",
+      "pushed_at": "2026-08-06T10:09:08.583920-06:00"
+    },
+    {
+      "title_hash": "1ff63a5a0a74d832351c7048ae21cbc6",
+      "title": "Development of Approaches and Reform of Technical Standards in Construction Industry in Russia and C",
+      "doi": "10.31675/1607-1859-202628-3-175-190",
+      "pushed_at": "2026-08-06T10:09:08.583920-06:00"
+    },
+    {
+      "title_hash": "d25d421cb373c924b74eae21bf43a515",
+      "title": "Optimizing and Evaluating a Retrieval-Augmented Generation System for Normative Document Retrieval i",
+      "doi": "10.5753/webmedia.2025.16029",
+      "pushed_at": "2026-08-06T10:09:08.583920-06:00"
+    },
+    {
+      "title_hash": "04860a2488c5a5d628c3e9f10db47cb9",
+      "title": "PROBLEMS OF REGULATION OF PROJECT ESTIMATION IN THE REPUBLIC OF ARMENIA. COMPARISON OF REGULATORY BA",
+      "doi": "10.56243/18294898-2025.1-3",
+      "pushed_at": "2026-08-06T10:09:08.583920-06:00"
+    },
+    {
+      "title_hash": "2029f9084795c17465f6f35cddd40943",
+      "title": "ViHERMES: A Graph-Grounded Multihop Question Answering Benchmark and System for Vietnamese Healthcar",
+      "doi": "10.48550/arXiv.2602.07361",
+      "pushed_at": "2026-08-06T10:09:08.583920-06:00"
+    },
+    {
+      "title_hash": "3cbb3aa2a9993f04ab0d5ca4a9a9efca",
+      "title": "Retrieval-Augmented Multimodal Large Language Models for Visual Question Answering of Construction O",
+      "doi": "10.1061/jmenea.meeng-7452",
+      "pushed_at": "2026-08-06T10:09:08.583920-06:00"
+    },
+    {
+      "title_hash": "a228d14c04a4cb85c7fdaf25aa466328",
+      "title": "Intelligent Document Query Hub — A Holistic Solution for Efficient PDF Information Retrieval and Ext",
+      "doi": "10.1109/ICDSNS65743.2025.11168794",
+      "pushed_at": "2026-08-06T10:09:08.583920-06:00"
+    },
+    {
+      "title_hash": "6c3022c6a7de2dcab5cac5e5bf733d02",
+      "title": "Bulk Processing of Engineering Management Documents Based on Domain Question-Answering Models",
+      "doi": "10.1145/3730436.3730488",
+      "pushed_at": "2026-08-06T10:09:08.583920-06:00"
     }
   ],
-  "last_push": "2026-07-21T09:34:23.667057-06:00"
+  "last_push": "2026-08-06T10:09:08.583920-06:00"
 }
