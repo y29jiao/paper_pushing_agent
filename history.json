@@ -1,66 +1,6 @@
 {
   "pushed_papers": [
     {
-      "title_hash": "80717c3521bfd9ce3f79debfad4253d4",
-      "title": "Next-generation language-based data mining techniques for smart construction documentation: challeng",
-      "doi": "10.1139/cjce-2025-0329",
-      "pushed_at": "2026-04-04T23:08:37.633722-06:00"
-    },
-    {
-      "title_hash": "7353321ca5ff82ffda37ef720706a68c",
-      "title": "Semi-Automated Reporting from Environmental Monitoring Data Using a Large Language Model-Based Chatb",
-      "doi": "10.3390/ijgi15020080",
-      "pushed_at": "2026-04-04T23:08:37.633722-06:00"
-    },
-    {
-      "title_hash": "fff38bb33fd1c4614bc5bd9f1b8745dc",
-      "title": "New Trends in the Use of Artificial Intelligence and Natural Language Processing for Occupational Ri",
-      "doi": "10.3390/safety12010007",
-      "pushed_at": "2026-04-04T23:08:37.633722-06:00"
-    },
-    {
-      "title_hash": "68fc0e86c9838438ae39e3fcfa5375e6",
-      "title": "ROBUST AND VERIFIABLE LLMS FOR HIGH-STAKES DECISION-MAKING (HEALTHCARE, DEFENSE, FINANCE)",
-      "doi": "10.63125/xv9bab19",
-      "pushed_at": "2026-04-04T23:08:37.633722-06:00"
-    },
-    {
-      "title_hash": "681c8fa812ff1a3f94f480184bf9ad95",
-      "title": "A Review of TRiSM Frameworks in Artificial Intelligence Systems: Fundamentals, Taxonomy, Use Cases, ",
-      "doi": "10.36227/techrxiv.174913612.20443736/v1",
-      "pushed_at": "2026-04-04T23:08:37.633722-06:00"
-    },
-    {
-      "title_hash": "7a72824ef5d23ad3a75fa2aa57420ad4",
-      "title": "PulseMind: A Multi-Modal Medical Model for Real-World Clinical Diagnosis",
-      "doi": "10.1609/aaai.v40i13.38106",
-      "pushed_at": "2026-04-05T23:18:24.806347-06:00"
-    },
-    {
-      "title_hash": "da3a316eb200175c39cfaf46a0cb29db",
-      "title": "What Is Required for Empathic AI? It Depends, and Why That Matters for AI Developers and Users",
-      "doi": "10.1609/aies.v7i1.31725",
-      "pushed_at": "2026-04-05T23:18:24.806347-06:00"
-    },
-    {
-      "title_hash": "f4bcfda3b35277858e44199dbd8a36e4",
-      "title": "Large Language Models in Legal Systems: A Survey",
-      "doi": "10.1057/s41599-025-05924-3",
-      "pushed_at": "2026-04-05T23:18:24.806347-06:00"
-    },
-    {
-      "title_hash": "d92fd4f0091a8ef75676bbd55398f0c5",
-      "title": "Addressing Complexity in System of Systems With GraphRAG: An AI‐Driven Framework for Dynamic Data In",
-      "doi": "10.1002/sys.70012",
-      "pushed_at": "2026-04-05T23:18:24.806347-06:00"
-    },
-    {
-      "title_hash": "6757dbb01823b9b54929cbaffd281744",
-      "title": "Proceedings of the 1st Workshop on NLP for Empowering Justice (JUST-NLP 2025)",
-      "doi": "10.18653/v1/2025.justnlp-main",
-      "pushed_at": "2026-04-05T23:18:24.806347-06:00"
-    },
-    {
       "title_hash": "12df8094830f614aab0acbbd32c70481",
       "title": "Multimodal Large Language Models in Construction Education for Learning Human–Robot Collaboration: A",
       "doi": "10.1061/aomjah.aoeng-0102",
@@ -2999,7 +2939,67 @@
       "title": "Bulk Processing of Engineering Management Documents Based on Domain Question-Answering Models",
       "doi": "10.1145/3730436.3730488",
       "pushed_at": "2026-08-06T10:09:08.583920-06:00"
+    },
+    {
+      "title_hash": "18849cb86776a5c6aae52dfd1d1918e2",
+      "title": "CBR-RAG: Case-Based Reasoning for Retrieval Augmented Generation in LLMs for Legal Question Answerin",
+      "doi": null,
+      "pushed_at": "2026-08-09T08:29:09.359317-06:00"
+    },
+    {
+      "title_hash": "3c10ccb027f43ac05aa7fbf118a5ace7",
+      "title": "NOWJ@ALQAC 2024: Leveraging Document Ranking Methods and Large Language Models for Legal Document Re",
+      "doi": null,
+      "pushed_at": "2026-08-09T08:29:09.359317-06:00"
+    },
+    {
+      "title_hash": "3a5bccafdcf459532a370aa9ef0544a1",
+      "title": "FinSage: A Multi-aspect RAG System for Financial Filings Question Answering",
+      "doi": null,
+      "pushed_at": "2026-08-09T08:29:09.359317-06:00"
+    },
+    {
+      "title_hash": "e9fdafca30cb80edc08b51acc24d2fd1",
+      "title": "KG2QA: Knowledge Graph-enhanced Retrieval-Augmented Generation for Communication Standards Question ",
+      "doi": null,
+      "pushed_at": "2026-08-09T08:29:09.359317-06:00"
+    },
+    {
+      "title_hash": "747c74e0dceeb35274c7140e71acb9a6",
+      "title": "Quebec Automobile Insurance Question-Answering With Retrieval-Augmented Generation",
+      "doi": null,
+      "pushed_at": "2026-08-09T08:29:09.359317-06:00"
+    },
+    {
+      "title_hash": "9b2af68516e7a3250dc7d7c141121564",
+      "title": "Document Knowledge Graph to Enhance Question Answering with Retrieval Augmented Generation",
+      "doi": null,
+      "pushed_at": "2026-08-09T08:29:09.359317-06:00"
+    },
+    {
+      "title_hash": "ee2bd441b842a879d1c1464aa44e5a84",
+      "title": "CMRAG: Co-modality-based visual document retrieval and question answering",
+      "doi": null,
+      "pushed_at": "2026-08-09T08:29:09.359317-06:00"
+    },
+    {
+      "title_hash": "0b81a8b945aa7ff627a54ef49aa11521",
+      "title": "Benchmarking Retrieval-Augmented Multimomal Generation for Document Question Answering",
+      "doi": null,
+      "pushed_at": "2026-08-09T08:29:09.359317-06:00"
+    },
+    {
+      "title_hash": "eaf9bd85b23d1c4d3c31f51d26b10460",
+      "title": "Adda: An Agent-Driven in-Database Feature Generation System",
+      "doi": "10.1145/3788853.3801606",
+      "pushed_at": "2026-08-09T08:29:09.359317-06:00"
+    },
+    {
+      "title_hash": "1131f00f24b62ab3d5bf412d52c505e6",
+      "title": "To Retrieve or Not to Retrieve? Uncertainty Detection for Dynamic Retrieval Augmented Generation",
+      "doi": null,
+      "pushed_at": "2026-08-09T08:29:09.359317-06:00"
     }
   ],
-  "last_push": "2026-08-06T10:09:08.583920-06:00"
+  "last_push": "2026-08-09T08:29:09.359317-06:00"
 }
