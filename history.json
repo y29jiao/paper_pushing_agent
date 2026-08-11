@@ -1,72 +1,6 @@
 {
   "pushed_papers": [
     {
-      "title_hash": "12df8094830f614aab0acbbd32c70481",
-      "title": "Multimodal Large Language Models in Construction Education for Learning Human–Robot Collaboration: A",
-      "doi": "10.1061/aomjah.aoeng-0102",
-      "pushed_at": "2026-04-05T23:18:24.806347-06:00"
-    },
-    {
-      "title_hash": "f7a03c3d3bf876a367ced4c7103a5994",
-      "title": "The role of Artificial Intelligence in the corporate sustainability reporting in the context of Corp",
-      "doi": null,
-      "pushed_at": "2026-04-05T23:18:24.806347-06:00"
-    },
-    {
-      "title_hash": "07742a61cecdf96d510ead381a21b1b9",
-      "title": "Text analytics for co-creation in public sector organizations: a literature review-based research fr",
-      "doi": "10.1007/s10462-025-11112-1",
-      "pushed_at": "2026-04-05T23:18:24.806347-06:00"
-    },
-    {
-      "title_hash": "6079df6f8cbcd55fc48dd946ac65ddec",
-      "title": "From Vulnerability to Defense: The Role of Large Language Models in Enhancing Cybersecurity",
-      "doi": "10.3390/computation13020030",
-      "pushed_at": "2026-04-05T23:18:24.806347-06:00"
-    },
-    {
-      "title_hash": "070a6413b61f78310d53d6fd6d154508",
-      "title": "Vulnerabilities and Defenses: A Monograph on Comprehensive Analysis of Security Attacks on Large Lan",
-      "doi": "10.51983/ijiss-2025.ijiss.15.2.54",
-      "pushed_at": "2026-04-05T23:18:24.806347-06:00"
-    },
-    {
-      "title_hash": "b28450faa317329779cd6e6a75ced966",
-      "title": "Responsible agentic artificial intelligence governance: Risk, safety, and ethical challenges in auto",
-      "doi": "10.70593/deepsci.0202005",
-      "pushed_at": "2026-04-05T23:18:24.806347-06:00"
-    },
-    {
-      "title_hash": "1017a956c90845e9fa5a22c210196b24",
-      "title": "AI Goes Off the Grid: The Rise of Local AI Demands Rethinking AI Governance",
-      "doi": "10.20944/preprints202506.0680.v1",
-      "pushed_at": "2026-04-05T23:18:24.806347-06:00"
-    },
-    {
-      "title_hash": "13d70c5e0e679572f7654572af61e765",
-      "title": "Co-designing an AI Impact Assessment Report Template with AI Practitioners and AI Compliance Experts",
-      "doi": "10.1609/aies.v7i1.31627",
-      "pushed_at": "2026-04-06T23:12:05.614595-06:00"
-    },
-    {
-      "title_hash": "713e79268e443ecd0701b8bc34b7e01c",
-      "title": "Introducing the AI Governance and Regulatory Archive (AGORA): An Analytic Infrastructure for Navigat",
-      "doi": "10.1609/aies.v7i1.31615",
-      "pushed_at": "2026-04-06T23:12:05.614595-06:00"
-    },
-    {
-      "title_hash": "299facad87b6c74df6dcee00fc1372d5",
-      "title": "Decoding Global AI Governance: A Computational Linguistic Analysis of National Regulations",
-      "doi": "10.1609/aies.v7i2.31909",
-      "pushed_at": "2026-04-06T23:12:05.614595-06:00"
-    },
-    {
-      "title_hash": "88130d19a5002fa3b11e01df3ef4632e",
-      "title": "Participatory AI and the EU AI Act",
-      "doi": "10.1609/aies.v8i3.36737",
-      "pushed_at": "2026-04-06T23:12:05.614595-06:00"
-    },
-    {
       "title_hash": "03ce3613d8c1b682863cb11d1744580a",
       "title": "Public vs Private Bodies: Who Should Run Advanced AI Evaluations and Audits? A Three-Step Logic Base",
       "doi": "10.1609/aies.v7i1.31733",
@@ -2999,7 +2933,73 @@
       "title": "To Retrieve or Not to Retrieve? Uncertainty Detection for Dynamic Retrieval Augmented Generation",
       "doi": null,
       "pushed_at": "2026-08-09T08:29:09.359317-06:00"
+    },
+    {
+      "title_hash": "830fd7a108e56ccacf90e098e4c20dc3",
+      "title": "A Semantic Web and IFC-Based Framework for Automated BIM Compliance Checking",
+      "doi": "10.3390/buildings15152633",
+      "pushed_at": "2026-08-11T08:53:05.855535-06:00"
+    },
+    {
+      "title_hash": "f5fc61c1a24251202386c4a0736e8463",
+      "title": "A systematic review of methods for interpreting building code regulations in automated compliance sy",
+      "doi": "10.1080/09613218.2026.2637965",
+      "pushed_at": "2026-08-11T08:53:05.855535-06:00"
+    },
+    {
+      "title_hash": "6323ced06074224265a49f1df881f7ba",
+      "title": "A review of LLMs and their applications in the architecture, engineering and construction industry",
+      "doi": "10.1007/s10462-025-11241-7",
+      "pushed_at": "2026-08-11T08:53:05.855535-06:00"
+    },
+    {
+      "title_hash": "5038459a2fb0d90624a891163f188034",
+      "title": "Impact of EU Regulations on AI Adoption in Smart City Solutions: A Review of Regulatory Barriers, Te",
+      "doi": "10.3390/info16070568",
+      "pushed_at": "2026-08-11T08:53:05.855535-06:00"
+    },
+    {
+      "title_hash": "8633c77f379649173a1c2b551f206327",
+      "title": "Designing intelligent compliance systems for evolving global regulatory landscapes",
+      "doi": "10.51594/gjabr.v3i9.157",
+      "pushed_at": "2026-08-11T08:53:05.855535-06:00"
+    },
+    {
+      "title_hash": "182e1644493cd2c0bd2d80706bfcef3a",
+      "title": "FlowAgent: Achieving Compliance and Flexibility for Workflow Agents",
+      "doi": null,
+      "pushed_at": "2026-08-11T08:53:05.855535-06:00"
+    },
+    {
+      "title_hash": "fcfea5b1c75156e6ec46de7ee8bcd463",
+      "title": "Confidence-Aware Multi-Agent Orchestration for Evaluating Multimodal Rule Compliance",
+      "doi": null,
+      "pushed_at": "2026-08-11T08:53:05.855535-06:00"
+    },
+    {
+      "title_hash": "1df86829553daa58fbabd4278841d4b5",
+      "title": "Exploring LLMs Applications in Law: A Literature Review on Current Legal NLP Approaches",
+      "doi": "10.1109/access.2025.3533217",
+      "pushed_at": "2026-08-11T08:53:05.855535-06:00"
+    },
+    {
+      "title_hash": "266b42175f4e203649f1605e6985d13b",
+      "title": "Blockchain for Safety Compliance in Construction: A Comprehensive Literature Review",
+      "doi": "10.3390/buildings16010143",
+      "pushed_at": "2026-08-11T08:53:05.855535-06:00"
+    },
+    {
+      "title_hash": "9f2a5b1778bdcfcf4bec70ba510def13",
+      "title": "Bridging AI and explainability in civil engineering: the Yin-Yang of predictive power and interpreta",
+      "doi": "10.1007/s43503-025-00066-6",
+      "pushed_at": "2026-08-11T08:53:05.855535-06:00"
+    },
+    {
+      "title_hash": "800e8b9cbeabd242daf228ab30710038",
+      "title": "Data-Driven Civil Engineering: Applications of Artificial Intelligence, Machine Learning, and Deep L",
+      "doi": "10.31127/tuje.1581564",
+      "pushed_at": "2026-08-11T08:53:05.855535-06:00"
     }
   ],
-  "last_push": "2026-08-09T08:29:09.359317-06:00"
+  "last_push": "2026-08-11T08:53:05.855535-06:00"
 }
