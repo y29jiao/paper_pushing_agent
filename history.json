@@ -1,12 +1,6 @@
 {
   "pushed_papers": [
     {
-      "title_hash": "03ce3613d8c1b682863cb11d1744580a",
-      "title": "Public vs Private Bodies: Who Should Run Advanced AI Evaluations and Audits? A Three-Step Logic Base",
-      "doi": "10.1609/aies.v7i1.31733",
-      "pushed_at": "2026-04-06T23:12:05.614595-06:00"
-    },
-    {
       "title_hash": "4f620767a76eacdd02d0a915658d5d6e",
       "title": "Prospective Regulation of Private Sector Legal Compliance Audits Through the Draft National Legal Gu",
       "doi": "10.22219/aclj.v5i3.34641",
@@ -2999,7 +2993,13 @@
       "title": "Data-Driven Civil Engineering: Applications of Artificial Intelligence, Machine Learning, and Deep L",
       "doi": "10.31127/tuje.1581564",
       "pushed_at": "2026-08-11T08:53:05.855535-06:00"
+    },
+    {
+      "title_hash": "14dd03e65f725d321b5fb349d5ed57a4",
+      "title": "Model Checking for ACL Compliance Verification",
+      "doi": null,
+      "pushed_at": "2026-08-13T08:53:57.804928-06:00"
     }
   ],
-  "last_push": "2026-08-11T08:53:05.855535-06:00"
+  "last_push": "2026-08-13T08:53:57.804928-06:00"
 }
