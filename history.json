@@ -1,114 +1,6 @@
 {
   "pushed_papers": [
     {
-      "title_hash": "4f620767a76eacdd02d0a915658d5d6e",
-      "title": "Prospective Regulation of Private Sector Legal Compliance Audits Through the Draft National Legal Gu",
-      "doi": "10.22219/aclj.v5i3.34641",
-      "pushed_at": "2026-04-06T23:12:05.614595-06:00"
-    },
-    {
-      "title_hash": "2608e8ff43df9e8ab8d8dd879f3a43ed",
-      "title": "Ontology-Based Knowledge Graph Approach for Legal Queries",
-      "doi": "10.15388/25-infor617",
-      "pushed_at": "2026-04-06T23:12:05.614595-06:00"
-    },
-    {
-      "title_hash": "86944198b25b97c03d11c3619b45add4",
-      "title": "Strategic implementation of artificial intelligence (AI) in construction: an integrated change and i",
-      "doi": "10.1007/s44290-026-00422-0",
-      "pushed_at": "2026-04-06T23:12:05.614595-06:00"
-    },
-    {
-      "title_hash": "cf0f1fd0d729b78fc84a08bcde5d9c66",
-      "title": "Ethical Perspectives on Artificial Intelligence in Biomedical Engineering",
-      "doi": "10.1515/9783111586458",
-      "pushed_at": "2026-04-06T23:12:05.614595-06:00"
-    },
-    {
-      "title_hash": "b33e03ed425cacfa2c44a5e13ba9717d",
-      "title": "Socially Responsible AI in the GPT Era",
-      "doi": "10.25172/smulr.78.3.7",
-      "pushed_at": "2026-04-06T23:12:05.614595-06:00"
-    },
-    {
-      "title_hash": "bac274633879b8317014548ebfe2336d",
-      "title": "Business transformation in the age of generative AI: from strategy to societal impact",
-      "doi": "10.1504/ijgaib.2026.151813",
-      "pushed_at": "2026-04-06T23:12:05.614595-06:00"
-    },
-    {
-      "title_hash": "55f9332e17a0fcbff98bb27de17afa9b",
-      "title": "Securing Large Language Models: Adversarial Attacks, Data Privacy, and Artificial Intelligence Safet",
-      "doi": "10.70593/978-93-7185-447-4",
-      "pushed_at": "2026-04-06T23:12:05.614595-06:00"
-    },
-    {
-      "title_hash": "14550f04361b965ea04946188a8caced",
-      "title": "Foresight and Technology Assesment: Monitoring future issues for the Austrian Parliament (May 2023-M",
-      "doi": "10.1553/ita-2025-03",
-      "pushed_at": "2026-04-06T23:12:05.614595-06:00"
-    },
-    {
-      "title_hash": "f6f028d63e64f6956f617ddc5fd4d126",
-      "title": "Artificial Intelligence in Science and Society: The Vision of USERN",
-      "doi": "10.1109/access.2025.3529357",
-      "pushed_at": "2026-04-06T23:12:05.614595-06:00"
-    },
-    {
-      "title_hash": "b4807cb8fc65360ce5d4dfe00a9465d6",
-      "title": "Generative AI and digital resilience: a research agenda",
-      "doi": "10.1080/13669877.2025.2539105",
-      "pushed_at": "2026-04-06T23:12:05.614595-06:00"
-    },
-    {
-      "title_hash": "d6bc639d8b23625eff3f52a38ca697b2",
-      "title": "AI for sustainable development in ASEAN: Advancing safe, trustworthy, and ethical AI for climate act",
-      "doi": "10.53832/evidence-fund.0008",
-      "pushed_at": "2026-04-06T23:12:05.614595-06:00"
-    },
-    {
-      "title_hash": "74537a5db765866ba204995bd8954da8",
-      "title": "Breaking Barriers: A Paradigm Shift in Technology Accessibility for Individuals with Physical Disabi",
-      "doi": "10.1609/aaai.v39i23.34670",
-      "pushed_at": "2026-04-07T09:06:14.200700-06:00"
-    },
-    {
-      "title_hash": "28615e13bb96cdc262f25b74c8efa485",
-      "title": "Künstliche Intelligenz und rechtliche Normenordnung",
-      "doi": "10.36862/70vk-8csn",
-      "pushed_at": "2026-04-07T09:06:14.200700-06:00"
-    },
-    {
-      "title_hash": "2bc52c2102d4f527b7cd1c91d5ab07f5",
-      "title": "AI COURTROOM: AN AI-POWERED LEGAL LEARNING &amp; TRIAL PREPBOT",
-      "doi": "10.52152/801995",
-      "pushed_at": "2026-04-07T09:06:14.200700-06:00"
-    },
-    {
-      "title_hash": "1e9521fab855e83d240fe9038702040e",
-      "title": "LegalReasoner: Step-wised Verification-Correction for Legal Judgment Reasoning",
-      "doi": "10.18653/v1/2025.acl-long.361",
-      "pushed_at": "2026-04-07T09:06:14.200700-06:00"
-    },
-    {
-      "title_hash": "1a0bca6e73c90bbb53787fa2393109b2",
-      "title": "Integration of Large Language Models and Digital Twins in the Public Sector",
-      "doi": "10.24251/hicss.2025.844",
-      "pushed_at": "2026-04-07T09:06:14.200700-06:00"
-    },
-    {
-      "title_hash": "dca44fa65295f896fc455b9b3c728c86",
-      "title": "Future Potential of Intelligent Systems in Fiscal Oversight: A Systematic Review",
-      "doi": "10.1155/hbe2/5770257",
-      "pushed_at": "2026-04-07T09:06:14.200700-06:00"
-    },
-    {
-      "title_hash": "547cad09fa201e273e461e896b476f8a",
-      "title": "The Singapore Consensus on Global AI Safety Research Priorities",
-      "doi": "10.70777/si.v2i5.15503",
-      "pushed_at": "2026-04-07T09:06:14.200700-06:00"
-    },
-    {
       "title_hash": "762b27f7b1471095a8398d8e64aac0f0",
       "title": "Co-Explainers: A Position on Interactive XAI for Human–AI Collaboration as a Harm-Mitigation Infrast",
       "doi": "10.3390/make8030069",
@@ -2999,7 +2891,115 @@
       "title": "Model Checking for ACL Compliance Verification",
       "doi": null,
       "pushed_at": "2026-08-13T08:53:57.804928-06:00"
+    },
+    {
+      "title_hash": "6501d04f5856f691d16f06154bce358d",
+      "title": "From Benchmarks to Business Impact: Deploying IBM Generalist Agent in Enterprise Production",
+      "doi": "10.1609/aaai.v40i47.41485",
+      "pushed_at": "2026-08-18T08:24:48.928097-06:00"
+    },
+    {
+      "title_hash": "4811767f123e3a6b42ef626eeebb4969",
+      "title": "Bridging the Copyright Gap: Do Large Vision-Language Models Recognize and Respect Copyrighted Conten",
+      "doi": "10.1609/aaai.v40i42.40910",
+      "pushed_at": "2026-08-18T08:24:48.928097-06:00"
+    },
+    {
+      "title_hash": "4e5c50fddc15a96c8186c6f3f1f1e91c",
+      "title": "Acceptable Use Policies for Foundation Models",
+      "doi": "10.1609/aies.v7i1.31677",
+      "pushed_at": "2026-08-18T08:24:48.928097-06:00"
+    },
+    {
+      "title_hash": "5257c25717268164eaf3fd6a6b128320",
+      "title": "Anthropomorphism as Social Affordance: Charting the Co-Animation of Chatbots into Social “Agents”",
+      "doi": "10.1609/aies.v8i2.36664",
+      "pushed_at": "2026-08-18T08:24:48.928097-06:00"
+    },
+    {
+      "title_hash": "afb350e57a37e65d50b139e4c9f1ba64",
+      "title": "SceneJailEval: A Scenario-Adaptive Multi-Dimensional Framework for Jailbreak Evaluation",
+      "doi": "10.1609/aaai.v40i42.40866",
+      "pushed_at": "2026-08-18T08:24:48.928097-06:00"
+    },
+    {
+      "title_hash": "73fb5576c6641df307ccc0f70afda891",
+      "title": "Hide or Highlight: Understanding the Impact of Factuality Expression on User Trust",
+      "doi": "10.1609/aies.v8i1.36589",
+      "pushed_at": "2026-08-18T08:24:48.928097-06:00"
+    },
+    {
+      "title_hash": "a5ec1d56efb7a4da529b072c4982678f",
+      "title": "Pic2Prep: A Multimodal Conversational Agent for Cooking Assistance",
+      "doi": "10.1609/aaai.v39i28.35359",
+      "pushed_at": "2026-08-18T08:24:48.928097-06:00"
+    },
+    {
+      "title_hash": "78fb41662cbcd32d9174e02aad0c74cb",
+      "title": "Consensus-Driven Multi-Agent Cognitive Reasoning for Enhancing the Emotional Intelligence of Large L",
+      "doi": "10.1609/aaai.v40i21.38832",
+      "pushed_at": "2026-08-18T08:24:48.928097-06:00"
+    },
+    {
+      "title_hash": "afb382a7933c05618c4c320431fddb16",
+      "title": "Evaluation of chatbot and specialist knowledge on pediatric sedation and general anesthesia: a compa",
+      "doi": "10.1186/s12911-026-03748-y",
+      "pushed_at": "2026-08-18T08:24:48.928097-06:00"
+    },
+    {
+      "title_hash": "41948cc53e6c8b9f7866d5bdca4582d0",
+      "title": "Citrus flavanones (naringenin, hesperidin, and hesperetin) in oral and gastric carcinogenesis: mecha",
+      "doi": "10.3389/fcell.2026.1890060",
+      "pushed_at": "2026-08-18T08:24:48.928097-06:00"
+    },
+    {
+      "title_hash": "ba9b338641db10ae524dc83fc24b2287",
+      "title": "REALM: A Unified Red-Teaming Benchmark for Physical-World VLMs",
+      "doi": "10.48550/arXiv.2606.23892",
+      "pushed_at": "2026-08-18T08:24:48.928097-06:00"
+    },
+    {
+      "title_hash": "071e9f420ad6e366a65aa19da29802a1",
+      "title": "Mapping Current Studies of tRNA Fragments onto Disease Landscape",
+      "doi": "10.3390/biom15040512",
+      "pushed_at": "2026-08-18T08:24:48.928097-06:00"
+    },
+    {
+      "title_hash": "f47c56aaddce481183307fc4bb622677",
+      "title": "EpiCity: An AI-Enabled Epidemic-Aware Smart City Health Intelligence Framework for Sustainable Urban",
+      "doi": "10.64898/2026.06.29.26356899",
+      "pushed_at": "2026-08-18T08:24:48.928097-06:00"
+    },
+    {
+      "title_hash": "a6064894725893f159308abef716a6b0",
+      "title": "1123 Risk of Cardiometabolic Outcomes in Individuals with Type 1 and Type 2 Narcolepsy",
+      "doi": "10.1093/sleep/zsaf090.1123",
+      "pushed_at": "2026-08-18T08:24:48.928097-06:00"
+    },
+    {
+      "title_hash": "4fdab6ada16d2449d56a4c3b1fcb7683",
+      "title": "AI Powered Chatbots for Customer Support",
+      "doi": "10.36948/ijfmr.2025.v07i03.45374",
+      "pushed_at": "2026-08-18T08:24:48.928097-06:00"
+    },
+    {
+      "title_hash": "ae162426ab13a6e5ea37d8eb1b2b71f6",
+      "title": "RNA-Targeting Techniques: A Comparative Analysis of Modern Approaches for RNA Manipulation in Cancer",
+      "doi": "10.3390/genes16101168",
+      "pushed_at": "2026-08-18T08:24:48.928097-06:00"
+    },
+    {
+      "title_hash": "57abd9bdc9971860205dda4d4ec4c066",
+      "title": "Youth wellbeing in the age of AI: a developmental framework for risk and safety",
+      "doi": "10.1007/s43681-026-01237-6",
+      "pushed_at": "2026-08-18T08:24:48.928097-06:00"
+    },
+    {
+      "title_hash": "caa809f7ec5a0c427fe58c2a32806310",
+      "title": "Conversational Artificial Intelligence-Enabled Molecular Characterization of Sézary Syndrome Reveals",
+      "doi": "10.64898/2026.03.09.26347970",
+      "pushed_at": "2026-08-18T08:24:48.928097-06:00"
     }
   ],
-  "last_push": "2026-08-13T08:53:57.804928-06:00"
+  "last_push": "2026-08-18T08:24:48.928097-06:00"
 }
