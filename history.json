@@ -1,84 +1,6 @@
 {
   "pushed_papers": [
     {
-      "title_hash": "762b27f7b1471095a8398d8e64aac0f0",
-      "title": "Co-Explainers: A Position on Interactive XAI for Human–AI Collaboration as a Harm-Mitigation Infrast",
-      "doi": "10.3390/make8030069",
-      "pushed_at": "2026-04-07T09:06:14.200700-06:00"
-    },
-    {
-      "title_hash": "566ec15960614f6aa83a76238da63c46",
-      "title": "Book of Abstracts of the III International Conference on Humanities and Social Sciences",
-      "doi": "10.56002/ceos.0104ba",
-      "pushed_at": "2026-04-07T09:06:14.200700-06:00"
-    },
-    {
-      "title_hash": "47a5770f03bf1fadab47b98bc2ee79fb",
-      "title": "Disclosure and Evaluation as Fairness Interventions for General-Purpose AI",
-      "doi": "10.1609/aies.v8i3.36700",
-      "pushed_at": "2026-04-08T09:07:40.406025-06:00"
-    },
-    {
-      "title_hash": "a1ed7166c7ab7cbd268ba09cd49b955a",
-      "title": "Known Unknowns and Unknown Unknowns: Designing a Scalable Adverse Event Reporting System for AI",
-      "doi": "10.1609/aies.v8i2.36607",
-      "pushed_at": "2026-04-08T09:07:40.406025-06:00"
-    },
-    {
-      "title_hash": "d9106a7d4a6af8ba491a7f9d647b4cb7",
-      "title": "A Framework for Integrating Privacy by Design into Generative AI Applications",
-      "doi": "10.1609/aaaiss.v6i1.36018",
-      "pushed_at": "2026-04-08T09:07:40.406025-06:00"
-    },
-    {
-      "title_hash": "2208d0808f31775de360b74c120c1175",
-      "title": "A Conceptual Framework for Ethical Evaluation of Machine Learning Systems",
-      "doi": "10.1609/aies.v7i1.31656",
-      "pushed_at": "2026-04-08T09:07:40.406025-06:00"
-    },
-    {
-      "title_hash": "921b888b0e9507bfa9470a27b36e8a80",
-      "title": "Unravelling Responsible AI: An Umbrella Review",
-      "doi": "10.1609/aies.v8i3.36704",
-      "pushed_at": "2026-04-08T09:07:40.406025-06:00"
-    },
-    {
-      "title_hash": "7d22010b4e505584c7db55ed63b9d320",
-      "title": "Who Owns the Robot?: Four Ethical and Socio-Technical Questions About Wellbeing Robots in the Real W",
-      "doi": "10.1609/aies.v8i1.36546",
-      "pushed_at": "2026-04-08T09:07:40.406025-06:00"
-    },
-    {
-      "title_hash": "71e595144dd6d1d922c6a1047f378d0b",
-      "title": "Toward an Ethic of Synthetic Relationality: Identity, Intimacy, and Risk in AI-Mediated Roleplay Env",
-      "doi": "10.1609/aies.v8i1.36560",
-      "pushed_at": "2026-04-08T09:07:40.406025-06:00"
-    },
-    {
-      "title_hash": "28d07c68d4a94063563ff1170602fc44",
-      "title": "Reframing AI-for-Good: Radical Questioning in AI for Human Trafficking Interventions",
-      "doi": "10.1609/aies.v8i2.36677",
-      "pushed_at": "2026-04-08T09:07:40.406025-06:00"
-    },
-    {
-      "title_hash": "2208d0808f31775de360b74c120c1175",
-      "title": "A Conceptual Framework for Ethical Evaluation of Machine Learning Systems",
-      "doi": "10.1609/aies.v7i1.31656",
-      "pushed_at": "2026-04-08T09:07:40.406025-06:00"
-    },
-    {
-      "title_hash": "747028e19983e50ecd5c15ae41fba18d",
-      "title": "Claim Knowledge Graph Construction and GraphRAG-Based Question-Answering System",
-      "doi": "10.3390/buildings16040845",
-      "pushed_at": "2026-04-08T09:07:40.406025-06:00"
-    },
-    {
-      "title_hash": "7215ee9c7d9dc229d2921a40e899ec5f",
-      "title": "Штучний інтелект: сталий розвиток освіти, науки, індустрії: зб.тез доп.",
-      "doi": null,
-      "pushed_at": "2026-04-08T09:07:40.406025-06:00"
-    },
-    {
       "title_hash": "2d588f0facf4056f37f400c8f7cdf0c6",
       "title": "<i>Hidden</i> Good-to-Bad <i>Tipping in ChatGPT-Like AI</i>",
       "doi": "10.5772/acrt20250142",
@@ -2999,7 +2921,85 @@
       "title": "Conversational Artificial Intelligence-Enabled Molecular Characterization of Sézary Syndrome Reveals",
       "doi": "10.64898/2026.03.09.26347970",
       "pushed_at": "2026-08-18T08:24:48.928097-06:00"
+    },
+    {
+      "title_hash": "d4799eba3e6f46416ad395f6f2d94a03",
+      "title": "PagePilot for Web Automation Based on a Multi-Agent Architecture",
+      "doi": "10.1609/icwsm.v20i1.42771",
+      "pushed_at": "2026-08-24T08:33:49.717479-06:00"
+    },
+    {
+      "title_hash": "8ab72a0d031801031e398a6568feaab4",
+      "title": "From Compression to Exploration: Active Querying Agent for 3D Physical Field Understanding",
+      "doi": "10.1145/3770855.3819007",
+      "pushed_at": "2026-08-24T08:33:49.717479-06:00"
+    },
+    {
+      "title_hash": "952df8f0c203e8ed1f1a4f20ff4e38a1",
+      "title": "Semantic Intent Fragmentation: A Single-Shot Compositional Attack on Multi-Agent AI Pipelines",
+      "doi": "10.1609/aaaiss.v9i1.42936",
+      "pushed_at": "2026-08-24T08:33:49.717479-06:00"
+    },
+    {
+      "title_hash": "74fb0e7011abd4f60e391ee410f326c6",
+      "title": "ProtoMind AI: An Intelligent Multi-Agent Chatbot for End-to-End Application Prototyping and Devel-op",
+      "doi": "10.22214/ijraset.2026.78718",
+      "pushed_at": "2026-08-24T08:33:49.717479-06:00"
+    },
+    {
+      "title_hash": "bb0db2973a7589d74764f1ce37a58861",
+      "title": "Chatbot-Based Assessment of Code Understanding in Automated Programming Assessment Systems",
+      "doi": "10.5220/0014814300004021",
+      "pushed_at": "2026-08-24T08:33:49.717479-06:00"
+    },
+    {
+      "title_hash": "588b15de21e57b41777bf738bfbd1f7a",
+      "title": "CoderBot 2.0: Integrating LLM and Prompt Engineering in the Evolution of an Educational Chatbot",
+      "doi": "10.5753/sbie.2025.12321",
+      "pushed_at": "2026-08-24T08:33:49.717479-06:00"
+    },
+    {
+      "title_hash": "9fb67ae34fc7e4552087da35a1a72ad8",
+      "title": "Offsite construction risk management agent – a GPTs based analysis model",
+      "doi": "10.1108/ecam-05-2024-0624",
+      "pushed_at": "2026-08-24T08:33:49.717479-06:00"
+    },
+    {
+      "title_hash": "28aa3a0666b403d47f43b450d4563fcd",
+      "title": "Abstract 18: GP CoPilot: An AI-enhanced agent for cancer research.",
+      "doi": "10.1158/1538-7445.am2026-18",
+      "pushed_at": "2026-08-24T08:33:49.717479-06:00"
+    },
+    {
+      "title_hash": "e3c77d9200ae920a2ebe0c86df89eba0",
+      "title": "SAGE: Stochastic Prompt Optimization via Agent-Guided Exploration",
+      "doi": "10.48550/arXiv.2606.18902",
+      "pushed_at": "2026-08-24T08:33:49.717479-06:00"
+    },
+    {
+      "title_hash": "c4e4d99fe2f21eb46463aeb94deeb163",
+      "title": "Conversations about conversational code: on the collaborative critical code studies reading of ELIZA",
+      "doi": "10.1007/s00146-026-03086-7",
+      "pushed_at": "2026-08-24T08:33:49.717479-06:00"
+    },
+    {
+      "title_hash": "49a8d66bbd3c9bc2fbee106b06c50465",
+      "title": "LlamaFirewall: An open source guardrail system for building secure AI agents",
+      "doi": "10.48550/arXiv.2505.03574",
+      "pushed_at": "2026-08-24T08:33:49.717479-06:00"
+    },
+    {
+      "title_hash": "4ef6b71114eebc844f4aa3fa841cb0da",
+      "title": "Text-to-SQL for Enterprise Data Analytics",
+      "doi": "10.48550/arXiv.2507.14372",
+      "pushed_at": "2026-08-24T08:33:49.717479-06:00"
+    },
+    {
+      "title_hash": "ee8f792d07607903edb4b6067218879d",
+      "title": "(Im)Paired Programming: Coding Agents Improve Productivity but Harm Understanding",
+      "doi": null,
+      "pushed_at": "2026-08-24T08:33:49.717479-06:00"
     }
   ],
-  "last_push": "2026-08-18T08:24:48.928097-06:00"
+  "last_push": "2026-08-24T08:33:49.717479-06:00"
 }
