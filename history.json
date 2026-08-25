@@ -1,66 +1,6 @@
 {
   "pushed_papers": [
     {
-      "title_hash": "2d588f0facf4056f37f400c8f7cdf0c6",
-      "title": "<i>Hidden</i> Good-to-Bad <i>Tipping in ChatGPT-Like AI</i>",
-      "doi": "10.5772/acrt20250142",
-      "pushed_at": "2026-04-08T09:07:40.406025-06:00"
-    },
-    {
-      "title_hash": "e1e890dfd2c57424a5498b8b18c78938",
-      "title": "Leveraging Blockchain for Ethical AI: Mitigating Digital Threats and Strengthening Societal Resilien",
-      "doi": "10.3390/fi17070309",
-      "pushed_at": "2026-04-08T09:07:40.406025-06:00"
-    },
-    {
-      "title_hash": "ca716a92bc452b285311ade1cce9b540",
-      "title": "Local AI Governance: Addressing Model Safety and Policy Challenges Posed by Decentralized AI",
-      "doi": "10.3390/ai6070159",
-      "pushed_at": "2026-04-08T09:07:40.406025-06:00"
-    },
-    {
-      "title_hash": "ba7776704f21094dd1a05cff626105e3",
-      "title": "Synthetic biology/AI convergence (SynBioAI): security threats in frontier science and regulatory cha",
-      "doi": "10.1007/s00146-025-02576-4",
-      "pushed_at": "2026-04-08T09:07:40.406025-06:00"
-    },
-    {
-      "title_hash": "f0d2e5e2e9a7fb86ab602c7344fb6b9f",
-      "title": "Towards AI-augmented sustainability assessments: integrating large language models in the case of pr",
-      "doi": "10.1007/s11367-025-02508-w",
-      "pushed_at": "2026-04-08T09:07:40.406025-06:00"
-    },
-    {
-      "title_hash": "79f979df1ba4eed1b100937ea8bea59e",
-      "title": "AI-Assisted OSINT/SOCMINT for Safeguarding Borders: A Systematic Review",
-      "doi": "10.3390/info16121095",
-      "pushed_at": "2026-04-08T09:07:40.406025-06:00"
-    },
-    {
-      "title_hash": "618f2ebac30c6d171d9c3ab9a6c52a6a",
-      "title": "AI at Work: Promises, Perils and Paradoxes of Adoption",
-      "doi": null,
-      "pushed_at": "2026-04-08T09:07:40.406025-06:00"
-    },
-    {
-      "title_hash": "7bb7133743b76f5b634c03771173d7e1",
-      "title": "The Impact of Artificial Intelligence on the Sustainability of Regional Ecosystems: Current Challeng",
-      "doi": "10.3390/su17114795",
-      "pushed_at": "2026-04-08T09:07:40.406025-06:00"
-    },
-    {
-      "title_hash": "754ad8a9129a1b256f40b45dbcd49387",
-      "title": "Knowledge Graph Prompting for Multi-Document Question Answering",
-      "doi": "10.1609/aaai.v38i17.29889",
-      "pushed_at": "2026-04-09T09:22:54.115610-06:00"
-    },
-    {
-      "title_hash": "015947bcb6e164f29d29650b6ddf3e91",
-      "title": "Tree-of-Reasoning Question Decomposition for Complex Question Answering with Large Language Models",
-      "doi": "10.1609/aaai.v38i17.29928",
-      "pushed_at": "2026-04-09T09:22:54.115610-06:00"
-    },
-    {
       "title_hash": "97fdcc0608136e5c0e8ed2bc92c97bbe",
       "title": "StructuGraphRAG: Structured Document-Informed Knowledge Graphs for Retrieval-Augmented Generation",
       "doi": "10.1609/aaaiss.v4i1.31798",
@@ -2999,7 +2939,67 @@
       "title": "(Im)Paired Programming: Coding Agents Improve Productivity but Harm Understanding",
       "doi": null,
       "pushed_at": "2026-08-24T08:33:49.717479-06:00"
+    },
+    {
+      "title_hash": "957fb9fb76cf7e97d5cd757b403b8ecb",
+      "title": "CODESIM: Multi-Agent Code Generation and Problem Solving through Simulation-Driven Planning and Debu",
+      "doi": "10.48550/arXiv.2502.05664",
+      "pushed_at": "2026-08-25T08:36:23.467144-06:00"
+    },
+    {
+      "title_hash": "5e01bfaf9d6bf99a196855abbf83e16d",
+      "title": "Coinvisor: An RL-Enhanced Chatbot Agent for Interactive Cryptocurrency Investment Analysis",
+      "doi": "10.48550/arXiv.2510.17235",
+      "pushed_at": "2026-08-25T08:36:23.467144-06:00"
+    },
+    {
+      "title_hash": "a719b9e43d270945919d885f23e61d81",
+      "title": "Enhanced Emotion-Aware Conversational Agent: Analyzing User Behavioral Status for Tailored Reponses ",
+      "doi": "10.1109/ACCESS.2025.3534197",
+      "pushed_at": "2026-08-25T08:36:23.467144-06:00"
+    },
+    {
+      "title_hash": "0571536b1e5a5a308cc3b106fe5ddac0",
+      "title": "Multi-Agent Code-Orchestrated Generation for Reliable Infrastructure-as-Code",
+      "doi": "10.48550/arXiv.2510.03902",
+      "pushed_at": "2026-08-25T08:36:23.467144-06:00"
+    },
+    {
+      "title_hash": "2a0e0e2692a0457fd779e3ff9c9c5bf2",
+      "title": "JARVIS: A Multi-Agent Code Assistant for High-Quality EDA Script Generation",
+      "doi": "10.48550/arXiv.2505.14978",
+      "pushed_at": "2026-08-25T08:36:23.467144-06:00"
+    },
+    {
+      "title_hash": "bb88e33e20252f16c7a35eb3f5830633",
+      "title": "BanglAssist: A Bengali-English Generative AI Chatbot for Code-Switching and Dialect-Handling in Cust",
+      "doi": "10.1145/3706599.3720226",
+      "pushed_at": "2026-08-25T08:36:23.467144-06:00"
+    },
+    {
+      "title_hash": "b1fa5c628f23b8308b0040216a40fc4f",
+      "title": "MARCO: Multi-Agent Code Optimization with Real-Time Knowledge Integration for High-Performance Compu",
+      "doi": null,
+      "pushed_at": "2026-08-25T08:36:23.467144-06:00"
+    },
+    {
+      "title_hash": "a5810d60702fed204426f818835277bd",
+      "title": "SCCA: A Multi-Agent Code Security Analysis Framework for AI-Assisted Code Generation",
+      "doi": "10.1109/MASS66014.2025.00089",
+      "pushed_at": "2026-08-25T08:36:23.467144-06:00"
+    },
+    {
+      "title_hash": "740a492b569ffe1f9f14d85bfd7c49c4",
+      "title": "Academic Advising Chatbot Powered with AI Agent",
+      "doi": "10.1145/3696673.3723065",
+      "pushed_at": "2026-08-25T08:36:23.467144-06:00"
+    },
+    {
+      "title_hash": "b70516cefc24adaf60cdabd6a6b8c932",
+      "title": "AIR Agent—A GPT-Based Subway Construction Accident Investigation Report Analysis Chatbot",
+      "doi": "10.3390/buildings15040527",
+      "pushed_at": "2026-08-25T08:36:23.467144-06:00"
     }
   ],
-  "last_push": "2026-08-24T08:33:49.717479-06:00"
+  "last_push": "2026-08-25T08:36:23.467144-06:00"
 }
