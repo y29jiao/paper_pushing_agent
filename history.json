@@ -1,66 +1,6 @@
 {
   "pushed_papers": [
     {
-      "title_hash": "97fdcc0608136e5c0e8ed2bc92c97bbe",
-      "title": "StructuGraphRAG: Structured Document-Informed Knowledge Graphs for Retrieval-Augmented Generation",
-      "doi": "10.1609/aaaiss.v4i1.31798",
-      "pushed_at": "2026-04-09T09:22:54.115610-06:00"
-    },
-    {
-      "title_hash": "31bac597bdc51ac71f1e2df01f7e596f",
-      "title": "Rethinking the Development of Large Language Models from the Causal Perspective: A Legal Text Predic",
-      "doi": "10.1609/aaai.v38i19.30086",
-      "pushed_at": "2026-04-09T09:22:54.115610-06:00"
-    },
-    {
-      "title_hash": "a159540aeaf9f15a548ddae6c95580de",
-      "title": "J&amp;H: Evaluating the Robustness of Large Language Models Under Knowledge-Injection Attacks in Leg",
-      "doi": "10.1609/aaai.v39i27.35029",
-      "pushed_at": "2026-04-09T09:22:54.115610-06:00"
-    },
-    {
-      "title_hash": "062879d2bc9fe69c58b4e831fa97342b",
-      "title": "Can We Trust AI Benchmarks? An Interdisciplinary Review of Current Issues in AI Evaluation",
-      "doi": "10.1609/aies.v8i1.36595",
-      "pushed_at": "2026-04-09T09:22:54.115610-06:00"
-    },
-    {
-      "title_hash": "58e32e3efd16410050b03cb6264d157f",
-      "title": "Value Kaleidoscope: Engaging AI with Pluralistic Human Values, Rights, and Duties",
-      "doi": "10.1609/aaai.v38i18.29970",
-      "pushed_at": "2026-04-09T09:22:54.115610-06:00"
-    },
-    {
-      "title_hash": "fc9e08cb2eba681da91ca4a539622cd4",
-      "title": "Authorship Attribution in the Era of LLMs: Problems, Methodologies, and Challenges",
-      "doi": "10.1145/3715073.3715076",
-      "pushed_at": "2026-04-09T09:22:54.115610-06:00"
-    },
-    {
-      "title_hash": "3723cee477571a1311f4344bbd810150",
-      "title": "Using Large Language Models in the Companion Cognitive Architecture: A Case Study and Future Prospec",
-      "doi": "10.1609/aaaiss.v2i1.27700",
-      "pushed_at": "2026-04-09T09:22:54.115610-06:00"
-    },
-    {
-      "title_hash": "1b2f17f8275abbb3cf570519c6aa4b9b",
-      "title": "What Can Computers Do Now? Dreyfus Revisited for the Third Wave of Artificial Intelligence",
-      "doi": "10.1609/aaaiss.v3i1.31207",
-      "pushed_at": "2026-04-09T09:22:54.115610-06:00"
-    },
-    {
-      "title_hash": "a6711b4c4f4c40c2f779b845ee833d25",
-      "title": "Online Social Behavior Enhanced Detection of Political Stances in Tweets",
-      "doi": "10.1609/icwsm.v18i1.31383",
-      "pushed_at": "2026-04-09T09:22:54.115610-06:00"
-    },
-    {
-      "title_hash": "21ec401ccf5915f8bb19ea6d3a7e6ed0",
-      "title": "AI Agents for Smart City Operations: A Multi Domain Analysis of Global Deployments",
-      "doi": "10.46254/wc02.20250331",
-      "pushed_at": "2026-04-09T09:22:54.115610-06:00"
-    },
-    {
       "title_hash": "fc909f71885e08f14fa00a462c37df6a",
       "title": "Crimebots and Lawbots: Cyberwarfare Powered by Generative Artificial Intelligence",
       "doi": "10.14738/tecs.1302.18401",
@@ -2999,7 +2939,67 @@
       "title": "AIR Agent—A GPT-Based Subway Construction Accident Investigation Report Analysis Chatbot",
       "doi": "10.3390/buildings15040527",
       "pushed_at": "2026-08-25T08:36:23.467144-06:00"
+    },
+    {
+      "title_hash": "d489d4b9315d78359ac26ad3a92c7e2d",
+      "title": "Composable Assurance for AI Alignment: A Framework for Propagating Formal Safety Properties Through ",
+      "doi": "10.1609/aaai.v40i44.41151",
+      "pushed_at": "2026-08-28T17:20:09.252275-06:00"
+    },
+    {
+      "title_hash": "07c4d85ade938993c3cd167f0126e71f",
+      "title": "Large language models as judges: recent advances in LLM-based evaluation, critique, preference model",
+      "doi": "10.1007/s10462-026-11652-0",
+      "pushed_at": "2026-08-28T17:20:09.252275-06:00"
+    },
+    {
+      "title_hash": "43411e5384351c32b7419aaff8dfa3b9",
+      "title": "An Analytical Study on Impact of Rera on Indian Real Estate Sector",
+      "doi": "10.36948/ijfmr.2026.v08i04.86296",
+      "pushed_at": "2026-08-28T17:20:09.252275-06:00"
+    },
+    {
+      "title_hash": "4664b02dff062fa7ff9990a7c3df7f4e",
+      "title": "Identification of Conflict-of-Interest Management Strategies in Iranian Healthcare System Comparing ",
+      "doi": "10.18502/payavard.v19i6.22327",
+      "pushed_at": "2026-08-28T17:20:09.252275-06:00"
+    },
+    {
+      "title_hash": "c69f9feae7e0c5678a730ac06aa087aa",
+      "title": "ESC-Judge: A Framework for Comparing Emotional Support Conversational Agents",
+      "doi": "10.48550/arXiv.2505.12531",
+      "pushed_at": "2026-08-28T17:20:09.252275-06:00"
+    },
+    {
+      "title_hash": "1f21326adaa8d0b10f89b2e3aa484fb5",
+      "title": "Simple is Better: Multiplication May Be All You Need for LLM Request Scheduling",
+      "doi": null,
+      "pushed_at": "2026-08-28T17:20:09.252275-06:00"
+    },
+    {
+      "title_hash": "cb44c9afa9bede9834430202ab7e0e3d",
+      "title": "Implementing research findings into nursing homes: A mixed-methods study.",
+      "doi": "10.1016/j.ijnurstu.2025.105179",
+      "pushed_at": "2026-08-28T17:20:09.252275-06:00"
+    },
+    {
+      "title_hash": "7047418008a8b360517f19604f9fecad",
+      "title": "Early Reliability Assessment of AI-based Automotive Systems",
+      "doi": "10.1145/3758327",
+      "pushed_at": "2026-08-28T17:20:09.252275-06:00"
+    },
+    {
+      "title_hash": "ca487732197102a4906c6f2f36fe52bb",
+      "title": "Travel into my future: perceptions of Generation Z along a fictive journey",
+      "doi": "10.1108/jtf-07-2024-0141",
+      "pushed_at": "2026-08-28T17:20:09.252275-06:00"
+    },
+    {
+      "title_hash": "30addfeb832b31938fb5784c81792a1e",
+      "title": "The regulatory landscape of generative AI in education and the future of student psychological well-",
+      "doi": "10.3389/feduc.2026.1800061",
+      "pushed_at": "2026-08-28T17:20:09.252275-06:00"
     }
   ],
-  "last_push": "2026-08-25T08:36:23.467144-06:00"
+  "last_push": "2026-08-28T17:20:09.252275-06:00"
 }
